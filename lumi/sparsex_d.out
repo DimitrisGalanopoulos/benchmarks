@@ -1,0 +1,372 @@
+GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;RAPL_REGISTERS=0;COOLDOWN=0;cpu_pinning_step=1;path_tamu=/users/panastas/Data/graphs/tamu;SPARSEX_LIB_PATH=/users/panastas/lib/sparsex/build/lib;BOOST_LIB_PATH=/users/panastas/lib/boost_1_55_0/bin/lib;cores=64;PRINT_STATISTICS=1;MKL_PATH=/users/panastas/spack/23.03/0.20.0/intel-oneapi-mkl-2023.1.0-cafkcjc/mkl/latest;path_validation=;AOCL_PATH=/users/panastas/aocl-sparse/library;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63;force_retry_on_error=0;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;LLVM_LIB_PATH=/users/panastas/lib/llvm-6.0.0/build/lib;LLVM_INC_PATH=/users/panastas/lib/llvm-6.0.0/build/include;USE_PROCESSES=0;cpu_pinning_group_size=1;SPARSEX_CONF_PATH=/users/panastas/lib/sparsex/build/bin;path_openFoam=;SPARSEX_INC_PATH=/users/panastas/lib/sparsex/build/include;output_to_files=1;BOOST_INC_PATH=/users/panastas/lib/boost_1_55_0/bin/include;max_cores=256;use_artificial_matrices=0;
+program: /pfs/lustrep2/users/panastas/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/spmv_sparsex.exe
+number of matrices: 29
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 44750 Tctl 96500 Tccd1 46250 Tccd2 46000 Tccd3 47000 Tccd4 45750 Tccd5 44250 Tccd6 46750 Tccd7 45750 Tccd8 48250 Tctl 102500 Tccd1 47250 Tccd2 48500 Tccd3 47500 Tccd4 48000 Tccd5 48750 Tccd6 46500 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/spal_004/spal_004.mtx
+max threads 64
+time read: 2.862263
+time coo to csr: 0.279160
+time preprocessing: 7.49543
+time convert to format: 7.498944
+time warm up 0.080385
+time after warm up 0.060868
+number of loops = 558
+errors spmv: mae=5.56358e-16, max_ae=1.57652e-14, mse=9.2221e-31, mape=5.03804e-14, smape=2.51902e-14
+/users/panastas/Data/graphs/tamu/matrices/spal_004/spal_004.mtx,64,10203,321696,46168124,0.803816,64.098763,528.391174,0.000000,0.000000,SparseX,10203,321696,46168124,389.217113,0.736608,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 48000 Tctl 102625 Tccd1 47000 Tccd2 47500 Tccd3 48250 Tccd4 46250 Tccd5 46250 Tccd6 50500 Tccd7 49000 Tccd8 48000 Tctl 97875 Tccd1 48000 Tccd2 48000 Tccd3 47750 Tccd4 47750 Tccd5 48250 Tccd6 46000 Tccd7 46750 
+File: /users/panastas/Data/graphs/tamu/matrices/ldoor/ldoor.mtx
+max threads 64
+time read: 1.704909
+time coo to csr: 0.106653
+time preprocessing: 8.19536
+time convert to format: 8.195456
+time warm up 0.079467
+time after warm up 0.068967
+number of loops = 463
+Test failed! (4.92481e-09)
+errors spmv: mae=1.17502e-10, max_ae=2.98023e-08, mse=3.3073e-19, mape=9.04899e-12, smape=4.5245e-12
+/users/panastas/Data/graphs/tamu/matrices/ldoor/ldoor.mtx,64,952203,952203,46522475,0.811831,53.064988,536.039845,0.000000,0.000000,SparseX,952203,952203,46522475,360.828992,0.673138,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45500 Tctl 102125 Tccd1 46750 Tccd2 47250 Tccd3 48500 Tccd4 46500 Tccd5 46500 Tccd6 49500 Tccd7 48500 Tccd8 47750 Tctl 97125 Tccd1 46500 Tccd2 48000 Tccd3 48000 Tccd4 48750 Tccd5 48750 Tccd6 46250 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/dielFilterV2real/dielFilterV2real.mtx
+max threads 64
+time read: 2.389618
+time coo to csr: 0.113368
+time preprocessing: 9.32459
+time convert to format: 9.324685
+time warm up 0.079963
+time after warm up 0.087130
+number of loops = 298
+errors spmv: mae=3.21398e-16, max_ae=2.84217e-14, mse=7.38176e-31, mape=3.4115e-14, smape=1.70575e-14
+/users/panastas/Data/graphs/tamu/matrices/dielFilterV2real/dielFilterV2real.mtx,64,1157456,1157456,48538952,0.873791,33.107704,559.899570,0.000000,0.000000,SparseX,1157456,1157456,48538952,489.505596,0.874274,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47000 Tctl 102625 Tccd1 46750 Tccd2 46750 Tccd3 48500 Tccd4 46500 Tccd5 46750 Tccd6 50250 Tccd7 47500 Tccd8 47750 Tctl 97250 Tccd1 46000 Tccd2 48250 Tccd3 47750 Tccd4 48000 Tccd5 48750 Tccd6 46750 Tccd7 48000 
+File: /users/panastas/Data/graphs/tamu/matrices/nv2/nv2.mtx
+max threads 64
+time read: 2.948446
+time coo to csr: 0.198718
+time preprocessing: 6.73033
+time convert to format: 6.730417
+time warm up 0.081212
+time after warm up 0.093876
+number of loops = 234
+Test failed! (1)
+errors spmv: mae=38.7315, max_ae=94207.9, mse=658709, mape=9.13322, smape=0.00230157
+/users/panastas/Data/graphs/tamu/matrices/nv2/nv2.mtx,64,1453908,1453908,52728362,0.892514,27.648735,608.974438,0.000000,0.000000,SparseX,1453908,1453908,52728362,602.337037,0.989101,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47250 Tctl 102500 Tccd1 47000 Tccd2 47250 Tccd3 48750 Tccd4 46500 Tccd5 47250 Tccd6 48500 Tccd7 48750 Tccd8 48250 Tctl 96875 Tccd1 46250 Tccd2 48750 Tccd3 48500 Tccd4 49000 Tccd5 48750 Tccd6 46750 Tccd7 48500 
+File: /users/panastas/Data/graphs/tamu/matrices/af_shell10/af_shell10.mtx
+max threads 64
+time read: 1.875195
+time coo to csr: 0.118974
+time preprocessing: 8.20826
+time convert to format: 8.208353
+time warm up 0.080261
+time after warm up 0.076084
+number of loops = 394
+Test failed! (3.61662e-05)
+errors spmv: mae=1.88224e-11, max_ae=2.3212e-10, mse=9.1426e-22, mape=0.00284216, smape=0.000287091
+/users/panastas/Data/graphs/tamu/matrices/af_shell10/af_shell10.mtx,64,1508065,1508065,52672325,0.874740,47.449317,608.539738,0.000000,0.000000,SparseX,1508065,1508065,52672325,410.159253,0.674006,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45750 Tctl 101750 Tccd1 47000 Tccd2 47250 Tccd3 47500 Tccd4 46250 Tccd5 47250 Tccd6 50000 Tccd7 48000 Tccd8 48750 Tctl 98375 Tccd1 46250 Tccd2 48500 Tccd3 48250 Tccd4 49000 Tccd5 49250 Tccd6 46500 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/boneS10/boneS10.mtx
+max threads 64
+time read: 1.609577
+time coo to csr: 0.119640
+time preprocessing: 9.51624
+time convert to format: 9.516333
+time warm up 0.079685
+time after warm up 0.073064
+number of loops = 410
+Test failed! (4.32721e-08)
+errors spmv: mae=1.66221e-12, max_ae=1.33582e-11, mse=6.69747e-24, mape=4.18472e-07, smape=2.09236e-07
+/users/panastas/Data/graphs/tamu/matrices/boneS10/boneS10.mtx,64,914898,914898,55468422,0.855078,53.192901,638.275776,0.000000,0.000000,SparseX,914898,914898,55468422,443.789092,0.695294,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46000 Tctl 102000 Tccd1 47250 Tccd2 47500 Tccd3 47750 Tccd4 48000 Tccd5 46000 Tccd6 50500 Tccd7 47750 Tccd8 48250 Tctl 97500 Tccd1 48000 Tccd2 48250 Tccd3 48250 Tccd4 48750 Tccd5 48750 Tccd6 47000 Tccd7 47500 
+File: /users/panastas/Data/graphs/tamu/matrices/circuit5M/circuit5M.mtx
+max threads 64
+time read: 5.372863
+time coo to csr: 0.289867
+time preprocessing: 11.4472
+time convert to format: 11.447263
+time warm up 0.080885
+time after warm up 0.130831
+number of loops = 128
+errors spmv: mae=1.32863e-17, max_ae=8.52651e-14, mse=1.3123e-31, mape=0.133576, smape=0.0181047
+/users/panastas/Data/graphs/tamu/matrices/circuit5M/circuit5M.mtx,64,5558326,5558326,59524291,0.998103,15.267180,702.404785,0.000000,0.000000,SparseX,5558326,5558326,59524291,471.032574,0.670600,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 44750 Tctl 104000 Tccd1 46000 Tccd2 47500 Tccd3 47500 Tccd4 45250 Tccd5 44500 Tccd6 47500 Tccd7 46000 Tccd8 48500 Tctl 97125 Tccd1 46000 Tccd2 48250 Tccd3 49000 Tccd4 48000 Tccd5 48750 Tccd6 46500 Tccd7 47500 
+File: /users/panastas/Data/graphs/tamu/matrices/Hook_1498/Hook_1498.mtx
+max threads 64
+time read: 2.107823
+time coo to csr: 0.135783
+time preprocessing: 10.5762
+time convert to format: 10.576294
+time warm up 0.080331
+time after warm up 0.085494
+number of loops = 304
+Test failed! (0.0734802)
+errors spmv: mae=2.80734e-12, max_ae=4.2121e-11, mse=1.44798e-23, mape=inf, smape=0.0710221
+/users/panastas/Data/graphs/tamu/matrices/Hook_1498/Hook_1498.mtx,64,1498023,1498023,60917445,0.877202,42.222671,702.859341,0.000000,0.000000,SparseX,1498023,1498023,60917445,494.213426,0.703147,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46000 Tctl 102000 Tccd1 47250 Tccd2 47750 Tccd3 47750 Tccd4 46500 Tccd5 45750 Tccd6 48500 Tccd7 47750 Tccd8 48250 Tctl 97250 Tccd1 48250 Tccd2 48750 Tccd3 48000 Tccd4 48500 Tccd5 49250 Tccd6 46250 Tccd7 48500 
+File: /users/panastas/Data/graphs/tamu/matrices/Geo_1438/Geo_1438.mtx
+max threads 64
+time read: 2.439955
+time coo to csr: 0.138504
+time preprocessing: 10.9604
+time convert to format: 10.960502
+time warm up 0.080178
+time after warm up 0.091075
+number of loops = 285
+Test failed! (1217)
+errors spmv: mae=5.43264e-06, max_ae=0.000683308, mse=2.17718e-10, mape=inf, smape=0.184407
+/users/panastas/Data/graphs/tamu/matrices/Geo_1438/Geo_1438.mtx,64,1437960,1437960,63156690,0.837825,42.967565,728.256344,0.000000,0.000000,SparseX,1437960,1437960,63156690,512.735730,0.704059,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 62000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47250 Tctl 102000 Tccd1 47500 Tccd2 48000 Tccd3 48000 Tccd4 46500 Tccd5 46000 Tccd6 49750 Tccd7 47500 Tccd8 48250 Tctl 97500 Tccd1 48000 Tccd2 49000 Tccd3 48500 Tccd4 48750 Tccd5 49000 Tccd6 46750 Tccd7 47000 
+File: /users/panastas/Data/graphs/tamu/matrices/Serena/Serena.mtx
+max threads 64
+time read: 2.509156
+time coo to csr: 0.138177
+time preprocessing: 11.1102
+time convert to format: 11.110299
+time warm up 0.079852
+time after warm up 0.088627
+number of loops = 293
+Test failed! (95)
+errors spmv: mae=4.30551e-06, max_ae=0.00195312, mse=1.73592e-10, mape=inf, smape=0.000779942
+/users/panastas/Data/graphs/tamu/matrices/Serena/Serena.mtx,64,1391349,1391349,64531701,0.897174,42.149648,743.814289,0.000000,0.000000,SparseX,1391349,1391349,64531701,523.448395,0.703735,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45500 Tctl 102000 Tccd1 46750 Tccd2 48500 Tccd3 48000 Tccd4 46750 Tccd5 47000 Tccd6 50250 Tccd7 49000 Tccd8 48000 Tctl 96750 Tccd1 46500 Tccd2 48250 Tccd3 48250 Tccd4 48250 Tccd5 49000 Tccd6 46750 Tccd7 48250 
+File: /users/panastas/Data/graphs/tamu/matrices/vas_stokes_2M/vas_stokes_2M.mtx
+max threads 64
+time read: 3.768060
+time coo to csr: 0.156209
+time preprocessing: 12.6742
+time convert to format: 12.674250
+time warm up 0.080725
+time after warm up 0.100403
+number of loops = 199
+Test failed! (1.68431e-06)
+errors spmv: mae=7.48447e-17, max_ae=7.62603e-15, mse=2.30463e-32, mape=inf, smape=0.000309581
+/users/panastas/Data/graphs/tamu/matrices/vas_stokes_2M/vas_stokes_2M.mtx,64,2146677,2146677,65129037,0.896402,28.917096,753.531605,0.000000,0.000000,SparseX,2146677,2146677,65129037,613.257401,0.813844,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45500 Tctl 101750 Tccd1 47000 Tccd2 47750 Tccd3 48250 Tccd4 46250 Tccd5 45500 Tccd6 49500 Tccd7 48750 Tccd8 48500 Tctl 97000 Tccd1 48250 Tccd2 48500 Tccd3 48250 Tccd4 48500 Tccd5 49250 Tccd6 46750 Tccd7 48750 
+File: /users/panastas/Data/graphs/tamu/matrices/bone010/bone010.mtx
+max threads 64
+time read: 1.999633
+time coo to csr: 0.152508
+time preprocessing: 11.4553
+time convert to format: 11.455371
+time warm up 0.081336
+time after warm up 0.084680
+number of loops = 295
+Test failed! (3.28981e-08)
+errors spmv: mae=2.78923e-12, max_ae=1.33582e-11, mse=1.6193e-23, mape=5.24203e-07, smape=2.62101e-07
+/users/panastas/Data/graphs/tamu/matrices/bone010/bone010.mtx,64,986703,986703,71666325,0.893541,47.320847,823.919979,0.000000,0.000000,SparseX,986703,986703,71666325,570.006166,0.691822,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47250 Tctl 102000 Tccd1 47500 Tccd2 48250 Tccd3 48500 Tccd4 46500 Tccd5 45750 Tccd6 50500 Tccd7 48000 Tccd8 48250 Tctl 96750 Tccd1 47750 Tccd2 48500 Tccd3 48000 Tccd4 48500 Tccd5 48750 Tccd6 47000 Tccd7 47500 
+File: /users/panastas/Data/graphs/tamu/matrices/audikw_1/audikw_1.mtx
+max threads 64
+time read: 3.096103
+time coo to csr: 0.160811
+time preprocessing: 12.812
+time convert to format: 12.812060
+time warm up 0.079853
+time after warm up 0.093372
+number of loops = 235
+Test failed! (1.76534e-06)
+errors spmv: mae=2.87525e-10, max_ae=1.90735e-06, mse=1.65879e-17, mape=1.15415e-08, smape=5.77101e-09
+/users/panastas/Data/graphs/tamu/matrices/audikw_1/audikw_1.mtx,64,943695,943695,77651847,0.849977,42.938071,892.254780,0.000000,0.000000,SparseX,943695,943695,77651847,629.255486,0.705242,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46750 Tctl 102125 Tccd1 47000 Tccd2 46750 Tccd3 47500 Tccd4 46000 Tccd5 46750 Tccd6 50000 Tccd7 47500 Tccd8 48750 Tctl 96875 Tccd1 46500 Tccd2 49000 Tccd3 48250 Tccd4 48500 Tccd5 48750 Tccd6 46500 Tccd7 48750 
+File: /users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt0/Long_Coup_dt0.mtx
+max threads 64
+time read: 3.106342
+time coo to csr: 0.174690
+time preprocessing: 13.7795
+time convert to format: 13.779613
+time warm up 0.079875
+time after warm up 0.100306
+number of loops = 209
+Test failed! (25.0019)
+errors spmv: mae=0.000246009, max_ae=0.75175, mse=8.09813e-06, mape=39501.7, smape=0.00507028
+/users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt0/Long_Coup_dt0.mtx,64,1470152,1470152,87088992,0.862104,42.226012,1002.262608,0.000000,0.000000,SparseX,1470152,1470152,87088992,691.052348,0.689492,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47750 Tctl 101750 Tccd1 47000 Tccd2 47250 Tccd3 47750 Tccd4 46500 Tccd5 46000 Tccd6 48750 Tccd7 47750 Tccd8 48000 Tctl 97000 Tccd1 48000 Tccd2 48750 Tccd3 48500 Tccd4 48500 Tccd5 48750 Tccd6 47000 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt6/Long_Coup_dt6.mtx
+max threads 64
+time read: 2.902769
+time coo to csr: 0.176222
+time preprocessing: 13.6173
+time convert to format: 13.617445
+time warm up 0.080047
+time after warm up 0.104217
+number of loops = 201
+Test failed! (25.0019)
+errors spmv: mae=0.000246009, max_ae=0.75175, mse=8.09813e-06, mape=39501.7, smape=0.00507025
+/users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt6/Long_Coup_dt6.mtx,64,1470152,1470152,87088992,0.826749,42.346293,1002.262608,0.000000,0.000000,SparseX,1470152,1470152,87088992,691.052348,0.689492,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47000 Tctl 101875 Tccd1 47000 Tccd2 48250 Tccd3 47750 Tccd4 46000 Tccd5 46250 Tccd6 50500 Tccd7 47500 Tccd8 48500 Tctl 97375 Tccd1 47000 Tccd2 49250 Tccd3 48000 Tccd4 48250 Tccd5 48750 Tccd6 46250 Tccd7 47000 
+File: /users/panastas/Data/graphs/tamu/matrices/dielFilterV3real/dielFilterV3real.mtx
+max threads 64
+time read: 3.858851
+time coo to csr: 0.192638
+time preprocessing: 15.0561
+time convert to format: 15.056150
+time warm up 0.080975
+time after warm up 0.107170
+number of loops = 167
+errors spmv: mae=1.23028e-16, max_ae=2.13163e-14, mse=1.43828e-31, mape=1.11738e-14, smape=5.58692e-15
+/users/panastas/Data/graphs/tamu/matrices/dielFilterV3real/dielFilterV3real.mtx,64,1102824,1102824,89306020,0.860082,34.680668,1026.233234,0.000000,0.000000,SparseX,1102824,1102824,89306020,856.361111,0.834470,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46750 Tctl 102375 Tccd1 48000 Tccd2 47000 Tccd3 48500 Tccd4 45500 Tccd5 46250 Tccd6 48500 Tccd7 48000 Tccd8 48750 Tctl 97250 Tccd1 48000 Tccd2 48750 Tccd3 47750 Tccd4 49000 Tccd5 48750 Tccd6 46750 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/nlpkkt120/nlpkkt120.mtx
+max threads 64
+time read: 2.477976
+time coo to csr: 0.214187
+time preprocessing: 13.1659
+time convert to format: 13.165953
+time warm up 0.079821
+time after warm up 0.113556
+number of loops = 149
+errors spmv: mae=1.55821e-15, max_ae=2.13163e-14, mse=9.71992e-30, mape=2.54903e-14, smape=1.27451e-14
+/users/panastas/Data/graphs/tamu/matrices/nlpkkt120/nlpkkt120.mtx,64,3542400,3542400,96845792,0.904908,31.892789,1121.825321,0.000000,0.000000,SparseX,3542400,3542400,96845792,743.592270,0.662841,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47750 Tctl 102125 Tccd1 47000 Tccd2 46500 Tccd3 47000 Tccd4 46250 Tccd5 45500 Tccd6 48500 Tccd7 47250 Tccd8 49000 Tctl 97250 Tccd1 46750 Tccd2 48500 Tccd3 48250 Tccd4 48250 Tccd5 48500 Tccd6 46500 Tccd7 48750 
+File: /users/panastas/Data/graphs/tamu/matrices/cage15/cage15.mtx
+max threads 64
+time read: 7.278842
+time coo to csr: 0.240899
+time preprocessing: 17.6126
+time convert to format: 17.612655
+time warm up 0.080441
+time after warm up 0.136617
+number of loops = 128
+errors spmv: mae=9.8633e-17, max_ae=8.88178e-16, mse=2.16696e-32, mape=5.43917e-17, smape=2.71959e-17
+/users/panastas/Data/graphs/tamu/matrices/cage15/cage15.mtx,64,5154859,5154859,99199551,1.218325,20.844265,1154.912998,0.000000,0.000000,SparseX,5154859,5154859,99199551,950.773039,0.823242,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 62000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46750 Tctl 101625 Tccd1 46750 Tccd2 47250 Tccd3 46750 Tccd4 45250 Tccd5 45500 Tccd6 49500 Tccd7 46750 Tccd8 48750 Tctl 96750 Tccd1 48500 Tccd2 49250 Tccd3 48250 Tccd4 48500 Tccd5 48500 Tccd6 46750 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/ML_Geer/ML_Geer.mtx
+max threads 64
+time read: 7.842363
+time coo to csr: 0.207519
+time preprocessing: 17.6317
+time convert to format: 17.631773
+time warm up 0.079562
+time after warm up 0.112947
+number of loops = 159
+Test failed! (0.0555878)
+errors spmv: mae=9.46667e-10, max_ae=1.80817e-08, mse=2.23871e-18, mape=3.93146e-05, smape=1.95915e-05
+/users/panastas/Data/graphs/tamu/matrices/ML_Geer/ML_Geer.mtx,64,1504002,1504002,110879972,0.883437,39.912098,1274.657894,0.000000,0.000000,SparseX,1504002,1504002,110879972,911.143537,0.714814,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45750 Tctl 101750 Tccd1 47500 Tccd2 48000 Tccd3 48000 Tccd4 45500 Tccd5 45500 Tccd6 49750 Tccd7 49000 Tccd8 48750 Tctl 97000 Tccd1 46250 Tccd2 49250 Tccd3 48000 Tccd4 49000 Tccd5 49500 Tccd6 47000 Tccd7 47500 
+File: /users/panastas/Data/graphs/tamu/matrices/Flan_1565/Flan_1565.mtx
+max threads 64
+time read: 3.962431
+time coo to csr: 0.220883
+time preprocessing: 17.8668
+time convert to format: 17.866886
+time warm up 0.079449
+time after warm up 0.118769
+number of loops = 143
+Test failed! (24.8421)
+errors spmv: mae=2.12157e-10, max_ae=1.25899e-08, mse=1.72423e-19, mape=878216, smape=1.0976
+/users/panastas/Data/graphs/tamu/matrices/Flan_1565/Flan_1565.mtx,64,1564794,1564794,117406044,0.888890,37.775361,1349.574764,0.000000,0.000000,SparseX,1564794,1564794,117406044,945.510576,0.700599,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47000 Tctl 101625 Tccd1 46750 Tccd2 48250 Tccd3 47250 Tccd4 45750 Tccd5 45500 Tccd6 48250 Tccd7 47500 Tccd8 49500 Tctl 96875 Tccd1 47750 Tccd2 48500 Tccd3 48500 Tccd4 48500 Tccd5 48000 Tccd6 46000 Tccd7 47250 
+File: /users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt0/Cube_Coup_dt0.mtx
+max threads 64
+time read: 4.475456
+time coo to csr: 0.242231
+time preprocessing: 18.6361
+time convert to format: 18.636218
+time warm up 0.080865
+time after warm up 0.126482
+number of loops = 128
+Test failed! (437464)
+errors spmv: mae=8.37261e-06, max_ae=0.000267852, mse=2.53069e-10, mape=8.89399e+06, smape=0.153283
+/users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt0/Cube_Coup_dt0.mtx,64,2164760,2164760,127206144,0.897372,36.289050,1464.016697,0.000000,0.000000,SparseX,2164760,2164760,127206144,1006.639720,0.687588,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46500 Tctl 101625 Tccd1 47250 Tccd2 48000 Tccd3 47750 Tccd4 46000 Tccd5 46250 Tccd6 48250 Tccd7 48000 Tccd8 48250 Tctl 97625 Tccd1 48000 Tccd2 48250 Tccd3 48000 Tccd4 48750 Tccd5 48250 Tccd6 46250 Tccd7 47250 
+File: /users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt6/Cube_Coup_dt6.mtx
+max threads 64
+time read: 4.192594
+time coo to csr: 0.241108
+time preprocessing: 18.4961
+time convert to format: 18.496137
+time warm up 0.079678
+time after warm up 0.127189
+number of loops = 128
+Test failed! (437464)
+errors spmv: mae=8.37261e-06, max_ae=0.000267852, mse=2.53069e-10, mape=8.89399e+06, smape=0.153283
+/users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt6/Cube_Coup_dt6.mtx,64,2164760,2164760,127206144,0.883444,36.861160,1464.016697,0.000000,0.000000,SparseX,2164760,2164760,127206144,1006.639720,0.687588,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46750 Tctl 101875 Tccd1 46750 Tccd2 48000 Tccd3 48500 Tccd4 47750 Tccd5 47250 Tccd6 50250 Tccd7 48000 Tccd8 48250 Tctl 97000 Tccd1 47750 Tccd2 48750 Tccd3 48000 Tccd4 48750 Tccd5 48250 Tccd6 46500 Tccd7 48250 
+File: /users/panastas/Data/graphs/tamu/matrices/Bump_2911/Bump_2911.mtx
+max threads 64
+time read: 4.721652
+time coo to csr: 0.250421
+time preprocessing: 17.1768
+time convert to format: 17.176906
+time warm up 0.080113
+time after warm up 0.128757
+number of loops = 128
+Test failed! (1665)
+errors spmv: mae=0.00078304, max_ae=23, mse=0.000822289, mape=inf, smape=0.00213617
+/users/panastas/Data/graphs/tamu/matrices/Bump_2911/Bump_2911.mtx,64,2911419,2911419,127729899,1.061836,30.794639,1472.858875,0.000000,0.000000,SparseX,2911419,2911419,127729899,1085.452281,0.736970,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46250 Tctl 102500 Tccd1 47250 Tccd2 48250 Tccd3 48250 Tccd4 47750 Tccd5 45750 Tccd6 48750 Tccd7 48500 Tccd8 48000 Tctl 97250 Tccd1 46250 Tccd2 48750 Tccd3 48000 Tccd4 48250 Tccd5 48750 Tccd6 46500 Tccd7 48250 
+File: /users/panastas/Data/graphs/tamu/matrices/vas_stokes_4M/vas_stokes_4M.mtx
+max threads 64
+time read: 7.959608
+time coo to csr: 0.305075
+time preprocessing: 22.9107
+time convert to format: 22.910751
+time warm up 0.079583
+time after warm up 0.144482
+number of loops = 128
+Test failed! (2.56675e-06)
+errors spmv: mae=7.92727e-17, max_ae=6.71685e-15, mse=2.87484e-32, mape=inf, smape=0.000485577
+/users/panastas/Data/graphs/tamu/matrices/vas_stokes_4M/vas_stokes_4M.mtx,64,4382246,4382246,131577616,1.382259,24.368719,1522.503262,0.000000,0.000000,SparseX,4382246,4382246,131577616,1244.035272,0.817099,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 62000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 46750 Tctl 102125 Tccd1 46250 Tccd2 46750 Tccd3 47500 Tccd4 47250 Tccd5 45500 Tccd6 49500 Tccd7 47000 Tccd8 48000 Tctl 97625 Tccd1 46000 Tccd2 48500 Tccd3 48000 Tccd4 48000 Tccd5 48750 Tccd6 46500 Tccd7 48000 
+File: /users/panastas/Data/graphs/tamu/matrices/nlpkkt160/nlpkkt160.mtx
+max threads 64
+time read: 6.226100
+time coo to csr: 0.460341
+time preprocessing: 28.7612
+time convert to format: 28.761255
+time warm up 0.080056
+time after warm up 0.172920
+number of loops = 128
+errors spmv: mae=1.88167e-15, max_ae=2.13163e-14, mse=1.52768e-29, mape=3.13362e-14, smape=1.56681e-14
+/users/panastas/Data/graphs/tamu/matrices/nlpkkt160/nlpkkt160.mtx,64,8345600,8345600,229518112,2.160955,27.190130,2658.462284,0.000000,0.000000,SparseX,8345600,8345600,229518112,1762.156192,0.662848,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45500 Tctl 102625 Tccd1 47000 Tccd2 47000 Tccd3 48000 Tccd4 46750 Tccd5 45750 Tccd6 49750 Tccd7 48500 Tccd8 48500 Tctl 97000 Tccd1 46000 Tccd2 48500 Tccd3 48500 Tccd4 48000 Tccd5 48500 Tccd6 46750 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/HV15R/HV15R.mtx
+max threads 64
+time read: 23.737512
+time coo to csr: 0.501642
+time preprocessing: 50.4732
+time convert to format: 50.474316
+time warm up 0.079684
+time after warm up 0.165668
+number of loops = 128
+Test failed! (4.26028e-08)
+errors spmv: mae=2.84365e-14, max_ae=7.27596e-11, mse=4.68746e-26, mape=2.93427e-11, smape=1.46714e-11
+/users/panastas/Data/graphs/tamu/matrices/HV15R/HV15R.mtx,64,2017169,2017169,283073458,2.084144,34.770535,3247.213531,0.000000,0.000000,SparseX,2017169,2017169,283073458,2433.952958,0.749551,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 45750 Tctl 103000 Tccd1 46000 Tccd2 47250 Tccd3 48500 Tccd4 46000 Tccd5 45750 Tccd6 49000 Tccd7 48250 Tccd8 48000 Tctl 97000 Tccd1 46000 Tccd2 48500 Tccd3 48500 Tccd4 48250 Tccd5 49000 Tccd6 46250 Tccd7 47750 
+File: /users/panastas/Data/graphs/tamu/matrices/Queen_4147/Queen_4147.mtx
+max threads 64
+time read: 11.271858
+time coo to csr: 0.588868
+time preprocessing: 46.5427
+time convert to format: 46.544617
+time warm up 0.079217
+time after warm up 0.197588
+number of loops = 128
+Test failed! (19713)
+errors spmv: mae=0.00127461, max_ae=19.982, mse=0.00290226, mape=inf, smape=0.016806
+/users/panastas/Data/graphs/tamu/matrices/Queen_4147/Queen_4147.mtx,64,4147110,4147110,329499284,2.500092,33.739489,3786.640026,0.000000,0.000000,SparseX,4147110,4147110,329499284,2666.913643,0.704296,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 47250 Tctl 102250 Tccd1 46750 Tccd2 47500 Tccd3 48000 Tccd4 46250 Tccd5 46000 Tccd6 49750 Tccd7 48500 Tccd8 48250 Tctl 97125 Tccd1 47750 Tccd2 48000 Tccd3 47750 Tccd4 48500 Tccd5 48750 Tccd6 46500 Tccd7 48250 
+File: /users/panastas/Data/graphs/tamu/matrices/stokes/stokes.mtx
+max threads 64
+time read: 20.820487
+time coo to csr: 0.745770
+time preprocessing: 66.9945
+time convert to format: 66.995929
+time warm up 0.079303
+time after warm up 0.311435
+number of loops = 128
+Test failed! (8.97638e-06)
+errors spmv: mae=7.27463e-17, max_ae=1.14814e-14, mse=2.95236e-32, mape=inf, smape=0.00148549
+/users/panastas/Data/graphs/tamu/matrices/stokes/stokes.mtx,64,11449533,11449533,349321980,4.029157,22.194824,4041.349312,0.000000,0.000000,SparseX,11449533,11449533,349321980,3285.124580,0.812878,16384
+Temps: uC Temperature 47000  PCB Temperature 51000  Cassini 0 Temperature 61000 Cassini 1 Temperature 61000 0.85V S0 VR Temperature 53000  0.9V S0 VR Temperature 53000  Tccd8 44750 Tctl 103250 Tccd1 46750 Tccd2 46250 Tccd3 47500 Tccd4 46500 Tccd5 45500 Tccd6 48000 Tccd7 47750 Tccd8 48250 Tctl 96625 Tccd1 46000 Tccd2 48250 Tccd3 48000 Tccd4 48500 Tccd5 48250 Tccd6 46750 Tccd7 48250 
+File: /users/panastas/Data/graphs/tamu/matrices/nlpkkt200/nlpkkt200.mtx
+max threads 64
+time read: 11.261610
+time coo to csr: 0.882279
+time preprocessing: 59.0495
+time convert to format: 59.050630
+time warm up 0.079511
+time after warm up 0.343836
+number of loops = 128
+errors spmv: mae=2.0607e-15, max_ae=2.84217e-14, mse=1.9586e-29, mape=3.46862e-14, smape=1.73431e-14
+/users/panastas/Data/graphs/tamu/matrices/nlpkkt200/nlpkkt200.mtx,64,16240000,16240000,448225632,4.349377,26.382115,5191.485966,0.000000,0.000000,SparseX,16240000,16240000,448225632,3437.122844,0.662069,16384
