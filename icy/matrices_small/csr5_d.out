@@ -1,0 +1,102 @@
+SPARSEX_LIB_PATH=/various/pmpakos/icy3_libs//sparsex/build/lib;PRINT_STATISTICS=1;LLVM_INC_PATH=/various/pmpakos/icy3_libs//llvm-6.0.0/build/include;AOCL_PATH=/various/pmpakos/spmv_paper/aocl-sparse/build/release;SPARSEX_INC_PATH=/various/pmpakos/icy3_libs//sparsex/build/include;max_cores=256;LLVM_LIB_PATH=/various/pmpakos/icy3_libs//llvm-6.0.0/build/lib;use_artificial_matrices=0;VC_TOLERANCE=0;GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;cores=16;BOOST_LIB_PATH=/various/pmpakos/icy3_libs//boost_1_55_0/bin/lib;path_validation=/various/pmpakos/SpMV-Research/validation_matrices;output_to_files=1;force_retry_on_error=0;path_tamu=/home/users/dgal/Data/graphs/tamu;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;MKL_PATH=/various/common_tools/intel_parallel_studio/compilers_and_libraries/linux/mkl;SPARSEX_CONF_PATH=/various/pmpakos/icy3_libs//sparsex/build/bin;cpu_pinning_group_size=1;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15;USE_PROCESSES=0;cpu_pinning_step=1;RAPL_REGISTERS=0;BOOST_INC_PATH=/various/pmpakos/icy3_libs//boost_1_55_0/bin/include;path_openFoam=/various/dgal/graphs/matrices_openFoam;COOLDOWN=0;
+program: /home/users/dgal/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/spmv_csr5.exe
+number of matrices: 6
+Temps: Composite 45850 Sensor 1 65850  Sensor 2 47850  Core 8 39000  Core 9 41000  Core 10 42000  Core 11 40000  Core 12 39000  Core 13 41000  Core 14 40000  Core 15 37000  Package id 0 43000 Core 0 41000  Core 1 42000  Core 2 40000  Core 3 37000  Core 4 39000  Core 5 40000  Core 6 41000  Core 7 37000  Core 8 37000  Core 9 39000  Core 10 34000  Core 11 36000  Core 12 37000  Core 13 37000  Core 14 36000  Core 15 34000  Package id 1 40000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 36000  Core 4 38000  Core 5 37000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx
+max threads 16
+time read: 0.041843
+time coo to csr: 0.033361
+omega = 4, sigma = 16. #partition = 41006
+CSR->CSR5 malloc time = 0.140000 ms
+CSR->CSR5 tile_ptr time = 0.279000 ms
+CSR->CSR5 tile_desc time = 4.269000 ms
+CSR->CSR5 transpose time = 1.870000 ms
+time convert to format: 0.006657
+time warm up 0.080617
+time after warm up 0.070169
+number of loops = 2280
+errors spmv: mae=1.46489e-15, max_ae=8.52651e-14, mse=1.94333e-29, mape=3.54163e-14, smape=1.77082e-14
+/home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,16,121192,121192,2624331,0.610792,19.592518,30.495399,0.000000,0.000000,CSR5,121192,121192,2624331,0.000000,0.000000,16384
+Temps: Composite 46850 Sensor 1 65850  Sensor 2 48850  Core 8 41000  Core 9 43000  Core 10 44000  Core 11 42000  Core 12 40000  Core 13 41000  Core 14 41000  Core 15 38000  Package id 0 44000 Core 0 42000  Core 1 43000  Core 2 42000  Core 3 40000  Core 4 41000  Core 5 41000  Core 6 41000  Core 7 39000  Core 8 37000  Core 9 39000  Core 10 35000  Core 11 36000  Core 12 37000  Core 13 37000  Core 14 36000  Core 15 35000  Package id 1 40000 Core 0 38000  Core 1 37000  Core 2 37000  Core 3 37000  Core 4 39000  Core 5 37000  Core 6 34000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx
+max threads 16
+time read: 0.092336
+time coo to csr: 0.090121
+omega = 4, sigma = 16. #partition = 60497
+CSR->CSR5 malloc time = 0.595000 ms
+CSR->CSR5 tile_ptr time = 0.552000 ms
+CSR->CSR5 tile_desc time = 5.166000 ms
+CSR->CSR5 transpose time = 2.572000 ms
+time convert to format: 0.008983
+time warm up 0.075677
+time after warm up 0.084323
+number of loops = 1185
+Test failed! (4.40538e-07)
+errors spmv: mae=1.1761e-16, max_ae=6.27551e-11, mse=5.96112e-27, mape=1.29027e-10, smape=6.45135e-11
+/home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,16,682862,682862,3871773,0.911904,10.062572,46.913841,0.000000,0.000000,CSR5,682862,682862,3871773,0.000000,0.000000,16384
+Temps: Composite 46850 Sensor 1 65850  Sensor 2 48850  Core 8 41000  Core 9 43000  Core 10 44000  Core 11 42000  Core 12 40000  Core 13 41000  Core 14 41000  Core 15 38000  Package id 0 44000 Core 0 42000  Core 1 43000  Core 2 42000  Core 3 40000  Core 4 41000  Core 5 42000  Core 6 43000  Core 7 39000  Core 8 38000  Core 9 39000  Core 10 36000  Core 11 36000  Core 12 38000  Core 13 37000  Core 14 37000  Core 15 35000  Package id 1 40000 Core 0 39000  Core 1 38000  Core 2 38000  Core 3 38000  Core 4 41000  Core 5 38000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx
+max threads 16
+time read: 0.132585
+time coo to csr: 0.066645
+omega = 4, sigma = 16. #partition = 119339
+CSR->CSR5 malloc time = 0.858000 ms
+CSR->CSR5 tile_ptr time = 0.730000 ms
+CSR->CSR5 tile_desc time = 6.006000 ms
+CSR->CSR5 transpose time = 3.333000 ms
+time convert to format: 0.010987
+time warm up 0.071414
+time after warm up 0.100150
+number of loops = 788
+Test failed! (60297.5)
+errors spmv: mae=1.7276e-05, max_ae=0.220007, mse=1.14141e-06, mape=59.4409, smape=0.150445
+/home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,0.988152,12.181321,88.257481,0.000000,0.000000,CSR5,223104,223104,7637688,0.000000,0.000000,16384
+Temps: Composite 46850 Sensor 1 65850  Sensor 2 48850  Core 8 42000  Core 9 46000  Core 10 45000  Core 11 44000  Core 12 42000  Core 13 43000  Core 14 42000  Core 15 40000  Package id 0 45000 Core 0 44000  Core 1 44000  Core 2 44000  Core 3 41000  Core 4 42000  Core 5 44000  Core 6 43000  Core 7 41000  Core 8 38000  Core 9 39000  Core 10 35000  Core 11 36000  Core 12 39000  Core 13 38000  Core 14 37000  Core 15 35000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 38000  Core 3 38000  Core 4 40000  Core 5 38000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx
+max threads 16
+time read: 0.199126
+time coo to csr: 0.054631
+omega = 4, sigma = 16. #partition = 127893
+CSR->CSR5 malloc time = 0.925000 ms
+CSR->CSR5 tile_ptr time = 0.716000 ms
+CSR->CSR5 tile_desc time = 6.386000 ms
+CSR->CSR5 transpose time = 3.650000 ms
+time convert to format: 0.011738
+time warm up 0.072931
+time after warm up 0.098679
+number of loops = 760
+Test failed! (6.84883e-06)
+errors spmv: mae=5.32474e-09, max_ae=2.28882e-05, mse=2.09414e-14, mape=8.01412e-09, smape=4.00706e-09
+/home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,16,161070,161070,8185136,0.985516,12.624253,94.285885,0.000000,0.000000,CSR5,161070,161070,8185136,0.000000,0.000000,16384
+Temps: Composite 46850 Sensor 1 65850  Sensor 2 48850  Core 8 43000  Core 9 46000  Core 10 46000  Core 11 44000  Core 12 43000  Core 13 44000  Core 14 43000  Core 15 40000  Package id 0 46000 Core 0 44000  Core 1 46000  Core 2 44000  Core 3 42000  Core 4 43000  Core 5 44000  Core 6 45000  Core 7 41000  Core 8 39000  Core 9 39000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 37000  Core 15 35000  Package id 1 41000 Core 0 39000  Core 1 40000  Core 2 38000  Core 3 38000  Core 4 40000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx
+max threads 16
+time read: 0.133464
+time coo to csr: 0.099979
+omega = 4, sigma = 16. #partition = 221076
+CSR->CSR5 malloc time = 1.274000 ms
+CSR->CSR5 tile_ptr time = 1.051000 ms
+CSR->CSR5 tile_desc time = 5.687000 ms
+CSR->CSR5 transpose time = 3.590000 ms
+time convert to format: 0.011664
+time warm up 0.070618
+time after warm up 0.105569
+number of loops = 426
+errors spmv: mae=2.82043e-09, max_ae=1.52588e-05, mse=3.67715e-15, mape=4.84905e-13, smape=2.42453e-13
+/home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,16,63838,63838,14148858,0.984433,12.245450,162.164356,0.000000,0.000000,CSR5,63838,63838,14148858,0.000000,0.000000,16384
+Temps: Composite 46850 Sensor 1 65850  Sensor 2 48850  Core 8 44000  Core 9 46000  Core 10 45000  Core 11 44000  Core 12 43000  Core 13 43000  Core 14 42000  Core 15 40000  Package id 0 46000 Core 0 44000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 42000  Core 5 44000  Core 6 45000  Core 7 41000  Core 8 38000  Core 9 39000  Core 10 35000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 38000  Core 15 35000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 38000  Core 3 38000  Core 4 39000  Core 5 39000  Core 6 37000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx
+max threads 16
+time read: 0.273580
+time coo to csr: 0.238068
+omega = 4, sigma = 16. #partition = 385464
+CSR->CSR5 malloc time = 2.211000 ms
+CSR->CSR5 tile_ptr time = 0.875000 ms
+CSR->CSR5 tile_desc time = 6.392000 ms
+CSR->CSR5 transpose time = 1.260000 ms
+time convert to format: 0.010808
+time warm up 0.070426
+time after warm up 0.113813
+number of loops = 246
+errors spmv: mae=6.61792e-15, max_ae=2.84217e-13, mse=3.27228e-28, mape=7.98172e-15, smape=3.99086e-15
+/home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,16,22283,22283,24669643,0.987553,12.290448,282.406666,0.000000,0.000000,CSR5,22283,22283,24669643,0.000000,0.000000,16384
