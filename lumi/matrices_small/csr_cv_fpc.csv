@@ -3,25 +3,13 @@
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.982581,9.807375,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.820251,1.010652,256
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.974683,10.387654,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.714819,1.007195,512
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.964455,10.791687,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.596530,1.003316,1024
-../run.sh: line 273: 150555 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 150670 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 150785 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 150902 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.949269,10.864799,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.230593,0.991317,32768
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.964640,10.708000,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,65536
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.928143,10.642738,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,131072
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.955458,10.766961,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,262144
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.973368,10.698256,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,524288
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.973576,10.458766,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,1048576
-../run.sh: line 273: 151707 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (out)
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,1.045193,10.058498,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,4194304
-../run.sh: line 273: 151957 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
 /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.977734,10.720270,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.214557,0.990791,16777216
 /users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,64,682862,682862,3871773,0.985240,1.564051,46.913841,0.000000,0.000000,CSR_CV,682862,682862,3871773,31.294961,0.667073,64
 /users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,64,682862,682862,3871773,1.000604,2.205578,46.913841,0.000000,0.000000,CSR_CV,682862,682862,3871773,29.260588,0.623709,128

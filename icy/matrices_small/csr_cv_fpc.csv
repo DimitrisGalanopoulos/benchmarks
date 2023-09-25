@@ -17,42 +17,8 @@
 /home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,16,121192,121192,2624331,1.011369,2.568883,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.202327,0.990390,4194304
 /home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,16,121192,121192,2624331,1.002789,2.486180,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.202327,0.990390,8388608
 /home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,16,121192,121192,2624331,1.013825,2.536774,30.495399,0.000000,0.000000,CSR_CV,121192,121192,2624331,30.202327,0.990390,16777216
-../run.sh: line 273: 2148730 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2148823 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2148916 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149009 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149102 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149195 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149288 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149381 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
 /home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,16,682862,682862,3871773,0.997355,3.152217,46.913841,0.000000,0.000000,CSR_CV,682862,682862,3871773,23.725729,0.505730,16384
 /home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,16,682862,682862,3871773,0.995504,3.165857,46.913841,0.000000,0.000000,CSR_CV,682862,682862,3871773,23.666044,0.504458,32768
-../run.sh: line 273: 2149662 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149755 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149850 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2149943 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2150036 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2150129 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2150222 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2150315 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
-../run.sh: line 273: 2150408 Aborted                 "$prog" "${prog_args[@]}" 2> 'tmp.err'
-double free or corruption (!prev)
 /home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,1.003503,2.359418,88.257481,0.000000,0.000000,CSR_CV,223104,223104,7637688,73.419877,0.831883,64
 /home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,0.997764,2.832279,88.257481,0.000000,0.000000,CSR_CV,223104,223104,7637688,73.034836,0.827520,128
 /home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,1.000203,3.130816,88.257481,0.000000,0.000000,CSR_CV,223104,223104,7637688,72.895528,0.825942,256
