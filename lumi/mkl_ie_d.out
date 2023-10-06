@@ -8,6 +8,7 @@ time read: 2.839873
 time coo to csr: 0.283712
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.344388
 mkl optimize time = 0.0695865
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.413988
 time warm up 0.082763
 time after warm up 0.086024
@@ -21,6 +22,7 @@ time read: 1.759885
 time coo to csr: 0.109658
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0343728
 mkl optimize time = 0.000637886
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.035022
 time warm up 0.082169
 time after warm up 0.090604
@@ -35,6 +37,7 @@ time read: 2.244735
 time coo to csr: 0.115392
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0303783
 mkl optimize time = 0.000735095
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.031129
 time warm up 0.083922
 time after warm up 0.088619
@@ -48,6 +51,7 @@ time read: 2.977622
 time coo to csr: 0.197915
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0368015
 mkl optimize time = 0.000159038
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.036969
 time warm up 0.084152
 time after warm up 0.100563
@@ -62,6 +66,7 @@ time read: 1.931148
 time coo to csr: 0.113914
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0309491
 mkl optimize time = 0.000570997
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.031530
 time warm up 0.082365
 time after warm up 0.096924
@@ -76,6 +81,7 @@ time read: 1.778627
 time coo to csr: 0.118576
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0314325
 mkl optimize time = 0.000627325
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.032068
 time warm up 0.082735
 time after warm up 0.095683
@@ -90,6 +96,7 @@ time read: 5.593614
 time coo to csr: 0.289486
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.188731
 mkl optimize time = 0.000564423
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.189308
 time warm up 0.084285
 time after warm up 0.121362
@@ -104,6 +111,7 @@ time read: 2.023881
 time coo to csr: 0.131379
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0318783
 mkl optimize time = 0.000585846
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.032475
 time warm up 0.084355
 time after warm up 0.099441
@@ -118,6 +126,7 @@ time read: 2.254786
 time coo to csr: 0.133718
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0333046
 mkl optimize time = 0.000570786
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.033885
 time warm up 0.082551
 time after warm up 0.102774
@@ -132,6 +141,7 @@ time read: 2.441488
 time coo to csr: 0.135257
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0316806
 mkl optimize time = 0.00060909
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.032300
 time warm up 0.082430
 time after warm up 0.100978
@@ -146,6 +156,7 @@ time read: 3.703492
 time coo to csr: 0.158702
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0422248
 mkl optimize time = 0.000689336
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.042927
 time warm up 0.082375
 time after warm up 0.107713
@@ -160,6 +171,7 @@ time read: 2.099898
 time coo to csr: 0.146033
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.033426
 mkl optimize time = 0.000668014
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.034105
 time warm up 0.083217
 time after warm up 0.107651
@@ -174,6 +186,7 @@ time read: 3.317769
 time coo to csr: 0.163127
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0388654
 mkl optimize time = 0.000944941
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.039822
 time warm up 0.084988
 time after warm up 0.110422
@@ -188,6 +201,7 @@ time read: 2.988259
 time coo to csr: 0.177632
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0369908
 mkl optimize time = 0.000942847
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.037948
 time warm up 0.083642
 time after warm up 0.114083
@@ -202,6 +216,7 @@ time read: 2.877719
 time coo to csr: 0.172498
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0404961
 mkl optimize time = 0.000997984
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.041509
 time warm up 0.084254
 time after warm up 0.118189
@@ -216,6 +231,7 @@ time read: 3.781238
 time coo to csr: 0.189293
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.045693
 mkl optimize time = 0.000449541
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.046157
 time warm up 0.083348
 time after warm up 0.122444
@@ -229,6 +245,7 @@ time read: 2.473785
 time coo to csr: 0.210550
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0404844
 mkl optimize time = 0.000789791
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.041288
 time warm up 0.081920
 time after warm up 0.132122
@@ -242,6 +259,7 @@ time read: 6.779351
 time coo to csr: 0.241416
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0410031
 mkl optimize time = 0.000431487
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.041448
 time warm up 0.081499
 time after warm up 0.129538
@@ -255,6 +273,7 @@ time read: 7.991222
 time coo to csr: 0.211687
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0426325
 mkl optimize time = 0.00102796
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.043672
 time warm up 0.083103
 time after warm up 0.136728
@@ -269,6 +288,7 @@ time read: 3.822996
 time coo to csr: 0.221067
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.046276
 mkl optimize time = 0.00100936
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.047299
 time warm up 0.084038
 time after warm up 0.137437
@@ -283,6 +303,7 @@ time read: 4.544635
 time coo to csr: 0.243057
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0460871
 mkl optimize time = 0.000747108
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.046845
 time warm up 0.084626
 time after warm up 0.142302
@@ -297,6 +318,7 @@ time read: 4.099115
 time coo to csr: 0.247982
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0424438
 mkl optimize time = 0.00102935
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.043483
 time warm up 0.084795
 time after warm up 0.141529
@@ -311,6 +333,7 @@ time read: 4.455272
 time coo to csr: 0.249141
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.159746
 mkl optimize time = 0.00801786
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.167783
 time warm up 0.083743
 time after warm up 0.145071
@@ -325,6 +348,7 @@ time read: 7.583496
 time coo to csr: 0.303458
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0595241
 mkl optimize time = 0.000766505
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.060304
 time warm up 0.081724
 time after warm up 0.148365
@@ -339,6 +363,7 @@ time read: 5.882675
 time coo to csr: 0.467470
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0643819
 mkl optimize time = 0.000570796
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.064964
 time warm up 0.082276
 time after warm up 0.191129
@@ -352,6 +377,7 @@ time read: 22.973225
 time coo to csr: 0.500046
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.141183
 mkl optimize time = 0.00876315
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.149966
 time warm up 0.080074
 time after warm up 0.205447
@@ -366,6 +392,7 @@ time read: 11.198050
 time coo to csr: 0.583728
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0756465
 mkl optimize time = 0.00084109
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.076499
 time warm up 0.082553
 time after warm up 0.243199
@@ -380,6 +407,7 @@ time read: 20.461441
 time coo to csr: 0.753375
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.176934
 mkl optimize time = 0.00951557
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.186473
 time warm up 0.082105
 time after warm up 0.297408
@@ -394,6 +422,7 @@ time read: 11.083412
 time coo to csr: 0.881440
 mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.156295
 mkl optimize time = 0.00994651
+errors matrix: mae=0.0, max_ae=0.0, mse=0.0, mape=0.0, smape=0.0
 time convert to format: 0.166260
 time warm up 0.082524
 time after warm up 0.375465
