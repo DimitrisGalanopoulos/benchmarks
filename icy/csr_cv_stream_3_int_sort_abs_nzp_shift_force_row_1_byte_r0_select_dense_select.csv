@@ -1,4 +1,3 @@
-matrix_name,num_threads,csr_m,csr_n,csr_nnz,time,gflops,csr_mem_footprint,W_avg,J_estimated,format_name,m,n,nnz,mem_footprint,mem_ratio,CSRCV_NUM_PACKET_VALS,unbalance_time,unbalance_size,row_bits_avg,col_bits_avg,row_col_bytes_avg,compression_spmv_loops,tolerance
 /home/users/dgal/Data/graphs/tamu/matrices/spal_004/spal_004.mtx,16,10203,321696,46168124,1.006892,12.930296,528.391174,0.000000,0.000000,CSR_CVS,10203,321696,46168124,251.846727,0.476629,64,5.10,3.68,0.0224,15.7273,1.9687,20.7720,0
 /home/users/dgal/Data/graphs/tamu/matrices/spal_004/spal_004.mtx,16,10203,321696,46168124,1.000880,13.561489,528.391174,0.000000,0.000000,CSR_CVS,10203,321696,46168124,230.969363,0.437118,128,7.15,3.72,0.0447,15.9956,2.0050,20.4578,0
 /home/users/dgal/Data/graphs/tamu/matrices/spal_004/spal_004.mtx,16,10203,321696,46168124,1.001280,13.924946,528.391174,0.000000,0.000000,CSR_CVS,10203,321696,46168124,220.157416,0.416656,256,5.17,3.91,0.0922,16.2332,2.0407,22.2750,0
