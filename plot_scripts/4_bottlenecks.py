@@ -43,6 +43,10 @@ G.palette_format_dict['MKL(64-bits)\n(state of practice)'] = G.palette_format_di
 dfs.append(read_bench_file(G.bench_path + '/lumi/idx0/mkl_ie_d.csv', None, 'MKL_idx0(64-bits)\n(mem latency)', 'AMD-EPYC-64'))
 G.palette_format_dict['MKL_idx0(64-bits)\n(mem latency)'] = G.palette_format_dict['MKL_idx0(64-bits)']
 
+# bandwidth
+dfs.append(read_bench_file(G.bench_path + '/lumi/sparsex_d.csv', None, 'SparseX\n(mem bandwidth)', 'AMD-EPYC-64'))
+G.palette_format_dict['SparseX\n(mem bandwidth)'] = G.palette_format_dict['SparseX']
+
 
 df = concat_data_and_preprocess(dfs)
 
