@@ -46,8 +46,6 @@ G.palette_format_dict['MKL_idx0(64-bits)\n(mem latency)'] = G.palette_format_dic
 
 df = concat_data_and_preprocess(dfs)
 
-# df = filter_num_packet_vals(df, G.num_packet_vals_keep)
-
 df = calculate_gmeans(df)
 
 
