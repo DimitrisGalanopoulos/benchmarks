@@ -23,7 +23,13 @@ dfs = []
 
 dfs.append(read_bench_file(G.bench_path + '/lumi/mkl_ie_d.csv', None, 'MKL\n(64-bits)', 'AMD-EPYC-64'))
 G.palette_format_dict['MKL\n(64-bits)'] = G.palette_format_dict['MKL(64-bits)']
-dfs.append(read_bench_file(G.bench_path + '/lumi/mkl_ie_f.csv', None, 'MKL\n(32-bits)', 'AMD-EPYC-64'))
+
+# Use CVB_d2f for the matrix errors of MKL 32-bits.
+df_mkl32 = read_bench_file(G.bench_path + '/lumi/mkl_ie_f.csv', None, 'MKL\n(32-bits)', 'AMD-EPYC-64')
+df_cvb_d2f = read_bench_file(G.bench_path + '/lumi/csr_cv_block_d2f_d.csv', None, 'CVB_d2f', 'AMD-EPYC-64')
+df_mkl32['matrix_mape'] = df_cvb_d2f['matrix_mape']
+df_mkl32['matrix_smape'] = df_cvb_d2f['matrix_smape']
+dfs.append(df_mkl32)
 G.palette_format_dict['MKL\n(32-bits)'] = G.palette_format_dict['MKL(32-bits)']
 
 dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf/csr_cv_stream_rf.csv', None, 'DIV_RF\nLossless', 'AMD-EPYC-64'))
@@ -51,7 +57,7 @@ df['matrix_mse'] = df['matrix_mse'].fillna(0)
 df['matrix_mape'] = df['matrix_mape'].fillna(0)
 df['matrix_smape'] = df['matrix_smape'].fillna(0)
 df['matrix_lnQ_error'] = df['matrix_lnQ_error'].fillna(0)
-# df['matrix_mlare'] = df['matrix_mlare'].fillna(0)
+df['matrix_mlare'] = df['matrix_mlare'].fillna(-np.inf)
 df['matrix_gmare'] = df['matrix_gmare'].fillna(0)
 
 
@@ -60,9 +66,21 @@ formats = df['format_name'].unique()
 print(formats)
 
 
-file_out = 'figures/lossy_errors_spmv.png'
 set_fig_size_scale(2, 2)
-plt.rcParams['font.size'] = 12
+plt.rcParams['font.size'] = 10
+
+
+file_out = 'figures/lossy_perf.png'
+p = Boxplot(data=df, x='format_name', y='gflops', hue='format_name', palette=G.palette_format_dict)
+p.set_labels('', 'Performance (GFLOPs)')
+p.plot(file_out)
+
+file_out = 'figures/lossy_errors_matrix.png'
+p = Boxplot(data=df, x='format_name', y='matrix_mape', hue='format_name', palette=G.palette_format_dict, log_scale=True)
+p.set_labels('', 'Matrix MAPE (%)')
+p.plot(file_out)
+
+file_out = 'figures/lossy_errors_spmv.png'
 p = Boxplot(data=df, x='format_name', y='spmv_mape', hue='format_name', palette=G.palette_format_dict, log_scale=True)
 p.set_labels('', 'SpMV MAPE (%)')
 p.plot(file_out)
