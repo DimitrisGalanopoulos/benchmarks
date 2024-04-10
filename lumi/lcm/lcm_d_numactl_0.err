@@ -1,0 +1,137 @@
+ZFP_ROOT_DIR=/users/panastas/lib/zfp;GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;RAPL_REGISTERS=0;COOLDOWN=0;cpu_pinning_step=1;path_tamu=/users/panastas/Data/graphs/tamu;SPARSEX_LIB_PATH=/users/panastas/lib/sparsex/build/lib;BOOST_LIB_PATH=/users/panastas/lib/boost_1_55_0/bin/lib;USE_ARTIFICIAL_MATRICES=0;cores=64;path_M3E=/users/panastas/Data/graphs/M3E-Matrix-Collection;PRINT_STATISTICS=1;MKL_PATH=/users/panastas/spack/23.03/0.20.0/intel-oneapi-mkl-2023.1.0-cafkcjc/mkl/latest;path_validation=;AOCL_PATH=/users/panastas/aocl-sparse/library;numa_nodes=0,1,2,3;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63;force_retry_on_error=0;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;LLVM_LIB_PATH=/users/panastas/lib/llvm-6.0.0/build/lib;LLVM_INC_PATH=/users/panastas/lib/llvm-6.0.0/build/include;USE_PROCESSES=0;cpu_pinning_group_size=1;SPARSEX_CONF_PATH=/users/panastas/lib/sparsex/build/bin;path_openFoam=;SPARSEX_INC_PATH=/users/panastas/lib/sparsex/build/include;VC_TOLERANCE=0;output_to_files=1;FPZIP_ROOT_DIR=/users/panastas/lib/fpzip;BOOST_INC_PATH=/users/panastas/lib/boost_1_55_0/bin/include;max_cores=128;
+program: /pfs/lustrep2/users/panastas/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/LCM-partially-strided-codelet/spmv_lcm_d.exe
+number of matrices: 29
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 53000 0.85V S0 VR Temperature 44000  0.9V S0 VR Temperature 47000  Tccd8 34000 Tctl 40500 Tccd1 34000 Tccd2 32500 Tccd3 32750 Tccd4 29500 Tccd5 33500 Tccd6 28750 Tccd7 31750 Tccd8 35000 Tctl 39125 Tccd1 35250 Tccd2 33250 Tccd3 33750 Tccd4 34750 Tccd5 33500 Tccd6 34250 Tccd7 35500 
+File: /users/panastas/Data/graphs/tamu/matrices/spal_004/spal_004.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/spal_004/spal_004.mtx,64,10203,321696,46168124,0.00555405,16.625,5.54058e+08,LCM,0,4,8,0.0535864,0.00555405,16.625,1.09335
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 53000 0.85V S0 VR Temperature 44000  0.9V S0 VR Temperature 47000  Tccd8 35250 Tctl 40625 Tccd1 34250 Tccd2 33500 Tccd3 33250 Tccd4 31750 Tccd5 34250 Tccd6 30000 Tccd7 33000 Tccd8 34750 Tctl 36625 Tccd1 35250 Tccd2 32750 Tccd3 33250 Tccd4 34250 Tccd5 33250 Tccd6 33750 Tccd7 35000 
+File: /users/panastas/Data/graphs/tamu/matrices/ldoor/ldoor.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/ldoor/ldoor.mtx,64,952203,952203,46522475,0.00174492,53.3234,5.62079e+08,LCM,0,4,8,0.0409674,0.00174492,53.3234,0.524714
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 53000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34500 Tctl 40875 Tccd1 34250 Tccd2 34000 Tccd3 33500 Tccd4 30750 Tccd5 34000 Tccd6 29500 Tccd7 32250 Tccd8 34000 Tctl 36625 Tccd1 35500 Tccd2 32750 Tccd3 33500 Tccd4 33750 Tccd5 32250 Tccd6 33750 Tccd7 35250 
+File: /users/panastas/Data/graphs/tamu/matrices/dielFilterV2real/dielFilterV2real.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/dielFilterV2real/dielFilterV2real.mtx,64,1157456,1157456,48538952,0.00463047,20.965,5.87097e+08,LCM,0,4,8,0.0433836,0.00463047,20.965,1.32607
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 53000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 35250 Tctl 40500 Tccd1 33500 Tccd2 33500 Tccd3 34250 Tccd4 31000 Tccd5 33500 Tccd6 30000 Tccd7 33000 Tccd8 34250 Tctl 36625 Tccd1 34750 Tccd2 32000 Tccd3 33500 Tccd4 34500 Tccd5 33250 Tccd6 33750 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/nv2/nv2.mtx
+numactl -i 0,1,2,3
+494812:5456.14,6144.01
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/nv2/nv2.mtx,64,1453908,1453908,52728362,0.00571546,18.4511,6.38556e+08,LCM,0,4,8,0.0628451,0.00571546,18.4511,1.35439
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 53000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 35250 Tctl 40125 Tccd1 35000 Tccd2 33000 Tccd3 34000 Tccd4 30750 Tccd5 34000 Tccd6 30250 Tccd7 32750 Tccd8 34500 Tctl 36375 Tccd1 35250 Tccd2 32500 Tccd3 33000 Tccd4 33500 Tccd5 33250 Tccd6 34000 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/af_shell10/af_shell10.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/af_shell10/af_shell10.mtx,64,1508065,1508065,52672325,0.00219983,47.8875,6.381e+08,LCM,0,4,8,0.0435237,0.00219983,47.8875,0.543512
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34750 Tctl 40625 Tccd1 33750 Tccd2 33250 Tccd3 33000 Tccd4 30250 Tccd5 33500 Tccd6 29250 Tccd7 32250 Tccd8 33750 Tctl 36375 Tccd1 34500 Tccd2 31750 Tccd3 33000 Tccd4 34250 Tccd5 33250 Tccd6 34000 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/boneS10/boneS10.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/boneS10/boneS10.mtx,64,914898,914898,55468422,0.00245902,45.1143,6.69281e+08,LCM,0,4,8,0.0490447,0.00245902,45.1143,0.672839
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34250 Tctl 40375 Tccd1 33500 Tccd2 32750 Tccd3 33250 Tccd4 30000 Tccd5 33750 Tccd6 29750 Tccd7 32250 Tccd8 33500 Tctl 36500 Tccd1 34500 Tccd2 32250 Tccd3 33750 Tccd4 34500 Tccd5 32750 Tccd6 33500 Tccd7 33750 
+File: /users/panastas/Data/graphs/tamu/matrices/circuit5M/circuit5M.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/circuit5M/circuit5M.mtx,64,5558326,5558326,59524291,0.0614442,1.93751,7.36525e+08,LCM,0,4,8,0.0528839,0.0614442,1.93751,1.43669
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34750 Tctl 41125 Tccd1 33500 Tccd2 32250 Tccd3 32000 Tccd4 30250 Tccd5 33250 Tccd6 28750 Tccd7 31750 Tccd8 34000 Tctl 36125 Tccd1 34250 Tccd2 32000 Tccd3 33500 Tccd4 34250 Tccd5 32250 Tccd6 33500 Tccd7 34000 
+File: /users/panastas/Data/graphs/tamu/matrices/Hook_1498/Hook_1498.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/Hook_1498/Hook_1498.mtx,64,1498023,1498023,60917445,0.00312553,38.9805,7.37001e+08,LCM,0,4,8,0.0536487,0.00312553,38.9805,0.869102
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 33750 Tctl 40125 Tccd1 33750 Tccd2 33000 Tccd3 33500 Tccd4 30500 Tccd5 33000 Tccd6 29000 Tccd7 31750 Tccd8 33750 Tctl 36125 Tccd1 34250 Tccd2 32000 Tccd3 33000 Tccd4 33750 Tccd5 32750 Tccd6 33000 Tccd7 34000 
+File: /users/panastas/Data/graphs/tamu/matrices/Geo_1438/Geo_1438.mtx
+numactl -i 0,1,2,3
+24:11.73,11.73
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Geo_1438/Geo_1438.mtx,64,1437960,1437960,63156690,0.00311813,40.5093,7.63632e+08,LCM,0,4,8,0.0544846,0.00311813,40.5093,0.852609
+Temps: uC Temperature 37000  PCB Temperature 43000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34500 Tctl 40125 Tccd1 33500 Tccd2 32500 Tccd3 33750 Tccd4 30000 Tccd5 34000 Tccd6 28750 Tccd7 32250 Tccd8 33750 Tctl 36125 Tccd1 35250 Tccd2 32750 Tccd3 33000 Tccd4 34000 Tccd5 32750 Tccd6 32750 Tccd7 35000 
+File: /users/panastas/Data/graphs/tamu/matrices/Serena/Serena.mtx
+numactl -i 0,1,2,3
+99:-0.097001,-0.0969997
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Serena/Serena.mtx,64,1391349,1391349,64531701,0.00343878,37.5317,7.79946e+08,LCM,0,4,8,0.0574911,0.00343878,37.5317,0.911357
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34250 Tctl 39875 Tccd1 33750 Tccd2 33250 Tccd3 33250 Tccd4 30750 Tccd5 33500 Tccd6 29500 Tccd7 32500 Tccd8 34250 Tctl 36125 Tccd1 34000 Tccd2 32250 Tccd3 33500 Tccd4 34000 Tccd5 32500 Tccd6 33250 Tccd7 33250 
+File: /users/panastas/Data/graphs/tamu/matrices/vas_stokes_2M/vas_stokes_2M.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/vas_stokes_2M/vas_stokes_2M.mtx,64,2146677,2146677,65129037,0.00693006,18.7961,7.90135e+08,LCM,0,4,8,0.0558841,0.00693006,18.7961,1.26421
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 34500 Tctl 40000 Tccd1 33500 Tccd2 32750 Tccd3 33250 Tccd4 30000 Tccd5 33250 Tccd6 28500 Tccd7 31500 Tccd8 33500 Tctl 36000 Tccd1 34500 Tccd2 32500 Tccd3 33250 Tccd4 34000 Tccd5 33250 Tccd6 33250 Tccd7 34250 
+File: /users/panastas/Data/graphs/tamu/matrices/bone010/bone010.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/bone010/bone010.mtx,64,986703,986703,71666325,0.0036344,39.4378,8.63943e+08,LCM,0,4,8,0.063519,0.0036344,39.4378,0.763266
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 34500 Tctl 39875 Tccd1 33750 Tccd2 32750 Tccd3 33250 Tccd4 30000 Tccd5 33500 Tccd6 28250 Tccd7 32500 Tccd8 34500 Tctl 36000 Tccd1 35250 Tccd2 32250 Tccd3 33250 Tccd4 33500 Tccd5 33750 Tccd6 33000 Tccd7 34250 
+File: /users/panastas/Data/graphs/tamu/matrices/audikw_1/audikw_1.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/audikw_1/audikw_1.mtx,64,943695,943695,77651847,0.00446303,34.7978,9.35597e+08,LCM,0,4,8,0.0733369,0.00446303,34.7978,0.882506
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 34750 Tctl 39625 Tccd1 33750 Tccd2 32500 Tccd3 33000 Tccd4 30750 Tccd5 33250 Tccd6 28750 Tccd7 32000 Tccd8 34000 Tctl 36000 Tccd1 34750 Tccd2 31750 Tccd3 32250 Tccd4 33750 Tccd5 32750 Tccd6 33500 Tccd7 34750 
+File: /users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt0/Long_Coup_dt0.mtx
+numactl -i 0,1,2,3
+790:30,30
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt0/Long_Coup_dt0.mtx,64,1470152,1470152,87088992,0.0043554,39.9913,1.05095e+09,LCM,0,4,8,0.0765265,0.0043554,39.9913,0.941336
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 34000 Tctl 39750 Tccd1 33500 Tccd2 33000 Tccd3 33500 Tccd4 30250 Tccd5 33500 Tccd6 29000 Tccd7 32500 Tccd8 34000 Tctl 36500 Tccd1 35000 Tccd2 32750 Tccd3 32500 Tccd4 33500 Tccd5 32250 Tccd6 33500 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt6/Long_Coup_dt6.mtx
+numactl -i 0,1,2,3
+790:30,30
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Long_Coup_dt6/Long_Coup_dt6.mtx,64,1470152,1470152,87088992,0.00436556,39.8982,1.05095e+09,LCM,0,4,8,0.0758205,0.00436556,39.8982,0.931694
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 34750 Tctl 39875 Tccd1 33500 Tccd2 33250 Tccd3 33250 Tccd4 30750 Tccd5 34000 Tccd6 29500 Tccd7 32500 Tccd8 33750 Tctl 36000 Tccd1 34500 Tccd2 31750 Tccd3 33000 Tccd4 33500 Tccd5 33250 Tccd6 33500 Tccd7 33750 
+File: /users/panastas/Data/graphs/tamu/matrices/dielFilterV3real/dielFilterV3real.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/dielFilterV3real/dielFilterV3real.mtx,64,1102824,1102824,89306020,0.00915253,19.515,1.07608e+09,LCM,0,4,8,0.0843233,0.00915253,19.515,2.10187
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 34750 Tctl 39375 Tccd1 33750 Tccd2 32750 Tccd3 33500 Tccd4 30500 Tccd5 33500 Tccd6 29500 Tccd7 32000 Tccd8 34250 Tctl 36125 Tccd1 34500 Tccd2 31750 Tccd3 33000 Tccd4 33250 Tccd5 33000 Tccd6 33250 Tccd7 34750 
+File: /users/panastas/Data/graphs/tamu/matrices/nlpkkt120/nlpkkt120.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/nlpkkt120/nlpkkt120.mtx,64,3542400,3542400,96845792,0.00502307,38.5604,1.17632e+09,LCM,0,4,8,0.0741119,0.00502307,38.5604,0.813337
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34500 Tctl 40375 Tccd1 33500 Tccd2 32250 Tccd3 33250 Tccd4 30750 Tccd5 33250 Tccd6 29000 Tccd7 32250 Tccd8 33750 Tctl 36000 Tccd1 34750 Tccd2 32000 Tccd3 33500 Tccd4 33750 Tccd5 32750 Tccd6 33250 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/cage15/cage15.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/cage15/cage15.mtx,64,5154859,5154859,99199551,0.0183141,10.8331,1.21101e+09,LCM,0,4,8,0.0803753,0.0183141,10.8331,2.54555
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 35750 Tctl 39375 Tccd1 34500 Tccd2 33500 Tccd3 33500 Tccd4 30750 Tccd5 34000 Tccd6 29500 Tccd7 32250 Tccd8 33750 Tctl 36125 Tccd1 34750 Tccd2 31750 Tccd3 33000 Tccd4 34000 Tccd5 32500 Tccd6 33500 Tccd7 35500 
+File: /users/panastas/Data/graphs/tamu/matrices/ML_Geer/ML_Geer.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/ML_Geer/ML_Geer.mtx,64,1504002,1504002,110879972,0.00681356,32.5469,1.33658e+09,LCM,0,4,8,0.0957313,0.00681356,32.5469,1.16218
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34750 Tctl 39750 Tccd1 34250 Tccd2 33250 Tccd3 33500 Tccd4 30500 Tccd5 34000 Tccd6 29000 Tccd7 32250 Tccd8 34000 Tctl 36000 Tccd1 35000 Tccd2 32000 Tccd3 32500 Tccd4 33500 Tccd5 32750 Tccd6 33000 Tccd7 34750 
+File: /users/panastas/Data/graphs/tamu/matrices/Flan_1565/Flan_1565.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/Flan_1565/Flan_1565.mtx,64,1564794,1564794,117406044,0.00650125,36.118,1.41513e+09,LCM,0,4,8,0.104165,0.00650125,36.118,1.2293
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34750 Tctl 39625 Tccd1 33750 Tccd2 33500 Tccd3 33750 Tccd4 30500 Tccd5 34000 Tccd6 30000 Tccd7 32500 Tccd8 33750 Tctl 36125 Tccd1 34250 Tccd2 31750 Tccd3 33000 Tccd4 33250 Tccd5 32500 Tccd6 32750 Tccd7 35000 
+File: /users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt0/Cube_Coup_dt0.mtx
+numactl -i 0,1,2,3
+97:-1.00004,-1.00004
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt0/Cube_Coup_dt0.mtx,64,2164760,2164760,127206144,0.00738429,34.4532,1.53513e+09,LCM,0,4,8,0.109265,0.00738429,34.4532,1.26912
+Temps: uC Temperature 36000  PCB Temperature 43000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34500 Tctl 39625 Tccd1 33500 Tccd2 33000 Tccd3 33500 Tccd4 30750 Tccd5 33250 Tccd6 29250 Tccd7 32250 Tccd8 34000 Tctl 36125 Tccd1 34250 Tccd2 32750 Tccd3 33250 Tccd4 34000 Tccd5 32500 Tccd6 32500 Tccd7 34750 
+File: /users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt6/Cube_Coup_dt6.mtx
+numactl -i 0,1,2,3
+97:-1.00004,-1.00004
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Cube_Coup_dt6/Cube_Coup_dt6.mtx,64,2164760,2164760,127206144,0.00724908,35.0958,1.53513e+09,LCM,0,4,8,0.108585,0.00724908,35.0958,1.26324
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34750 Tctl 39750 Tccd1 33500 Tccd2 33500 Tccd3 34250 Tccd4 30250 Tccd5 34000 Tccd6 29000 Tccd7 32000 Tccd8 34000 Tctl 36125 Tccd1 34500 Tccd2 32000 Tccd3 33250 Tccd4 33750 Tccd5 33500 Tccd6 33750 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/Bump_2911/Bump_2911.mtx
+numactl -i 0,1,2,3
+326:0.45,0.449998
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Bump_2911/Bump_2911.mtx,64,2911419,2911419,127729899,0.00861038,29.6688,1.5444e+09,LCM,0,4,8,0.108293,0.00861038,29.6688,1.63808
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 35000 Tctl 39500 Tccd1 33750 Tccd2 33000 Tccd3 33500 Tccd4 30250 Tccd5 34000 Tccd6 29750 Tccd7 32250 Tccd8 34250 Tctl 36250 Tccd1 35000 Tccd2 32500 Tccd3 33500 Tccd4 34000 Tccd5 33000 Tccd6 33250 Tccd7 34750 
+File: /users/panastas/Data/graphs/tamu/matrices/vas_stokes_4M/vas_stokes_4M.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/vas_stokes_4M/vas_stokes_4M.mtx,64,4382246,4382246,131577616,0.0161513,16.2931,1.59646e+09,LCM,0,4,8,0.139309,0.0161513,16.2931,2.47964
+Temps: uC Temperature 36000  PCB Temperature 43000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 35500 Tctl 38875 Tccd1 34500 Tccd2 33500 Tccd3 34250 Tccd4 31500 Tccd5 33500 Tccd6 29750 Tccd7 32750 Tccd8 34500 Tctl 36250 Tccd1 34500 Tccd2 32250 Tccd3 32750 Tccd4 33500 Tccd5 33500 Tccd6 33250 Tccd7 35500 
+File: /users/panastas/Data/graphs/tamu/matrices/nlpkkt160/nlpkkt160.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/nlpkkt160/nlpkkt160.mtx,64,8345600,8345600,229518112,0.0150824,30.4351,2.7876e+09,LCM,0,4,8,0.176183,0.0150824,30.4351,1.86164
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34750 Tctl 39250 Tccd1 33250 Tccd2 34000 Tccd3 33500 Tccd4 31000 Tccd5 33500 Tccd6 30250 Tccd7 32250 Tccd8 33500 Tctl 36375 Tccd1 34750 Tccd2 32250 Tccd3 33750 Tccd4 33250 Tccd5 32500 Tccd6 33500 Tccd7 34750 
+File: /users/panastas/Data/graphs/tamu/matrices/HV15R/HV15R.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/HV15R/HV15R.mtx,64,2017169,2017169,283073458,0.0239969,23.5925,3.40495e+09,LCM,0,4,8,0.295094,0.0239969,23.5925,4.45506
+Temps: uC Temperature 36000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 35500 Tctl 38000 Tccd1 34500 Tccd2 33250 Tccd3 33750 Tccd4 30750 Tccd5 34000 Tccd6 29500 Tccd7 33500 Tccd8 34750 Tctl 36375 Tccd1 34000 Tccd2 32250 Tccd3 33250 Tccd4 34000 Tccd5 32250 Tccd6 33750 Tccd7 34500 
+File: /users/panastas/Data/graphs/tamu/matrices/Queen_4147/Queen_4147.mtx
+numactl -i 0,1,2,3
+66:-60.3046,-60.3047
+SpMV DDT MT code != reference solution.
+/users/panastas/Data/graphs/tamu/matrices/Queen_4147/Queen_4147.mtx,64,4147110,4147110,329499284,0.0211228,31.1985,3.97058e+09,LCM,0,4,8,0.292685,0.0211228,31.1985,3.19142
+Temps: uC Temperature 36000  PCB Temperature 43000  Cassini 0 Temperature 53000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 47000  Tccd8 34500 Tctl 38500 Tccd1 34250 Tccd2 33250 Tccd3 33750 Tccd4 31500 Tccd5 34250 Tccd6 29750 Tccd7 32750 Tccd8 33750 Tctl 36250 Tccd1 34000 Tccd2 32250 Tccd3 33500 Tccd4 33750 Tccd5 33000 Tccd6 33250 Tccd7 35500 
+File: /users/panastas/Data/graphs/tamu/matrices/stokes/stokes.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/stokes/stokes.mtx,64,11449533,11449533,349321980,0.0414533,16.8537,4.23766e+09,LCM,0,4,8,0.328906,0.0414533,16.8537,6.94262
+Temps: uC Temperature 36000  PCB Temperature 42000  Cassini 0 Temperature 52000 Cassini 1 Temperature 52000 0.85V S0 VR Temperature 43000  0.9V S0 VR Temperature 46000  Tccd8 33750 Tctl 37250 Tccd1 33750 Tccd2 32000 Tccd3 32250 Tccd4 30250 Tccd5 33250 Tccd6 28250 Tccd7 31750 Tccd8 33250 Tctl 36000 Tccd1 34500 Tccd2 32000 Tccd3 33250 Tccd4 33500 Tccd5 33000 Tccd6 33250 Tccd7 34250 
+File: /users/panastas/Data/graphs/tamu/matrices/nlpkkt200/nlpkkt200.mtx
+numactl -i 0,1,2,3
+/users/panastas/Data/graphs/tamu/matrices/nlpkkt200/nlpkkt200.mtx,64,16240000,16240000,448225632,0.0298966,29.9851,5.44367e+09,LCM,0,4,8,0.344244,0.0298966,29.9851,3.66498

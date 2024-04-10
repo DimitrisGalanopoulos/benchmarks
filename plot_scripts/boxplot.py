@@ -6,6 +6,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.font_manager
 import matplotlib.ticker as ticker
+from matplotlib.cbook import boxplot_stats
 import seaborn as sns
 
 import global_env as G
@@ -14,8 +15,9 @@ from plot_util import *
 from pallete import *
 
 
-# Passing 'palette' without assigning 'hue' is deprecated and will be removed in v0.14.0.
-# Assign the 'x' variable to 'hue' and set 'legend=False' for the same effect.
+# Seaborn warning:
+#   Passing 'palette' without assigning 'hue' is deprecated and will be removed in v0.14.0.
+#   Assign the 'x' variable to 'hue' and set 'legend=False' for the same effect.
 
 
 class Boxplot:
@@ -34,9 +36,9 @@ class Boxplot:
                 )
 
         # self.ax.xaxis.set_major_formatter(ticker.EngFormatter())
-        # self.ax.xaxis.set_major_formatter(ticker.FuncFormatter(human_number_format))
+        # self.ax.xaxis.set_major_formatter(ticker.FuncFormatter(human_number_format_binary))
         # ticks = self.ax.axes.get_xticks()
-        # xlabels = ['$' + human_number_format(x, 0) for x in ticks]
+        # xlabels = ['$' + human_number_format_binary(x, 0) for x in ticks]
         # self.ax.set_xticklabels(xlabels)
 
 
@@ -46,7 +48,10 @@ class Boxplot:
 
 
     def plot(self, file_out):
-        plt.savefig(file_out, bbox_inches = 'tight')
+        plt.savefig(file_out, bbox_inches='tight', pad_inches=0)
+
+    def plot_custom(self, file_out, **args):
+        plt.savefig(file_out, bbox_inches='tight', **args)
 
 
     def get_box_coords(self):
@@ -67,4 +72,16 @@ class Boxplot:
             [x1, y1] = transform.transform((x1, y1))
             boxes.append((x0, y0, x1, y1))
         return sorted(boxes)
+
+
+    def change_xticks_labels(self, lut):
+        xticks = self.ax.get_xticks()
+        xlabels = self.ax.get_xticklabels()
+        for i in range(len(xlabels)):
+            l = xlabels[i]
+            t = l.get_text()
+            if (t in lut):
+                l = matplotlib.text.Text(text=lut[t])
+            xlabels[i] = l
+        self.ax.set_xticks(xticks, labels=xlabels)
 

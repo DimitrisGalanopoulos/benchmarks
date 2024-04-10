@@ -1,0 +1,9 @@
+matrix_name,num_threads,csr_m,csr_n,csr_nnz,time,gflops,csr_mem_footprint,format_name,prefer_fsc,size_cutoff,col_threshold,SpMV Base,SpMV DDT Parallel Executor,SpMV DDT Parallel gflops,SPMV Analysis
+/home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,16,121192,121192,2624331,0.000540204,9.71607,3.19767e+07,LCM,0,4,8,0.00347081,0.000540204,9.71607,0.0855745
+/home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,16,682862,682862,3871773,0.00991488,0.781002,4.91927e+07,LCM,0,4,8,0.00539907,0.00991488,0.781002,0.238334
+/home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,0.00152071,10.0449,9.25447e+07,LCM,0,4,8,0.0101878,0.00152071,10.0449,0.366725
+/home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,16,161070,161070,8185136,0.0015931,10.2757,9.88659e+07,LCM,0,4,8,0.0101865,0.0015931,10.2757,0.253512
+/home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,16,63838,63838,14148858,0.0017337,16.3221,1.70042e+08,LCM,0,4,8,0.0223153,0.0017337,16.3221,0.243367
+/home/users/dgal/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,16,4690002,4690002,20316253,0.0129804,3.13029,2.62555e+08,LCM,0,4,8,0.0251613,0.0129804,3.13029,0.879658
+/home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,16,22283,22283,24669643,0.00469357,10.5121,2.96125e+08,LCM,0,4,8,0.030583,0.00469357,10.5121,0.798459
+/home/users/dgal/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,16,1200611,1200611,38259877,0.0096278,7.94779,4.63921e+08,LCM,0,4,8,0.0483501,0.0096278,7.94779,1.36864

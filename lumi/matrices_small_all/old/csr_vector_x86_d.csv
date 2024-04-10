@@ -1,0 +1,129 @@
+matrix_name,num_threads,csr_m,csr_n,csr_nnz,time,gflops,csr_mem_footprint,W_avg,J_estimated,format_name,m,n,nnz,mem_footprint,mem_ratio,spmv_mae,spmv_max_ae,spmv_mse,spmv_mape,spmv_smape,spmv_lnQ_error,spmv_mlare,spmv_gmare
+
+	ERROR
+[tid 150959] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/scircuit/scircuit.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 151074] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 151189] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 151304] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/bbmat/bbmat.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 151419] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/appu/appu.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 151534] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/rma10/rma10.mtx'
+      >  errno [2]: No such file or directory
+/users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,1.000046,89.627283,30.495399,0.000000,0.000000,Custom_CSR_BV_x86,121192,121192,2624331,30.495399,1.000000,2.08104e-15,8.52651e-14,3.61456e-29,1.42428e-13,7.12139e-14,-2.70848e-17,-16.2052,6.23416e-17
+
+	ERROR
+[tid 151784] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 151899] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 152014] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/cant/cant.mtx'
+      >  errno [2]: No such file or directory
+/users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,64,682862,682862,3871773,1.000114,51.163517,46.913841,0.000000,0.000000,Custom_CSR_BV_x86,682862,682862,3871773,46.913841,1.000000,1.59444e-15,9.83164e-10,1.41676e-24,3.87089e-10,1.93544e-10,1.68109e-12,-11.4122,3.87086e-12
+
+	ERROR
+[tid 152246] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 152361] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 152476] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 152591] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/consph/consph.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 152706] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/rajat30/rajat30.mtx'
+      >  errno [2]: No such file or directory
+/users/panastas/Data/graphs/tamu/matrices/radiation/radiation.mtx,64,223104,223104,7637688,1.000002,134.392499,88.257481,0.000000,0.000000,Custom_CSR_BV_x86,223104,223104,7637688,88.257481,1.000000,4.57724e-05,1.00001,1.32105e-05,14.1493,0.110049,0.0012172,-2.55181,0.00280664
+
+	ERROR
+[tid 152938] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx'
+      >  errno [2]: No such file or directory
+/users/panastas/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,64,161070,161070,8185136,1.000021,206.817701,94.285885,0.000000,0.000000,Custom_CSR_BV_x86,161070,161070,8185136,94.285885,1.000000,6.25661e-09,1.90735e-05,2.69703e-14,7.29148e-10,3.64574e-10,8.99196e-13,-11.6839,2.07048e-12
+
+	ERROR
+[tid 153168] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 153283] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/pwtk/pwtk.mtx'
+      >  errno [2]: No such file or directory
+/users/panastas/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,64,63838,63838,14148858,1.000099,197.781509,162.164356,0.000000,0.000000,Custom_CSR_BV_x86,63838,63838,14148858,162.164356,1.000000,4.78313e-09,0.000114441,2.0519e-13,5.99161e-13,2.99581e-13,1.95043e-16,-15.3477,4.49077e-16
+
+	ERROR
+[tid 153513] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 153628] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx'
+      >  errno [2]: No such file or directory
+
+	ERROR
+[tid 153743] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx'
+      >  errno [2]: No such file or directory
+/users/panastas/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,64,4690002,4690002,20316253,1.000408,55.603193,250.392006,0.000000,0.000000,Custom_CSR_BV_x86,4690002,4690002,20316253,250.392006,1.000000,7.65589e-16,1.5838e-15,9.53727e-31,1.51911e-11,7.59555e-12,1.09748e-14,-13.5974,2.52704e-14
+/users/panastas/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,64,22283,22283,24669643,1.000245,140.779789,282.406666,0.000000,0.000000,Custom_CSR_BV_x86,22283,22283,24669643,282.406666,1.000000,1.4664e-14,5.11591e-13,1.43162e-27,1.82807e-14,9.14036e-15,-6.34319e-19,-17.8346,1.46367e-18
+/users/panastas/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,64,1200611,1200611,38259877,1.001290,39.204052,442.429516,0.000000,0.000000,Custom_CSR_BV_x86,1200611,1200611,38259877,442.429516,1.000000,0.00202211,64,0.0104184,1.99801,0.0583469,-0.00158831,-2.43764,0.00365054

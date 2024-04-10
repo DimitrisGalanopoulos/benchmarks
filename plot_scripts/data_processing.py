@@ -26,47 +26,15 @@ def read_features_file():
 
 
 
-def concat_data_and_preprocess(dfs):
+def concat_data_and_preprocess(dfs, matrix_names):
     df = pd.concat(dfs, ignore_index=True, sort=False)
     # df = df.dropna().reset_index(drop=True)
     df = df.reset_index(drop=True)
-    print(df)
+    # print(df)
     if ('CSRCV_NUM_PACKET_VALS' in df):
-        df['CSRCV_NUM_PACKET_VALS'] = df['CSRCV_NUM_PACKET_VALS'].apply(human_number_format)
-        print(df)
+        df['CSRCV_NUM_PACKET_VALS'] = df['CSRCV_NUM_PACKET_VALS'].apply(human_number_format_binary)
+        # print(df)
         # print(df[df['CSRCV_NUM_PACKET_VALS'].isna()])
-        # exit()
-    matrix_names = [
-        'spal_004'          ,
-        'ldoor'             ,
-        'dielFilterV2real'  ,
-        'af_shell10'        ,
-        'nv2'               ,
-        'boneS10'           ,
-        'circuit5M'         ,
-        'Hook_1498'         ,
-        'Geo_1438'          ,
-        'Serena'            ,
-        'vas_stokes_2M'     ,
-        'bone010'           ,
-        'audikw_1'          ,
-        'Long_Coup_dt6'     ,
-        'Long_Coup_dt0'     ,
-        'dielFilterV3real'  ,
-        'nlpkkt120'         ,
-        'cage15'            ,
-        'ML_Geer'           ,
-        'Flan_1565'         ,
-        'Cube_Coup_dt0'     ,
-        'Cube_Coup_dt6'     ,
-        'Bump_2911'         ,
-        'vas_stokes_4M'     ,
-        'nlpkkt160'         ,
-        'HV15R'             ,
-        'Queen_4147'        ,
-        'stokes'            ,
-        'nlpkkt200'         ,
-    ]
     matrix_ids = {}
     i = 1
     for m in matrix_names:
@@ -74,23 +42,33 @@ def concat_data_and_preprocess(dfs):
         i+=1
     df['matrix_name'] = df['matrix_name'].replace({r'.*/' : '', '\.mtx$' : ''}, regex=True)
     df['matrix_id'] = df['matrix_name'].replace(matrix_ids, regex=True)
-    print(df)
+    # print(df)
     return df
 
 
 def filter_num_packet_vals(df, num_packet_vals):
-    num_packet_vals = human_number_format(num_packet_vals)
+    num_packet_vals = human_number_format_binary(num_packet_vals)
     df['CSRCV_NUM_PACKET_VALS'] = df['CSRCV_NUM_PACKET_VALS'].fillna(num_packet_vals)
     df = df[df['CSRCV_NUM_PACKET_VALS'] == num_packet_vals]
-    print(df)
+    # print(df)
     return df
 
 
-def calculate_gmeans(df):
-    df_gmeans = df.groupby(['format_name', 'System'], as_index=False)['gflops'].apply(sp.stats.gmean)
-    df_gmeans['matrix_id'] = 'geo\nmean'
+def calculate_gmeans(df, col):
+    df_gmeans = df.groupby(['format_name', 'System'], as_index=False)[col].apply(sp.stats.gmean)
+    df_gmeans['matrix_id'] = 'geomean'
+    # df_gmeans['matrix_id'] = r'\textbf{geo\\mean}'
     df = pd.concat([df, df_gmeans], ignore_index=True, sort=False)
-    print(df)
+    # print(df)
     return df
+
+def calculate_aggregate(df, col, aggregate, row_id):
+    df_gmeans = df.groupby(['format_name', 'System'], as_index=False)[col].apply(aggregate)
+    df_gmeans['matrix_id'] = row_id
+    # df_gmeans['matrix_id'] = r'\textbf{geo\\mean}'
+    df = pd.concat([df, df_gmeans], ignore_index=True, sort=False)
+    # print(df)
+    return df
+
 
 

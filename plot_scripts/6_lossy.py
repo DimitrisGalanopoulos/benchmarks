@@ -19,37 +19,45 @@ from boxplot import *
 from barplot import *
 
 
+set_fig_size_scale(3, 2)
+plt.rcParams['font.size'] = 16
+
+
+format_labels = {
+    'MKL(64-bits)':'MKL\n(64-bits)',
+    'MKL(32-bits)':'MKL\n(32-bits)',
+    'DIV_RF':'DIV_RF\n(Lossless)',
+    'DIV_RF_12':'DIV_RF\nTol. 1e-12',
+    'DIV_RF_9':'DIV_RF\nTol. 1e-9',
+    'DIV_RF_7':'DIV_RF\nTol. 1e-7',
+    'DIV_RF_6':'DIV_RF\nTol. 1e-6',
+    'DIV_RF_3':'DIV_RF\nTol. 1e-3',
+}
+
+
 dfs = []
 
-dfs.append(read_bench_file(G.bench_path + '/lumi/mkl_ie_d.csv', None, 'MKL\n(64-bits)', 'AMD-EPYC-64'))
-G.palette_format_dict['MKL\n(64-bits)'] = G.palette_format_dict['MKL(64-bits)']
+dfs.append(read_bench_file(G.bench_path + '/lumi/mkl_ie_d.csv', None, 'MKL(64-bits)', 'AMD-EPYC-64'))
 
 # Use CVB_d2f for the matrix errors of MKL 32-bits.
-df_mkl32 = read_bench_file(G.bench_path + '/lumi/mkl_ie_f.csv', None, 'MKL\n(32-bits)', 'AMD-EPYC-64')
+df_mkl32 = read_bench_file(G.bench_path + '/lumi/mkl_ie_f.csv', None, 'MKL(32-bits)', 'AMD-EPYC-64')
 df_cvb_d2f = read_bench_file(G.bench_path + '/lumi/csr_cv_block_d2f_d.csv', None, 'CVB_d2f', 'AMD-EPYC-64')
 df_mkl32['matrix_mape'] = df_cvb_d2f['matrix_mape']
 df_mkl32['matrix_smape'] = df_cvb_d2f['matrix_smape']
 dfs.append(df_mkl32)
-G.palette_format_dict['MKL\n(32-bits)'] = G.palette_format_dict['MKL(32-bits)']
 
-dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf/csr_cv_stream_rf.csv', None, 'DIV_RF\nLossless', 'AMD-EPYC-64'))
-G.palette_format_dict['DIV_RF\nLossless'] = G.palette_format_dict['DIV_RF']
+dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf/csr_cv_stream_rf_d_genvec.csv', None, 'DIV_RF', 'AMD-EPYC-64'))
 
-dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-12.csv', None, 'DIV_RF\nTol. 1e-12', 'AMD-EPYC-64'))
-G.palette_format_dict['DIV_RF\nTol. 1e-12'] = G.palette_format_dict['DIV_RF']
-dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-9.csv', None, 'DIV_RF\nTol. 1e-9', 'AMD-EPYC-64'))
-G.palette_format_dict['DIV_RF\nTol. 1e-9'] = G.palette_format_dict['DIV_RF']
-dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-7.csv', None, 'DIV_RF\nTol. 1e-7', 'AMD-EPYC-64'))
-G.palette_format_dict['DIV_RF\nTol. 1e-7'] = G.palette_format_dict['DIV_RF']
-dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-6.csv', None, 'DIV_RF\nTol. 1e-6', 'AMD-EPYC-64'))
-G.palette_format_dict['DIV_RF\nTol. 1e-6'] = G.palette_format_dict['DIV_RF']
-dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-3.csv', None, 'DIV_RF\nTol. 1e-3', 'AMD-EPYC-64'))
-G.palette_format_dict['DIV_RF\nTol. 1e-3'] = G.palette_format_dict['DIV_RF']
+dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-12.csv', None, 'DIV_RF_12', 'AMD-EPYC-64'))
+dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-9.csv', None, 'DIV_RF_9', 'AMD-EPYC-64'))
+dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-7.csv', None, 'DIV_RF_7', 'AMD-EPYC-64'))
+dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-6.csv', None, 'DIV_RF_6', 'AMD-EPYC-64'))
+dfs.append(read_bench_file(G.bench_path + '/lumi/sort_diff_rf_lossy/csr_cv_stream_d_1e-3.csv', None, 'DIV_RF_3', 'AMD-EPYC-64'))
 
-
-df = concat_data_and_preprocess(dfs)
+df = concat_data_and_preprocess(dfs, G.matrix_names_comression)
 
 df = filter_num_packet_vals(df, G.num_packet_vals_keep)
+
 
 df['matrix_mae'] = df['matrix_mae'].fillna(0)
 df['matrix_max_ae'] = df['matrix_max_ae'].fillna(0)
@@ -66,22 +74,21 @@ formats = df['format_name'].unique()
 print(formats)
 
 
-set_fig_size_scale(2, 2)
-plt.rcParams['font.size'] = 10
-
-
-file_out = 'figures/lossy_perf.png'
+file_out = 'figures/6_lossy_perf_amd.pdf'
 p = Boxplot(data=df, x='format_name', y='gflops', hue='format_name', palette=G.palette_format_dict)
 p.set_labels('', 'Performance (GFLOPs)')
+p.change_xticks_labels(format_labels)
 p.plot(file_out)
 
-file_out = 'figures/lossy_errors_matrix.png'
+file_out = 'figures/6_lossy_errors_matrix_amd.pdf'
 p = Boxplot(data=df, x='format_name', y='matrix_mape', hue='format_name', palette=G.palette_format_dict, log_scale=True)
-p.set_labels('', 'Matrix MAPE (%)')
+p.set_labels('', 'Matrix MAPE (\\%)')
+p.change_xticks_labels(format_labels)
 p.plot(file_out)
 
-file_out = 'figures/lossy_errors_spmv.png'
+file_out = 'figures/6_lossy_errors_spmv_amd.pdf'
 p = Boxplot(data=df, x='format_name', y='spmv_mape', hue='format_name', palette=G.palette_format_dict, log_scale=True)
-p.set_labels('', 'SpMV MAPE (%)')
+p.set_labels('', 'SpMV MAPE (\\%)')
+p.change_xticks_labels(format_labels)
 p.plot(file_out)
 

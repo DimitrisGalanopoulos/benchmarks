@@ -1,0 +1,9 @@
+matrix_name,num_threads,csr_m,csr_n,csr_nnz,time,gflops,csr_mem_footprint,format_name,prefer_fsc,size_cutoff,col_threshold,SpMV Base,SpMV DDT Parallel Executor,SpMV DDT Parallel gflops,SPMV Analysis
+/users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,0.000260204,20.1713,3.19767e+07,LCM,0,4,8,0.00201446,0.000260204,20.1713,0.0667998
+/users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,64,682862,682862,3871773,0.00690106,1.12208,4.91927e+07,LCM,0,4,8,0.00307892,0.00690106,1.12208,0.131666
+/users/panastas/Data/graphs/tamu/matrices/radiation/radiation.mtx,64,223104,223104,7637688,0.000447365,34.1452,9.25447e+07,LCM,0,4,8,0.00578555,0.000447365,34.1452,0.228771
+/users/panastas/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,64,161070,161070,8185136,0.000276304,59.2473,9.88659e+07,LCM,0,4,8,0.00546127,0.000276304,59.2473,0.178345
+/users/panastas/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,64,63838,63838,14148858,0.000298497,94.8007,1.70042e+08,LCM,0,4,8,0.0114657,0.000298497,94.8007,0.162496
+/users/panastas/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,64,4690002,4690002,20316253,0.0185582,2.18946,2.62555e+08,LCM,0,4,8,0.0178612,0.0185582,2.18946,0.686
+/users/panastas/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,64,22283,22283,24669643,0.00200506,24.6074,2.96125e+08,LCM,0,4,8,0.0215903,0.00200506,24.6074,0.588446
+/users/panastas/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,64,1200611,1200611,38259877,0.0113009,6.77111,4.63921e+08,LCM,0,4,8,0.0314255,0.0113009,6.77111,1.08752

@@ -1,0 +1,306 @@
+SPARSEX_LIB_PATH=/home/users/dgal/lib/sparsex/build/lib;PRINT_STATISTICS=1;LLVM_INC_PATH=/home/users/dgal/lib/llvm-6.0.0/build/include;AOCL_PATH=/various/pmpakos/spmv_paper/aocl-sparse/build/release;SPARSEX_INC_PATH=/home/users/dgal/lib/sparsex/build/include;max_cores=128;LLVM_LIB_PATH=/home/users/dgal/lib/llvm-6.0.0/build/lib;USE_ARTIFICIAL_MATRICES=0;VC_TOLERANCE=0;GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;cores=16;BOOST_LIB_PATH=/home/users/dgal/lib/boost_1_55_0/bin/lib;path_validation=/various/pmpakos/SpMV-Research/validation_matrices;output_to_files=1;force_retry_on_error=0;path_tamu=/home/users/dgal/Data/graphs/tamu;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;MKL_PATH=/various/common_tools/intel_parallel_studio/compilers_and_libraries/linux/mkl;ZFP_ROOT_DIR=/home/users/dgal/lib/zfp;SPARSEX_CONF_PATH=/home/users/dgal/lib/sparsex/build/bin;cpu_pinning_group_size=1;path_M3E=/home/users/dgal/Data/graphs/M3E-Matrix-Collection;FPZIP_ROOT_DIR=/home/users/dgal/lib/fpzip;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15;USE_PROCESSES=0;cpu_pinning_step=1;RAPL_REGISTERS=0;BOOST_INC_PATH=/home/users/dgal/lib/boost_1_55_0/bin/include;path_openFoam=/various/dgal/graphs/matrices_openFoam;COOLDOWN=0;
+program: /home/users/dgal/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/spmv_csr_cv_stream_d.exe
+number of matrices: 28
+max threads 16
+Temps: Composite 46850 Sensor 1 66850  Sensor 2 48850  Core 8 48000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 49000  Core 14 47000  Core 15 45000  Package id 0 51000 Core 0 48000  Core 1 50000  Core 2 49000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 40000  Core 5 40000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/scircuit/scircuit.mtx
+max threads 16
+
+	ERROR
+[tid 123772] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/scircuit/scircuit.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 46850 Sensor 1 66850  Sensor 2 48850  Core 8 48000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 49000  Core 14 47000  Core 15 45000  Package id 0 51000 Core 0 48000  Core 1 50000  Core 2 49000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 40000  Core 5 40000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx
+max threads 16
+
+	ERROR
+[tid 123865] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 48000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 49000  Core 14 47000  Core 15 45000  Package id 0 51000 Core 0 48000  Core 1 50000  Core 2 49000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 40000  Core 5 40000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx
+max threads 16
+
+	ERROR
+[tid 123958] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 48000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 49000  Core 14 47000  Core 15 45000  Package id 0 51000 Core 0 48000  Core 1 50000  Core 2 49000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 40000  Core 5 40000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/bbmat/bbmat.mtx
+max threads 16
+
+	ERROR
+[tid 124051] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/bbmat/bbmat.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 48000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 49000  Core 14 47000  Core 15 45000  Package id 0 51000 Core 0 48000  Core 1 50000  Core 2 49000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 40000  Core 5 40000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/appu/appu.mtx
+max threads 16
+
+	ERROR
+[tid 124144] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/appu/appu.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 46850 Sensor 1 66850  Sensor 2 48850  Core 8 44000  Core 9 45000  Core 10 47000  Core 11 43000  Core 12 43000  Core 13 45000  Core 14 43000  Core 15 42000  Package id 0 49000 Core 0 45000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 41000  Core 5 45000  Core 6 44000  Core 7 42000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 36000  Core 12 37000  Core 13 37000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 37000  Core 1 37000  Core 2 35000  Core 3 37000  Core 4 38000  Core 5 38000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/rma10/rma10.mtx
+max threads 16
+
+	ERROR
+[tid 124237] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/rma10/rma10.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 46850 Sensor 1 66850  Sensor 2 48850  Core 8 44000  Core 9 45000  Core 10 47000  Core 11 43000  Core 12 43000  Core 13 45000  Core 14 43000  Core 15 42000  Package id 0 49000 Core 0 45000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 41000  Core 5 45000  Core 6 44000  Core 7 42000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 36000  Core 12 37000  Core 13 37000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 37000  Core 1 37000  Core 2 35000  Core 3 37000  Core 4 38000  Core 5 38000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx
+max threads 16
+time read: 0.036813
+time coo to csr: 0.060521
+balance time = 8.105e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+
+	ERROR
+[tid 124335] spmv_kernel_csr_cv_stream_compression_kernels.h
+ => compress_kernel_sort_diff(): line [404]
+      >  empty packet
+Temps: Composite 46850 Sensor 1 66850  Sensor 2 48850  Core 8 44000  Core 9 45000  Core 10 47000  Core 11 43000  Core 12 43000  Core 13 45000  Core 14 43000  Core 15 42000  Package id 0 49000 Core 0 45000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 41000  Core 5 45000  Core 6 44000  Core 7 42000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 36000  Core 12 37000  Core 13 37000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 37000  Core 1 37000  Core 2 35000  Core 3 37000  Core 4 38000  Core 5 38000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx
+max threads 16
+
+	ERROR
+[tid 124423] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 46850 Sensor 1 66850  Sensor 2 48850  Core 8 44000  Core 9 45000  Core 10 47000  Core 11 43000  Core 12 43000  Core 13 45000  Core 14 43000  Core 15 42000  Package id 0 49000 Core 0 45000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 41000  Core 5 45000  Core 6 44000  Core 7 42000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 36000  Core 12 37000  Core 13 37000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 37000  Core 1 37000  Core 2 35000  Core 3 37000  Core 4 38000  Core 5 38000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx
+max threads 16
+
+	ERROR
+[tid 124516] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 43000  Core 9 44000  Core 10 46000  Core 11 43000  Core 12 43000  Core 13 44000  Core 14 42000  Core 15 42000  Package id 0 49000 Core 0 44000  Core 1 46000  Core 2 44000  Core 3 40000  Core 4 41000  Core 5 45000  Core 6 44000  Core 7 41000  Core 8 37000  Core 9 39000  Core 10 35000  Core 11 36000  Core 12 38000  Core 13 37000  Core 14 37000  Core 15 35000  Package id 1 39000 Core 0 38000  Core 1 37000  Core 2 35000  Core 3 37000  Core 4 38000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/cant/cant.mtx
+max threads 16
+
+	ERROR
+[tid 124609] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/cant/cant.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 43000  Core 9 44000  Core 10 46000  Core 11 43000  Core 12 43000  Core 13 44000  Core 14 42000  Core 15 42000  Package id 0 49000 Core 0 44000  Core 1 46000  Core 2 44000  Core 3 40000  Core 4 41000  Core 5 45000  Core 6 44000  Core 7 41000  Core 8 37000  Core 9 39000  Core 10 35000  Core 11 36000  Core 12 38000  Core 13 37000  Core 14 37000  Core 15 35000  Package id 1 39000 Core 0 38000  Core 1 37000  Core 2 35000  Core 3 37000  Core 4 38000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx
+max threads 16
+time read: 0.081130
+time coo to csr: 0.448831
+balance time = 9.493e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.0397847
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.066836
+time warm up 0.071740
+number of loops = 1736
+Test failed! (5.76988e-06)
+errors spmv: mae=1.26816e-14, max_ae=8.41919e-09, mse=1.03824e-22, mape=1.46438e-08, smape=1.40255e-08, lnQ_error=1.96888e-12, mlare=-11.3436, gmare=4.53352e-12
+/home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,16,682862,682862,3871773,1.000467,13.436518,46.913841,0.000000,0.000000,CSR_CV_STREAM,682862,682862,3871773,14.975314,0.319209,1.26816e-14,8.41919e-09,1.03824e-22,1.46438e-08,1.40255e-08,1.96888e-12,-11.3436,4.53352e-12,16384,0,0,0,0,0,0,-inf,0,85.61,16.92,7.8552,23.8435,3.9623,0.0398,69.3266,0
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 48000  Core 14 47000  Core 15 45000  Package id 0 52000 Core 0 47000  Core 1 49000  Core 2 48000  Core 3 46000  Core 4 45000  Core 5 48000  Core 6 47000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 37000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 40000  Core 2 37000  Core 3 38000  Core 4 39000  Core 5 41000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx
+max threads 16
+
+	ERROR
+[tid 124795] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 48000  Core 14 47000  Core 15 45000  Package id 0 52000 Core 0 47000  Core 1 49000  Core 2 48000  Core 3 46000  Core 4 45000  Core 5 48000  Core 6 47000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 37000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 40000  Core 2 37000  Core 3 38000  Core 4 39000  Core 5 41000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx
+max threads 16
+
+	ERROR
+[tid 124888] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 48000  Core 14 47000  Core 15 45000  Package id 0 52000 Core 0 47000  Core 1 49000  Core 2 48000  Core 3 46000  Core 4 45000  Core 5 48000  Core 6 47000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 37000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 40000  Core 2 37000  Core 3 38000  Core 4 39000  Core 5 41000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx
+max threads 16
+
+	ERROR
+[tid 124981] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 49000  Core 10 50000  Core 11 47000  Core 12 47000  Core 13 48000  Core 14 47000  Core 15 45000  Package id 0 52000 Core 0 47000  Core 1 49000  Core 2 48000  Core 3 46000  Core 4 45000  Core 5 48000  Core 6 47000  Core 7 46000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 39000  Core 13 37000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 40000  Core 2 37000  Core 3 38000  Core 4 39000  Core 5 41000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/consph/consph.mtx
+max threads 16
+
+	ERROR
+[tid 125074] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/consph/consph.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 44000  Core 9 45000  Core 10 46000  Core 11 42000  Core 12 43000  Core 13 45000  Core 14 43000  Core 15 43000  Package id 0 49000 Core 0 45000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 42000  Core 5 45000  Core 6 44000  Core 7 42000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 37000  Core 12 38000  Core 13 36000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 37000  Core 1 37000  Core 2 36000  Core 3 37000  Core 4 39000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/rajat30/rajat30.mtx
+max threads 16
+
+	ERROR
+[tid 125167] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/rajat30/rajat30.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 44000  Core 9 45000  Core 10 46000  Core 11 42000  Core 12 43000  Core 13 45000  Core 14 43000  Core 15 43000  Package id 0 49000 Core 0 45000  Core 1 46000  Core 2 44000  Core 3 41000  Core 4 42000  Core 5 45000  Core 6 44000  Core 7 42000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 37000  Core 12 38000  Core 13 36000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 37000  Core 1 37000  Core 2 36000  Core 3 37000  Core 4 39000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx
+max threads 16
+time read: 0.135216
+time coo to csr: 0.147992
+balance time = 6.579e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.0702165
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.115144
+time warm up 0.072072
+number of loops = 1044
+Test failed! (1334.99)
+errors spmv: mae=7.07614e-05, max_ae=1.00001, mse=2.73042e-05, mape=1.07362, smape=0.121745, lnQ_error=-0.00916471, mlare=-1.68024, gmare=0.0208814
+/home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,1.000252,15.943475,88.257481,0.000000,0.000000,CSR_CV_STREAM,223104,223104,7637688,62.300074,0.705890,7.07614e-05,1.00001,2.73042e-05,1.07362,0.121745,-0.00916471,-1.68024,0.0208814,16384,0,0,0,0,0,0,-inf,0,8.19,24.11,8.0000,23.5737,3.9467,0.0702,73.7876,0
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 50000  Core 10 50000  Core 11 48000  Core 12 48000  Core 13 48000  Core 14 48000  Core 15 46000  Package id 0 52000 Core 0 48000  Core 1 50000  Core 2 48000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 47000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 37000  Core 12 38000  Core 13 37000  Core 14 38000  Core 15 35000  Package id 1 41000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 37000  Core 4 39000  Core 5 39000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx
+max threads 16
+
+	ERROR
+[tid 125353] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 50000  Core 10 50000  Core 11 48000  Core 12 48000  Core 13 48000  Core 14 48000  Core 15 46000  Package id 0 52000 Core 0 48000  Core 1 50000  Core 2 48000  Core 3 46000  Core 4 46000  Core 5 48000  Core 6 48000  Core 7 47000  Core 8 37000  Core 9 39000  Core 10 36000  Core 11 37000  Core 12 38000  Core 13 37000  Core 14 38000  Core 15 35000  Package id 1 41000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 37000  Core 4 39000  Core 5 39000  Core 6 35000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx
+max threads 16
+time read: 0.199857
+time coo to csr: 0.113090
+balance time = 6.016e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.091644
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.140287
+time warm up 0.072390
+number of loops = 888
+Test failed! (4.01694e-06)
+errors spmv: mae=8.96057e-09, max_ae=2.67029e-05, mse=5.74509e-14, mape=5.25528e-09, smape=2.62764e-09, lnQ_error=-1.48371e-11, mlare=-10.4664, gmare=3.41636e-11
+/home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,16,161070,161070,8185136,1.000625,14.527722,94.285885,0.000000,0.000000,CSR_CV_STREAM,161070,161070,8185136,77.128400,0.818027,8.96057e-09,2.67029e-05,5.74509e-14,5.25528e-09,2.62764e-09,-1.48371e-11,-10.4664,3.41636e-11,16384,0,0,0,0,0,0,-inf,0,10.73,0.68,7.9969,17.7767,3.2217,0.0916,81.5678,0
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 51000  Core 11 48000  Core 12 49000  Core 13 49000  Core 14 48000  Core 15 47000  Package id 0 52000 Core 0 48000  Core 1 51000  Core 2 49000  Core 3 47000  Core 4 47000  Core 5 48000  Core 6 49000  Core 7 47000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 37000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 37000  Package id 1 41000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 38000  Core 4 39000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx
+max threads 16
+
+	ERROR
+[tid 125539] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 51000  Core 11 48000  Core 12 49000  Core 13 49000  Core 14 48000  Core 15 47000  Package id 0 52000 Core 0 48000  Core 1 51000  Core 2 49000  Core 3 47000  Core 4 47000  Core 5 48000  Core 6 49000  Core 7 47000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 37000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 37000  Package id 1 41000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 38000  Core 4 39000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/pwtk/pwtk.mtx
+max threads 16
+
+	ERROR
+[tid 125632] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/pwtk/pwtk.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 51000  Core 11 48000  Core 12 49000  Core 13 49000  Core 14 48000  Core 15 47000  Package id 0 52000 Core 0 48000  Core 1 51000  Core 2 49000  Core 3 47000  Core 4 47000  Core 5 48000  Core 6 49000  Core 7 47000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 37000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 37000  Package id 1 41000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 38000  Core 4 39000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx
+max threads 16
+time read: 0.136902
+time coo to csr: 0.121287
+balance time = 7.785e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.162071
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.245138
+time warm up 0.075420
+number of loops = 589
+errors spmv: mae=5.77782e-09, max_ae=3.8147e-05, mse=2.29707e-14, mape=6.61221e-13, smape=3.30611e-13, lnQ_error=-1.8353e-16, mlare=-15.3741, gmare=4.22568e-16
+/home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,16,63838,63838,14148858,1.000516,16.658761,162.164356,0.000000,0.000000,CSR_CV_STREAM,63838,63838,14148858,112.258229,0.692250,5.77782e-09,3.8147e-05,2.29707e-14,6.61221e-13,3.30611e-13,-1.8353e-16,-15.3741,4.22568e-16,16384,0,0,0,0,0,0,-inf,0,5.80,3.79,8.0000,16.0000,3.0000,0.1621,95.9815,0
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 52000  Core 11 49000  Core 12 48000  Core 13 50000  Core 14 49000  Core 15 47000  Package id 0 52000 Core 0 49000  Core 1 52000  Core 2 49000  Core 3 47000  Core 4 48000  Core 5 49000  Core 6 49000  Core 7 48000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 38000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 41000  Core 5 38000  Core 6 37000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx
+max threads 16
+
+	ERROR
+[tid 125818] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 52000  Core 11 49000  Core 12 48000  Core 13 50000  Core 14 49000  Core 15 47000  Package id 0 52000 Core 0 49000  Core 1 52000  Core 2 49000  Core 3 47000  Core 4 48000  Core 5 49000  Core 6 49000  Core 7 48000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 38000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 41000  Core 5 38000  Core 6 37000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx
+max threads 16
+
+	ERROR
+[tid 125911] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 52000  Core 11 49000  Core 12 48000  Core 13 50000  Core 14 49000  Core 15 47000  Package id 0 52000 Core 0 49000  Core 1 52000  Core 2 49000  Core 3 47000  Core 4 48000  Core 5 49000  Core 6 49000  Core 7 48000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 38000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 41000  Core 5 38000  Core 6 37000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx
+max threads 16
+
+	ERROR
+[tid 126004] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/home/users/dgal/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx'
+      >  errno [2]: No such file or directory
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 50000  Core 10 52000  Core 11 49000  Core 12 48000  Core 13 50000  Core 14 49000  Core 15 47000  Package id 0 52000 Core 0 49000  Core 1 52000  Core 2 49000  Core 3 47000  Core 4 48000  Core 5 49000  Core 6 49000  Core 7 48000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 38000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 39000  Core 2 37000  Core 3 38000  Core 4 41000  Core 5 38000  Core 6 37000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/rajat31/rajat31.mtx
+max threads 16
+time read: 0.343330
+time coo to csr: 1.430287
+balance time = 7.557e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.102712
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.202149
+time warm up 0.069584
+number of loops = 243
+errors spmv: mae=8.52217e-16, max_ae=1.5838e-15, mse=1.11065e-30, mape=1.68891e-11, smape=8.44457e-12, lnQ_error=-7.76162e-15, mlare=-13.7478, gmare=1.78718e-14
+/home/users/dgal/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,16,4690002,4690002,20316253,1.003540,9.838867,250.392006,0.000000,0.000000,CSR_CV_STREAM,4690002,4690002,20316253,83.356922,0.332906,8.52217e-16,1.5838e-15,1.11065e-30,1.68891e-11,8.44457e-12,-7.76162e-15,-13.7478,1.78718e-14,16384,0,0,0,0,0,0,-inf,0,1.61,0.42,7.9986,23.8770,3.9845,0.1027,24.9527,0
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 49000  Core 9 50000  Core 10 52000  Core 11 49000  Core 12 48000  Core 13 50000  Core 14 48000  Core 15 47000  Package id 0 53000 Core 0 50000  Core 1 51000  Core 2 50000  Core 3 47000  Core 4 47000  Core 5 49000  Core 6 49000  Core 7 47000  Core 8 38000  Core 9 39000  Core 10 37000  Core 11 37000  Core 12 38000  Core 13 38000  Core 14 38000  Core 15 36000  Package id 1 41000 Core 0 39000  Core 1 38000  Core 2 37000  Core 3 38000  Core 4 40000  Core 5 39000  Core 6 36000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx
+max threads 16
+time read: 0.236551
+time coo to csr: 0.213984
+balance time = 4.304e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.224884
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.352971
+time warm up 0.069830
+number of loops = 300
+errors spmv: mae=4.97218e-14, max_ae=1.81899e-12, mse=1.74952e-26, mape=5.53711e-14, smape=2.76856e-14, lnQ_error=2.86487e-18, mlare=-17.1796, gmare=6.61363e-18
+/home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,16,22283,22283,24669643,1.000785,14.790182,282.406666,0.000000,0.000000,CSR_CV_STREAM,22283,22283,24669643,208.381869,0.737879,4.97218e-14,1.81899e-12,1.74952e-26,5.53711e-14,2.76856e-14,2.86487e-18,-17.1796,6.61363e-18,16384,0,0,0,0,0,0,-inf,0,1.51,0.29,7.9637,15.9993,2.9954,0.2249,67.6027,0
+Temps: Composite 47850 Sensor 1 66850  Sensor 2 49850  Core 8 50000  Core 9 51000  Core 10 52000  Core 11 50000  Core 12 50000  Core 13 51000  Core 14 49000  Core 15 48000  Package id 0 53000 Core 0 50000  Core 1 52000  Core 2 51000  Core 3 48000  Core 4 49000  Core 5 50000  Core 6 50000  Core 7 49000  Core 8 38000  Core 9 40000  Core 10 37000  Core 11 37000  Core 12 38000  Core 13 38000  Core 14 37000  Core 15 36000  Package id 1 40000 Core 0 38000  Core 1 38000  Core 2 36000  Core 3 38000  Core 4 39000  Core 5 40000  Core 6 37000  Core 7 38000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/dgreen/dgreen.mtx
+max threads 16
+time read: 0.543985
+time coo to csr: 0.832204
+balance time = 6.826e-06
+window_size = 16384 , window_size_bits = 14
+Number of packet vals = 16384
+compression time = 0.320434
+errors matrix: mae=0, max_ae=0, mse=0, mape=0, smape=0, lnQ_error=0, mlare=-inf, gmare=0
+time convert to format: 0.514538
+time warm up 0.068934
+number of loops = 157
+Test failed! (5249.05)
+errors spmv: mae=0.00190495, max_ae=64, mse=0.0157568, mape=2.18237, smape=0.0669384, lnQ_error=-0.00590384, mlare=-1.8696, gmare=0.0135021
+/home/users/dgal/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,16,1200611,1200611,38259877,1.004174,11.963669,442.429516,0.000000,0.000000,CSR_CV_STREAM,1200611,1200611,38259877,308.034868,0.696235,0.00190495,64,0.0157568,2.18237,0.0669384,-0.00590384,-1.8696,0.0135021,16384,0,0,0,0,0,0,-inf,0,11.11,28.25,7.9989,23.9994,3.9998,0.3204,50.1257,0

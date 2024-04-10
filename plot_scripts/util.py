@@ -19,3 +19,16 @@ def human_number_format(num):
     # return '%.2f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
     return '%d%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
 
+
+def human_number_format_binary(num):
+    if m.isnan(num):
+        return(num)
+    magnitude = 0
+    while abs(num) >= 1024:
+        magnitude += 1
+        # num /= 1024.0
+        num //= 1024.0
+    # add more suffixes if you need them
+    # return '%.2f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
+    return '%d%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
+

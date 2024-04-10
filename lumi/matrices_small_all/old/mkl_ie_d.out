@@ -1,0 +1,284 @@
+ZFP_ROOT_DIR=/users/panastas/lib/zfp;GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;RAPL_REGISTERS=0;COOLDOWN=0;cpu_pinning_step=1;path_tamu=/users/panastas/Data/graphs/tamu;SPARSEX_LIB_PATH=/users/panastas/lib/sparsex/build/lib;BOOST_LIB_PATH=/users/panastas/lib/boost_1_55_0/bin/lib;USE_ARTIFICIAL_MATRICES=0;cores=64;path_M3E=/users/panastas/Data/graphs/M3E-Matrix-Collection;PRINT_STATISTICS=1;MKL_PATH=/users/panastas/spack/23.03/0.20.0/intel-oneapi-mkl-2023.1.0-cafkcjc/mkl/latest;path_validation=;AOCL_PATH=/users/panastas/aocl-sparse/library;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63;force_retry_on_error=0;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;LLVM_LIB_PATH=/users/panastas/lib/llvm-6.0.0/build/lib;LLVM_INC_PATH=/users/panastas/lib/llvm-6.0.0/build/include;USE_PROCESSES=0;cpu_pinning_group_size=1;SPARSEX_CONF_PATH=/users/panastas/lib/sparsex/build/bin;path_openFoam=;SPARSEX_INC_PATH=/users/panastas/lib/sparsex/build/include;VC_TOLERANCE=1e-3;output_to_files=1;FPZIP_ROOT_DIR=/users/panastas/lib/fpzip;BOOST_INC_PATH=/users/panastas/lib/boost_1_55_0/bin/include;max_cores=128;
+program: /pfs/lustrep2/users/panastas/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/spmv_mkl_ie_d.exe
+number of matrices: 28
+max threads 256
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 36500 Tctl 41500 Tccd1 38000 Tccd2 37750 Tccd3 39000 Tccd4 36750 Tccd5 35750 Tccd6 34500 Tccd7 38000 Tccd8 38500 Tctl 44375 Tccd1 39750 Tccd2 37500 Tccd3 38750 Tccd4 38250 Tccd5 39250 Tccd6 36000 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/scircuit/scircuit.mtx
+max threads 64
+
+	ERROR
+[tid 137168] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/scircuit/scircuit.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 36500 Tctl 41500 Tccd1 37000 Tccd2 37750 Tccd3 39250 Tccd4 36000 Tccd5 36000 Tccd6 34500 Tccd7 38000 Tccd8 38250 Tctl 44375 Tccd1 39250 Tccd2 38500 Tccd3 38000 Tccd4 38250 Tccd5 39250 Tccd6 36500 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx
+max threads 64
+
+	ERROR
+[tid 137283] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 36250 Tctl 41375 Tccd1 37750 Tccd2 38250 Tccd3 38750 Tccd4 35750 Tccd5 35250 Tccd6 34500 Tccd7 38000 Tccd8 39250 Tctl 44250 Tccd1 39250 Tccd2 38250 Tccd3 38500 Tccd4 38250 Tccd5 39250 Tccd6 36750 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx
+max threads 64
+
+	ERROR
+[tid 137398] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37250 Tctl 41375 Tccd1 37250 Tccd2 37750 Tccd3 39000 Tccd4 36000 Tccd5 35250 Tccd6 34500 Tccd7 38250 Tccd8 39250 Tctl 44250 Tccd1 39250 Tccd2 38250 Tccd3 38250 Tccd4 38000 Tccd5 39750 Tccd6 36500 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/bbmat/bbmat.mtx
+max threads 64
+
+	ERROR
+[tid 137513] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/bbmat/bbmat.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 36500 Tctl 41250 Tccd1 37000 Tccd2 37750 Tccd3 38500 Tccd4 36500 Tccd5 35750 Tccd6 33500 Tccd7 38250 Tccd8 38500 Tctl 44125 Tccd1 40000 Tccd2 38250 Tccd3 37750 Tccd4 37750 Tccd5 39750 Tccd6 37000 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/appu/appu.mtx
+max threads 64
+
+	ERROR
+[tid 137628] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/appu/appu.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 36250 Tctl 41125 Tccd1 37250 Tccd2 37500 Tccd3 38750 Tccd4 36000 Tccd5 36000 Tccd6 34250 Tccd7 38000 Tccd8 39500 Tctl 44000 Tccd1 40000 Tccd2 37750 Tccd3 38500 Tccd4 37750 Tccd5 39250 Tccd6 36750 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/rma10/rma10.mtx
+max threads 64
+
+	ERROR
+[tid 137743] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/rma10/rma10.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 36250 Tctl 41125 Tccd1 37000 Tccd2 38500 Tccd3 38500 Tccd4 35750 Tccd5 35750 Tccd6 33500 Tccd7 37750 Tccd8 39000 Tctl 44000 Tccd1 39250 Tccd2 38000 Tccd3 38500 Tccd4 38500 Tccd5 39500 Tccd6 36500 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx
+max threads 64
+time read: 0.280117
+time coo to csr: 0.021065
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.426883
+mkl optimize time = 0.0506679
+time convert to format: 0.477645
+time warm up 0.080318
+number of loops = 17105
+errors spmv: mae=2.33085e-15, max_ae=1.42109e-13, mse=4.88906e-29, mape=1.35804e-13, smape=6.79018e-14, lnQ_error=-1.25815e-16, mlare=-15.5381, gmare=2.89699e-16
+/users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,1.000026,89.775999,30.495399,0.000000,0.000000,MKL_IE,121192,121192,2624331,30.495399,1.000000,2.33085e-15,1.42109e-13,4.88906e-29,1.35804e-13,6.79018e-14,-1.25815e-16,-15.5381,2.89699e-16
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38750 Tctl 42625 Tccd1 39250 Tccd2 40250 Tccd3 41250 Tccd4 37750 Tccd5 37000 Tccd6 35750 Tccd7 39250 Tccd8 39000 Tctl 43250 Tccd1 39750 Tccd2 38000 Tccd3 38750 Tccd4 38250 Tccd5 38500 Tccd6 36500 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx
+max threads 64
+
+	ERROR
+[tid 137974] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38250 Tctl 42500 Tccd1 38750 Tccd2 40000 Tccd3 40750 Tccd4 37500 Tccd5 37000 Tccd6 35500 Tccd7 39000 Tccd8 39000 Tctl 43125 Tccd1 39500 Tccd2 38000 Tccd3 38000 Tccd4 38500 Tccd5 38500 Tccd6 35750 Tccd7 39500 
+File: /users/panastas/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx
+max threads 64
+
+	ERROR
+[tid 138096] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37500 Tctl 42500 Tccd1 38250 Tccd2 39000 Tccd3 39500 Tccd4 36750 Tccd5 36000 Tccd6 35250 Tccd7 38750 Tccd8 38500 Tctl 43125 Tccd1 39750 Tccd2 37750 Tccd3 38750 Tccd4 37750 Tccd5 39000 Tccd6 35750 Tccd7 39500 
+File: /users/panastas/Data/graphs/tamu/matrices/cant/cant.mtx
+max threads 64
+
+	ERROR
+[tid 138211] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/cant/cant.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38000 Tctl 42375 Tccd1 38000 Tccd2 38750 Tccd3 39250 Tccd4 37250 Tccd5 36500 Tccd6 35000 Tccd7 38500 Tccd8 39250 Tctl 43000 Tccd1 39750 Tccd2 38500 Tccd3 37750 Tccd4 38250 Tccd5 38750 Tccd6 35250 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx
+max threads 64
+time read: 0.638238
+time coo to csr: 0.124009
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0360499
+mkl optimize time = 0.000197339
+time convert to format: 0.036345
+time warm up 0.081174
+number of loops = 4070
+Test failed! (5.26311e-07)
+errors spmv: mae=2.78434e-15, max_ae=1.76715e-09, mse=4.57513e-24, mape=4.62452e-10, smape=2.31226e-10, lnQ_error=2.00839e-12, mlare=-11.3349, gmare=4.62448e-12
+/users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,64,682862,682862,3871773,1.000035,31.515134,46.913841,0.000000,0.000000,MKL_IE,682862,682862,3871773,46.913841,1.000000,2.78434e-15,1.76715e-09,4.57513e-24,4.62452e-10,2.31226e-10,2.00839e-12,-11.3349,4.62448e-12
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38750 Tctl 44000 Tccd1 39000 Tccd2 39750 Tccd3 40500 Tccd4 38250 Tccd5 37750 Tccd6 36000 Tccd7 40000 Tccd8 38500 Tctl 42500 Tccd1 39500 Tccd2 38000 Tccd3 38250 Tccd4 37750 Tccd5 38500 Tccd6 36250 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx
+max threads 64
+
+	ERROR
+[tid 138442] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37750 Tctl 44000 Tccd1 38250 Tccd2 39250 Tccd3 40500 Tccd4 37750 Tccd5 36500 Tccd6 35750 Tccd7 39500 Tccd8 39250 Tctl 42375 Tccd1 39750 Tccd2 38250 Tccd3 38000 Tccd4 38000 Tccd5 39250 Tccd6 35500 Tccd7 38750 
+File: /users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx
+max threads 64
+
+	ERROR
+[tid 138558] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37500 Tctl 43875 Tccd1 38000 Tccd2 39500 Tccd3 40250 Tccd4 37750 Tccd5 36500 Tccd6 35000 Tccd7 38500 Tccd8 38500 Tctl 42375 Tccd1 40000 Tccd2 37750 Tccd3 38000 Tccd4 38500 Tccd5 39000 Tccd6 36500 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx
+max threads 64
+
+	ERROR
+[tid 138673] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37750 Tctl 43750 Tccd1 38000 Tccd2 39250 Tccd3 40000 Tccd4 37500 Tccd5 36500 Tccd6 35500 Tccd7 39750 Tccd8 39000 Tctl 42375 Tccd1 39750 Tccd2 38000 Tccd3 37750 Tccd4 37750 Tccd5 39500 Tccd6 36500 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/consph/consph.mtx
+max threads 64
+
+	ERROR
+[tid 138788] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/consph/consph.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37750 Tctl 43625 Tccd1 38250 Tccd2 38500 Tccd3 39750 Tccd4 36750 Tccd5 36250 Tccd6 35250 Tccd7 38250 Tccd8 38750 Tctl 42250 Tccd1 39750 Tccd2 37750 Tccd3 38250 Tccd4 38000 Tccd5 38750 Tccd6 36500 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/rajat30/rajat30.mtx
+max threads 64
+
+	ERROR
+[tid 138903] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/rajat30/rajat30.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 37500 Tctl 43625 Tccd1 38250 Tccd2 38750 Tccd3 39750 Tccd4 37250 Tccd5 36500 Tccd6 34750 Tccd7 39250 Tccd8 38500 Tctl 42250 Tccd1 40000 Tccd2 38500 Tccd3 38750 Tccd4 37750 Tccd5 38750 Tccd6 35750 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/radiation/radiation.mtx
+max threads 64
+time read: 0.783264
+time coo to csr: 0.060538
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.027061
+mkl optimize time = 0.00019722
+time convert to format: 0.027353
+time warm up 0.080903
+number of loops = 8088
+Test failed! (5421.42)
+errors spmv: mae=3.35274e-05, max_ae=0.499996, mse=3.41194e-06, mape=14.1492, smape=0.110045, lnQ_error=0.00121716, mlare=-2.55183, gmare=0.00280656
+/users/panastas/Data/graphs/tamu/matrices/radiation/radiation.mtx,64,223104,223104,7637688,1.000004,123.546694,88.257481,0.000000,0.000000,MKL_IE,223104,223104,7637688,88.257481,1.000000,3.35274e-05,0.499996,3.41194e-06,14.1492,0.110045,0.00121716,-2.55183,0.00280656
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40000 Tctl 44125 Tccd1 40250 Tccd2 41250 Tccd3 41750 Tccd4 39000 Tccd5 38000 Tccd6 36750 Tccd7 40750 Tccd8 39000 Tctl 42000 Tccd1 40000 Tccd2 37750 Tccd3 38250 Tccd4 38000 Tccd5 39250 Tccd6 36500 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx
+max threads 64
+
+	ERROR
+[tid 139186] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39250 Tctl 44000 Tccd1 39750 Tccd2 40250 Tccd3 41500 Tccd4 39000 Tccd5 38750 Tccd6 37250 Tccd7 39500 Tccd8 39000 Tctl 42000 Tccd1 39250 Tccd2 37250 Tccd3 38250 Tccd4 37500 Tccd5 39500 Tccd6 36000 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/PR02R/PR02R.mtx
+max threads 64
+time read: 1.013026
+time coo to csr: 0.041790
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0287369
+mkl optimize time = 0.000190758
+time convert to format: 0.029017
+time warm up 0.080860
+number of loops = 11620
+Test failed! (3.77827e-06)
+errors spmv: mae=6.64386e-09, max_ae=1.90735e-05, mse=3.03789e-14, mape=3.56004e-09, smape=1.78002e-09, lnQ_error=-1.01976e-11, mlare=-10.6293, gmare=2.34808e-11
+/users/panastas/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,64,161070,161070,8185136,1.000083,190.206739,94.285885,0.000000,0.000000,MKL_IE,161070,161070,8185136,94.285885,1.000000,6.64386e-09,1.90735e-05,3.03789e-14,3.56004e-09,1.78002e-09,-1.01976e-11,-10.6293,2.34808e-11
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40250 Tctl 44625 Tccd1 40500 Tccd2 42000 Tccd3 42000 Tccd4 40250 Tccd5 38750 Tccd6 38250 Tccd7 41000 Tccd8 39500 Tctl 41625 Tccd1 39500 Tccd2 38000 Tccd3 38500 Tccd4 38500 Tccd5 38750 Tccd6 36500 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx
+max threads 64
+
+	ERROR
+[tid 139717] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39500 Tctl 44500 Tccd1 40500 Tccd2 41000 Tccd3 41750 Tccd4 39500 Tccd5 38250 Tccd6 37000 Tccd7 40250 Tccd8 39000 Tctl 41625 Tccd1 40000 Tccd2 38500 Tccd3 38000 Tccd4 37750 Tccd5 38750 Tccd6 36250 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/pwtk/pwtk.mtx
+max threads 64
+
+	ERROR
+[tid 139928] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/pwtk/pwtk.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39000 Tctl 44500 Tccd1 39500 Tccd2 40500 Tccd3 41250 Tccd4 39250 Tccd5 38750 Tccd6 36000 Tccd7 40250 Tccd8 39000 Tctl 41625 Tccd1 40500 Tccd2 38250 Tccd3 38500 Tccd4 38750 Tccd5 39500 Tccd6 36250 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx
+max threads 64
+time read: 0.953337
+time coo to csr: 0.054456
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0341553
+mkl optimize time = 0.000537257
+time convert to format: 0.034781
+time warm up 0.080575
+number of loops = 6680
+errors spmv: mae=4.91808e-09, max_ae=4.57764e-05, mse=3.29015e-14, mape=7.12547e-13, smape=3.56274e-13, lnQ_error=1.4169e-16, mlare=-15.4865, gmare=3.26236e-16
+/users/panastas/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,64,63838,63838,14148858,1.000091,189.011562,162.164356,0.000000,0.000000,MKL_IE,63838,63838,14148858,162.164356,1.000000,4.91808e-09,4.57764e-05,3.29015e-14,7.12547e-13,3.56274e-13,1.4169e-16,-15.4865,3.26236e-16
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40750 Tctl 45000 Tccd1 40750 Tccd2 42000 Tccd3 42250 Tccd4 39750 Tccd5 39250 Tccd6 37250 Tccd7 41000 Tccd8 38750 Tctl 41375 Tccd1 40250 Tccd2 37750 Tccd3 37750 Tccd4 38250 Tccd5 38750 Tccd6 36250 Tccd7 39250 
+File: /users/panastas/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx
+max threads 64
+
+	ERROR
+[tid 140266] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39500 Tctl 44875 Tccd1 40500 Tccd2 41000 Tccd3 41750 Tccd4 39000 Tccd5 38750 Tccd6 36500 Tccd7 40750 Tccd8 38750 Tctl 41375 Tccd1 39500 Tccd2 37750 Tccd3 37750 Tccd4 37750 Tccd5 38750 Tccd6 35750 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx
+max threads 64
+
+	ERROR
+[tid 140381] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 38750 Tctl 44750 Tccd1 40000 Tccd2 40500 Tccd3 41500 Tccd4 39000 Tccd5 38000 Tccd6 37000 Tccd7 39750 Tccd8 39000 Tctl 41375 Tccd1 39250 Tccd2 38000 Tccd3 38250 Tccd4 38000 Tccd5 38750 Tccd6 36250 Tccd7 39000 
+File: /users/panastas/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx
+max threads 64
+
+	ERROR
+[tid 140496] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39000 Tctl 44750 Tccd1 39750 Tccd2 40000 Tccd3 41500 Tccd4 38750 Tccd5 37750 Tccd6 37000 Tccd7 39750 Tccd8 38500 Tctl 41250 Tccd1 40000 Tccd2 39000 Tccd3 38500 Tccd4 38750 Tccd5 39000 Tccd6 36750 Tccd7 39500 
+File: /users/panastas/Data/graphs/tamu/matrices/rajat31/rajat31.mtx
+max threads 64
+time read: 2.001737
+time coo to csr: 0.379796
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0277164
+mkl optimize time = 0.00020775
+time convert to format: 0.028037
+time warm up 0.081775
+number of loops = 1332
+errors spmv: mae=7.65589e-16, max_ae=1.5838e-15, mse=9.53727e-31, mape=1.51911e-11, smape=7.59555e-12, lnQ_error=1.09748e-14, mlare=-13.5974, gmare=2.52704e-14
+/users/panastas/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,64,4690002,4690002,20316253,1.000574,54.091431,250.392006,0.000000,0.000000,MKL_IE,4690002,4690002,20316253,250.392006,1.000000,7.65589e-16,1.5838e-15,9.53727e-31,1.51911e-11,7.59555e-12,1.09748e-14,-13.5974,2.52704e-14
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39500 Tctl 45000 Tccd1 40000 Tccd2 40750 Tccd3 41750 Tccd4 39500 Tccd5 38250 Tccd6 36000 Tccd7 41000 Tccd8 39000 Tctl 41000 Tccd1 39750 Tccd2 38750 Tccd3 39000 Tccd4 38750 Tccd5 39500 Tccd6 36500 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx
+max threads 64
+time read: 1.357278
+time coo to csr: 0.092134
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0361608
+mkl optimize time = 0.000193122
+time convert to format: 0.036448
+time warm up 0.081179
+number of loops = 2685
+errors spmv: mae=2.67486e-14, max_ae=1.08002e-12, mse=5.01285e-27, mape=3.18653e-14, smape=1.59326e-14, lnQ_error=2.25733e-18, mlare=-17.2836, gmare=5.20417e-18
+/users/panastas/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,64,22283,22283,24669643,1.000013,132.474307,282.406666,0.000000,0.000000,MKL_IE,22283,22283,24669643,282.406666,1.000000,2.67486e-14,1.08002e-12,5.01285e-27,3.18653e-14,1.59326e-14,2.25733e-18,-17.2836,5.20417e-18
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40500 Tctl 44750 Tccd1 40000 Tccd2 42000 Tccd3 42250 Tccd4 40000 Tccd5 38750 Tccd6 37750 Tccd7 41250 Tccd8 39250 Tctl 41000 Tccd1 40500 Tccd2 39000 Tccd3 38250 Tccd4 38250 Tccd5 39500 Tccd6 36000 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/dgreen/dgreen.mtx
+max threads 64
+time read: 2.662814
+time coo to csr: 0.256210
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0328647
+mkl optimize time = 0.000236955
+time convert to format: 0.033201
+time warm up 0.083066
+number of loops = 518
+Test failed! (4152.99)
+errors spmv: mae=0.00171713, max_ae=32, mse=0.00538212, mape=1.49947, smape=0.0582559, lnQ_error=-0.00155143, mlare=-2.44783, gmare=0.00356592
+/users/panastas/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,64,1200611,1200611,38259877,1.001430,39.580636,442.429516,0.000000,0.000000,MKL_IE,1200611,1200611,38259877,442.429516,1.000000,0.00171713,32,0.00538212,1.49947,0.0582559,-0.00155143,-2.44783,0.00356592

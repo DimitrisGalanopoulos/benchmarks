@@ -1,0 +1,9 @@
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+./run.sh: line 74: 230470 Aborted                 (core dumped) ./build/demo/spmv_demo -m "$m" -n SPMV -s CSR -t "$cores"
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+./run.sh: line 74: 230702 Aborted                 ./build/demo/spmv_demo -m "$m" -n SPMV -s CSR -t "$cores"
+terminate called after throwing an instance of 'std::bad_array_new_length'
+  what():  std::bad_array_new_length
+./run.sh: line 74: 231510 Aborted                 ./build/demo/spmv_demo -m "$m" -n SPMV -s CSR -t "$cores"

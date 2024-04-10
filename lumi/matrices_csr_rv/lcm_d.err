@@ -1,0 +1,2 @@
+./run.sh: line 162: 130181 Segmentation fault      (core dumped) ./build/demo/spmv_demo -m "$m" -n SPMV -s CSR -t "$cores"
+./run.sh: line 162: 130442 Segmentation fault      ./build/demo/spmv_demo -m "$m" -n SPMV -s CSR -t "$cores"

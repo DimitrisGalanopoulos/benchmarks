@@ -1,0 +1,104 @@
+SPARSEX_LIB_PATH=/home/users/dgal/lib/sparsex/build/lib;PRINT_STATISTICS=1;LLVM_INC_PATH=/home/users/dgal/lib/llvm-6.0.0/build/include;AOCL_PATH=/various/pmpakos/spmv_paper/aocl-sparse/build/release;SPARSEX_INC_PATH=/home/users/dgal/lib/sparsex/build/include;max_cores=128;LLVM_LIB_PATH=/home/users/dgal/lib/llvm-6.0.0/build/lib;USE_ARTIFICIAL_MATRICES=0;VC_TOLERANCE=0;GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;cores=16;BOOST_LIB_PATH=/home/users/dgal/lib/boost_1_55_0/bin/lib;path_validation=/various/pmpakos/SpMV-Research/validation_matrices;output_to_files=1;force_retry_on_error=0;path_tamu=/home/users/dgal/Data/graphs/tamu;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;MKL_PATH=/various/common_tools/intel_parallel_studio/compilers_and_libraries/linux/mkl;ZFP_ROOT_DIR=/home/users/dgal/lib/zfp;SPARSEX_CONF_PATH=/home/users/dgal/lib/sparsex/build/bin;cpu_pinning_group_size=1;path_M3E=/home/users/dgal/Data/graphs/M3E-Matrix-Collection;FPZIP_ROOT_DIR=/home/users/dgal/lib/fpzip;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15;USE_PROCESSES=0;cpu_pinning_step=1;RAPL_REGISTERS=0;BOOST_INC_PATH=/home/users/dgal/lib/boost_1_55_0/bin/include;path_openFoam=/various/dgal/graphs/matrices_openFoam;COOLDOWN=0;
+program: /home/users/dgal/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/spmv_mkl_ie_d.exe
+number of matrices: 8
+max threads 64
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 31000  Core 9 34000  Core 10 35000  Core 11 30000  Core 12 31000  Core 13 33000  Core 14 31000  Core 15 31000  Package id 0 37000 Core 0 33000  Core 1 34000  Core 2 32000  Core 3 29000  Core 4 30000  Core 5 33000  Core 6 32000  Core 7 29000  Core 8 33000  Core 9 35000  Core 10 30000  Core 11 32000  Core 12 32000  Core 13 32000  Core 14 32000  Core 15 31000  Package id 1 35000 Core 0 32000  Core 1 32000  Core 2 31000  Core 3 32000  Core 4 32000  Core 5 34000  Core 6 31000  Core 7 33000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx
+max threads 16
+time read: 0.108600
+time coo to csr: 0.078600
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0277502
+mkl optimize time = 0.00711761
+time convert to format: 0.034932
+time warm up 0.077355
+number of loops = 4250
+errors spmv: mae=2.02556e-15, max_ae=1.42109e-13, mse=4.14729e-29, mape=6.88025e-14, smape=3.44013e-14, lnQ_error=1.84996e-17, mlare=-16.3705, gmare=4.26091e-17
+/home/users/dgal/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,16,121192,121192,2624331,1.000221,22.301881,30.495399,0.000000,0.000000,MKL_IE,121192,121192,2624331,30.495399,1.000000,2.02556e-15,1.42109e-13,4.14729e-29,6.88025e-14,3.44013e-14,1.84996e-17,-16.3705,4.26091e-17
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 37000  Core 9 39000  Core 10 39000  Core 11 36000  Core 12 36000  Core 13 37000  Core 14 37000  Core 15 34000  Package id 0 41000 Core 0 37000  Core 1 39000  Core 2 38000  Core 3 36000  Core 4 35000  Core 5 36000  Core 6 37000  Core 7 35000  Core 8 34000  Core 9 35000  Core 10 33000  Core 11 33000  Core 12 34000  Core 13 33000  Core 14 33000  Core 15 31000  Package id 1 37000 Core 0 34000  Core 1 34000  Core 2 33000  Core 3 33000  Core 4 34000  Core 5 36000  Core 6 33000  Core 7 35000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx
+max threads 16
+time read: 0.086986
+time coo to csr: 0.468103
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0500302
+mkl optimize time = 0.01057
+time convert to format: 0.060653
+time warm up 0.073393
+number of loops = 1088
+Test failed! (4.40538e-07)
+errors spmv: mae=1.37649e-15, max_ae=6.15728e-10, mse=5.73851e-25, mape=1.37943e-08, smape=1.36008e-08, lnQ_error=1.68107e-12, mlare=-11.4122, gmare=3.8708e-12
+/home/users/dgal/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,16,682862,682862,3871773,1.000000,8.424974,46.913841,0.000000,0.000000,MKL_IE,682862,682862,3871773,46.913841,1.000000,1.37649e-15,6.15728e-10,5.73851e-25,1.37943e-08,1.36008e-08,1.68107e-12,-11.4122,3.8708e-12
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 37000  Core 9 38000  Core 10 40000  Core 11 37000  Core 12 36000  Core 13 38000  Core 14 37000  Core 15 34000  Package id 0 41000 Core 0 37000  Core 1 39000  Core 2 38000  Core 3 35000  Core 4 36000  Core 5 37000  Core 6 37000  Core 7 36000  Core 8 34000  Core 9 35000  Core 10 33000  Core 11 33000  Core 12 34000  Core 13 34000  Core 14 34000  Core 15 32000  Package id 1 36000 Core 0 35000  Core 1 34000  Core 2 34000  Core 3 33000  Core 4 35000  Core 5 36000  Core 6 32000  Core 7 35000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx
+max threads 16
+time read: 0.138182
+time coo to csr: 0.172708
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0230068
+mkl optimize time = 0.0060197
+time convert to format: 0.029065
+time warm up 0.074927
+number of loops = 863
+Test failed! (1)
+errors spmv: mae=4.4628e-05, max_ae=1.00001, mse=1.29166e-05, mape=0.122488, smape=0.12242, lnQ_error=-0.00973536, mlare=-1.65429, gmare=0.0221671
+/home/users/dgal/Data/graphs/tamu/matrices/radiation/radiation.mtx,16,223104,223104,7637688,1.000288,13.178856,88.257481,0.000000,0.000000,MKL_IE,223104,223104,7637688,88.257481,1.000000,4.4628e-05,1.00001,1.29166e-05,0.122488,0.12242,-0.00973536,-1.65429,0.0221671
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 38000  Core 9 40000  Core 10 41000  Core 11 39000  Core 12 38000  Core 13 40000  Core 14 39000  Core 15 36000  Package id 0 43000 Core 0 38000  Core 1 41000  Core 2 39000  Core 3 36000  Core 4 37000  Core 5 38000  Core 6 38000  Core 7 37000  Core 8 35000  Core 9 36000  Core 10 33000  Core 11 34000  Core 12 35000  Core 13 34000  Core 14 34000  Core 15 33000  Package id 1 37000 Core 0 35000  Core 1 34000  Core 2 33000  Core 3 34000  Core 4 36000  Core 5 36000  Core 6 33000  Core 7 35000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx
+max threads 16
+time read: 0.215720
+time coo to csr: 0.115560
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0436895
+mkl optimize time = 0.00392946
+time convert to format: 0.047658
+time warm up 0.073798
+number of loops = 833
+Test failed! (3.90109e-06)
+errors spmv: mae=5.04604e-09, max_ae=1.14441e-05, mse=1.78599e-14, mape=4.0819e-09, smape=2.04095e-09, lnQ_error=-1.0499e-11, mlare=-10.6166, gmare=2.4175e-11
+/home/users/dgal/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,16,161070,161070,8185136,1.000672,13.627284,94.285885,0.000000,0.000000,MKL_IE,161070,161070,8185136,94.285885,1.000000,5.04604e-09,1.14441e-05,1.78599e-14,4.0819e-09,2.04095e-09,-1.0499e-11,-10.6166,2.4175e-11
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 40000  Core 9 41000  Core 10 42000  Core 11 39000  Core 12 39000  Core 13 40000  Core 14 39000  Core 15 37000  Package id 0 43000 Core 0 38000  Core 1 41000  Core 2 39000  Core 3 37000  Core 4 38000  Core 5 39000  Core 6 39000  Core 7 37000  Core 8 35000  Core 9 36000  Core 10 33000  Core 11 34000  Core 12 35000  Core 13 34000  Core 14 34000  Core 15 32000  Package id 1 37000 Core 0 35000  Core 1 35000  Core 2 33000  Core 3 34000  Core 4 35000  Core 5 36000  Core 6 33000  Core 7 36000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx
+max threads 16
+time read: 0.139697
+time coo to csr: 0.125683
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0476496
+mkl optimize time = 0.00826478
+time convert to format: 0.055955
+time warm up 0.073247
+number of loops = 458
+errors spmv: mae=3.62936e-09, max_ae=8.39233e-05, mse=1.1035e-13, mape=4.54278e-13, smape=2.27139e-13, lnQ_error=-3.92788e-16, mlare=-15.0436, gmare=9.04441e-16
+/home/users/dgal/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,16,63838,63838,14148858,1.001732,12.937939,162.164356,0.000000,0.000000,MKL_IE,63838,63838,14148858,162.164356,1.000000,3.62936e-09,8.39233e-05,1.1035e-13,4.54278e-13,2.27139e-13,-3.92788e-16,-15.0436,9.04441e-16
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 40000  Core 9 41000  Core 10 42000  Core 11 39000  Core 12 38000  Core 13 41000  Core 14 39000  Core 15 37000  Package id 0 43000 Core 0 39000  Core 1 42000  Core 2 40000  Core 3 37000  Core 4 38000  Core 5 38000  Core 6 40000  Core 7 37000  Core 8 36000  Core 9 36000  Core 10 34000  Core 11 34000  Core 12 35000  Core 13 34000  Core 14 34000  Core 15 34000  Package id 1 38000 Core 0 35000  Core 1 35000  Core 2 35000  Core 3 35000  Core 4 35000  Core 5 37000  Core 6 33000  Core 7 36000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/rajat31/rajat31.mtx
+max threads 16
+time read: 0.453471
+time coo to csr: 1.708906
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0435816
+mkl optimize time = 0.0668033
+time convert to format: 0.110428
+time warm up 0.073359
+number of loops = 190
+errors spmv: mae=3.20284e-16, max_ae=1.5838e-15, mse=2.92888e-31, mape=6.32934e-12, smape=3.16467e-12, lnQ_error=-2.74793e-14, mlare=-13.1988, gmare=6.32734e-14
+/home/users/dgal/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,16,4690002,4690002,20316253,1.005140,7.680695,250.392006,0.000000,0.000000,MKL_IE,4690002,4690002,20316253,250.392006,1.000000,3.20284e-16,1.5838e-15,2.92888e-31,6.32934e-12,3.16467e-12,-2.74793e-14,-13.1988,6.32734e-14
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 41000  Core 9 42000  Core 10 43000  Core 11 40000  Core 12 40000  Core 13 41000  Core 14 41000  Core 15 38000  Package id 0 44000 Core 0 41000  Core 1 43000  Core 2 41000  Core 3 38000  Core 4 39000  Core 5 41000  Core 6 40000  Core 7 38000  Core 8 36000  Core 9 37000  Core 10 34000  Core 11 35000  Core 12 36000  Core 13 34000  Core 14 34000  Core 15 33000  Package id 1 38000 Core 0 36000  Core 1 36000  Core 2 35000  Core 3 36000  Core 4 36000  Core 5 37000  Core 6 34000  Core 7 36000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx
+max threads 16
+time read: 0.240681
+time coo to csr: 0.217481
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0392586
+mkl optimize time = 0.0111259
+time convert to format: 0.050428
+time warm up 0.069577
+number of loops = 259
+errors spmv: mae=8.7745e-15, max_ae=3.97904e-13, mse=5.39778e-28, mape=1.14366e-14, smape=5.71829e-15, lnQ_error=1.52757e-18, mlare=-17.4597, gmare=3.46945e-18
+/home/users/dgal/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,16,22283,22283,24669643,1.003502,12.734278,282.406666,0.000000,0.000000,MKL_IE,22283,22283,24669643,282.406666,1.000000,8.7745e-15,3.97904e-13,5.39778e-28,1.14366e-14,5.71829e-15,1.52757e-18,-17.4597,3.46945e-18
+Temps: Composite 45850 Sensor 1 64850  Sensor 2 47850  Core 8 42000  Core 9 43000  Core 10 45000  Core 11 42000  Core 12 42000  Core 13 42000  Core 14 42000  Core 15 40000  Package id 0 45000 Core 0 42000  Core 1 45000  Core 2 43000  Core 3 40000  Core 4 41000  Core 5 41000  Core 6 42000  Core 7 40000  Core 8 37000  Core 9 37000  Core 10 34000  Core 11 35000  Core 12 36000  Core 13 35000  Core 14 34000  Core 15 33000  Package id 1 38000 Core 0 36000  Core 1 37000  Core 2 35000  Core 3 35000  Core 4 36000  Core 5 37000  Core 6 34000  Core 7 36000  
+File: /home/users/dgal/Data/graphs/tamu/matrices/dgreen/dgreen.mtx
+max threads 16
+time read: 0.582007
+time coo to csr: 0.820517
+mkl mkl_sparse_s_create_csr + mkl_sparse_order time = 0.0448021
+mkl optimize time = 0.019734
+time convert to format: 0.064581
+time warm up 0.068526
+number of loops = 140
+Test failed! (6957.05)
+errors spmv: mae=0.00207215, max_ae=64, mse=0.0108148, mape=2.21765, smape=0.0698075, lnQ_error=-0.00775966, mlare=-1.75182, gmare=0.0177086
+/home/users/dgal/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,16,1200611,1200611,38259877,1.005507,10.654091,442.429516,0.000000,0.000000,MKL_IE,1200611,1200611,38259877,442.429516,1.000000,0.00207215,64,0.0108148,2.21765,0.0698075,-0.00775966,-1.75182,0.0177086

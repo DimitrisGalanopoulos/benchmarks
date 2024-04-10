@@ -1,0 +1,787 @@
+ZFP_ROOT_DIR=/users/panastas/lib/zfp;GHOST_APPS_ROOT_DIR=/various/pmpakos/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_sell-C-s;RAPL_REGISTERS=0;COOLDOWN=0;cpu_pinning_step=1;path_tamu=/users/panastas/Data/graphs/tamu;SPARSEX_LIB_PATH=/users/panastas/lib/sparsex/build/lib;BOOST_LIB_PATH=/users/panastas/lib/boost_1_55_0/bin/lib;USE_ARTIFICIAL_MATRICES=0;cores=64;path_M3E=/users/panastas/Data/graphs/M3E-Matrix-Collection;PRINT_STATISTICS=1;MKL_PATH=/users/panastas/spack/23.03/0.20.0/intel-oneapi-mkl-2023.1.0-cafkcjc/mkl/latest;path_validation=;AOCL_PATH=/users/panastas/aocl-sparse/library;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63;force_retry_on_error=0;GHOST_ROOT_DIR=/home/pmpakos/ESSEX;LLVM_LIB_PATH=/users/panastas/lib/llvm-6.0.0/build/lib;LLVM_INC_PATH=/users/panastas/lib/llvm-6.0.0/build/include;USE_PROCESSES=0;cpu_pinning_group_size=1;SPARSEX_CONF_PATH=/users/panastas/lib/sparsex/build/bin;path_openFoam=;SPARSEX_INC_PATH=/users/panastas/lib/sparsex/build/include;VC_TOLERANCE=1e-3;output_to_files=1;FPZIP_ROOT_DIR=/users/panastas/lib/fpzip;BOOST_INC_PATH=/users/panastas/lib/boost_1_55_0/bin/include;max_cores=128;
+program: /pfs/lustrep2/users/panastas/Shared/benchmarks/SpMV/SpMV-Research/benchmark_code/CPU/AMD/spmv_code_bench/spmv_csr_d.exe
+number of matrices: 28
+max threads 64
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 41250 Tctl 47750 Tccd1 41000 Tccd2 42750 Tccd3 43000 Tccd4 40250 Tccd5 39250 Tccd6 38750 Tccd7 41750 Tccd8 39250 Tctl 41125 Tccd1 40500 Tccd2 39750 Tccd3 39000 Tccd4 38250 Tccd5 39500 Tccd6 36500 Tccd7 40000 
+File: /users/panastas/Data/graphs/tamu/matrices/scircuit/scircuit.mtx
+max threads 64
+
+	ERROR
+[tid 147651] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/scircuit/scircuit.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40500 Tctl 47625 Tccd1 40750 Tccd2 42000 Tccd3 43000 Tccd4 40000 Tccd5 38750 Tccd6 37750 Tccd7 41750 Tccd8 39250 Tctl 41125 Tccd1 41250 Tccd2 39250 Tccd3 39000 Tccd4 39000 Tccd5 39000 Tccd6 36500 Tccd7 39500 
+File: /users/panastas/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx
+max threads 64
+
+	ERROR
+[tid 147767] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/mac_econ_fwd500/mac_econ_fwd500.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40500 Tctl 47500 Tccd1 40500 Tccd2 41750 Tccd3 42500 Tccd4 39250 Tccd5 38500 Tccd6 36750 Tccd7 40500 Tccd8 39500 Tctl 41125 Tccd1 40500 Tccd2 39500 Tccd3 39750 Tccd4 39000 Tccd5 39750 Tccd6 36500 Tccd7 40500 
+File: /users/panastas/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx
+max threads 64
+
+	ERROR
+[tid 147882] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/raefsky3/raefsky3.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39250 Tctl 47375 Tccd1 39750 Tccd2 41000 Tccd3 41500 Tccd4 39750 Tccd5 38000 Tccd6 36000 Tccd7 40750 Tccd8 39750 Tctl 41125 Tccd1 40750 Tccd2 39750 Tccd3 39250 Tccd4 39000 Tccd5 40250 Tccd6 37000 Tccd7 40750 
+File: /users/panastas/Data/graphs/tamu/matrices/bbmat/bbmat.mtx
+max threads 64
+
+	ERROR
+[tid 147997] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/bbmat/bbmat.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39000 Tctl 47250 Tccd1 39000 Tccd2 41000 Tccd3 42250 Tccd4 39500 Tccd5 38000 Tccd6 37000 Tccd7 40500 Tccd8 39250 Tctl 41125 Tccd1 40500 Tccd2 39500 Tccd3 39500 Tccd4 39000 Tccd5 39500 Tccd6 37250 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/appu/appu.mtx
+max threads 64
+
+	ERROR
+[tid 148112] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/appu/appu.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39000 Tctl 47125 Tccd1 39750 Tccd2 40500 Tccd3 41500 Tccd4 39000 Tccd5 37500 Tccd6 36250 Tccd7 40750 Tccd8 40000 Tctl 41125 Tccd1 41000 Tccd2 39250 Tccd3 39000 Tccd4 38500 Tccd5 39500 Tccd6 37250 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/rma10/rma10.mtx
+max threads 64
+
+	ERROR
+[tid 148227] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/rma10/rma10.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39000 Tctl 47000 Tccd1 39500 Tccd2 40500 Tccd3 41500 Tccd4 38750 Tccd5 37500 Tccd6 36750 Tccd7 40000 Tccd8 39750 Tctl 41125 Tccd1 40750 Tccd2 39000 Tccd3 38500 Tccd4 38500 Tccd5 39500 Tccd6 36750 Tccd7 40000 
+File: /users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx
+max threads 64
+time read: 0.016258
+time coo to csr: 0.021377
+balance time = 1.7182e-05
+         0: rows=[         0(         0),        882(     41001)] :        882(     41001)   ,   nnz=[-1114998208, -1114998208]:         0
+         1: rows=[       882(     41001),       1790(     82011)] :        908(     41010)   ,   nnz=[      5212,       5212]:         0
+         2: rows=[      1790(     82011),       2681(    123006)] :        891(     40995)   ,   nnz=[-1114998208, -1114998208]:         0
+         3: rows=[      2681(    123006),       3580(    164022)] :        899(     41016)   ,   nnz=[      5212,       5212]:         0
+         4: rows=[      3580(    164022),       4489(    205041)] :        909(     41019)   ,   nnz=[         0,          0]:         0
+         5: rows=[      4489(    205041),       5401(    246009)] :        912(     40968)   ,   nnz=[         0,          0]:         0
+         6: rows=[      5401(    246009),       6318(    287053)] :        917(     41044)   ,   nnz=[         0,          0]:         0
+         7: rows=[      6318(    287053),       7244(    328026)] :        926(     40973)   ,   nnz=[         0,          0]:         0
+         8: rows=[      7244(    328026),       8184(    369040)] :        940(     41014)   ,   nnz=[    727373,     727413]:        40
+         9: rows=[      8184(    369040),       9147(    410040)] :        963(     41000)   ,   nnz=[    727372,     727412]:        40
+        10: rows=[      9147(    410040),      10114(    451046)] :        967(     41006)   ,   nnz=[    727371,     727498]:       127
+        11: rows=[     10114(    451046),      11104(    492065)] :        990(     41019)   ,   nnz=[    727370,     727497]:       127
+        12: rows=[     11104(    492065),      12073(    533091)] :        969(     41026)   ,   nnz=[    727369,     727496]:       127
+        13: rows=[     12073(    533091),      13053(    574076)] :        980(     40985)   ,   nnz=[    727368,     727495]:       127
+        14: rows=[     13053(    574076),      14024(    615083)] :        971(     41007)   ,   nnz=[    727367,     727494]:       127
+        15: rows=[     14024(    615083),      14990(    656097)] :        966(     41014)   ,   nnz=[    727366,     727493]:       127
+        16: rows=[     14990(    656097),      15941(    697113)] :        951(     41016)   ,   nnz=[    727365,     727492]:       127
+        17: rows=[     15941(    697113),      16859(    738080)] :        918(     40967)   ,   nnz=[    727364,     727491]:       127
+        18: rows=[     16859(    738080),      17752(    779107)] :        893(     41027)   ,   nnz=[    727363,     727490]:       127
+        19: rows=[     17752(    779107),      18638(    820126)] :        886(     41019)   ,   nnz=[    727362,     727489]:       127
+        20: rows=[     18638(    820126),      19530(    861100)] :        892(     40974)   ,   nnz=[    727361,     727488]:       127
+        21: rows=[     19530(    861100),      20422(    902106)] :        892(     41006)   ,   nnz=[    727360,     727487]:       127
+        22: rows=[     20422(    902106),      21339(    943106)] :        917(     41000)   ,   nnz=[    727359,     727486]:       127
+        23: rows=[     21339(    943106),      44528(    984130)] :      23189(     41024)   ,   nnz=[    727358,     727485]:       127
+        24: rows=[     44528(    984130),      46394(   1025122)] :       1866(     40992)   ,   nnz=[    727461,     727484]:        23
+        25: rows=[     46394(   1025122),      48237(   1066137)] :       1843(     41015)   ,   nnz=[    727460,     727483]:        23
+        26: rows=[     48237(   1066137),      50094(   1107139)] :       1857(     41002)   ,   nnz=[    727452,     727482]:        30
+        27: rows=[     50094(   1107139),      51951(   1148134)] :       1857(     40995)   ,   nnz=[    727451,     727481]:        30
+        28: rows=[     51951(   1148134),      53822(   1189151)] :       1871(     41017)   ,   nnz=[    727409,     727480]:        71
+        29: rows=[     53822(   1189151),      55680(   1230160)] :       1858(     41009)   ,   nnz=[    727408,     727479]:        71
+        30: rows=[     55680(   1230160),      57557(   1271161)] :       1877(     41001)   ,   nnz=[    727459,     727478]:        19
+        31: rows=[     57557(   1271161),      59436(   1312161)] :       1879(     41000)   ,   nnz=[    727411,     727477]:        66
+        32: rows=[     59436(   1312161),      61326(   1353172)] :       1890(     41011)   ,   nnz=[    727410,     727476]:        66
+        33: rows=[     61326(   1353172),      63264(   1394182)] :       1938(     41010)   ,   nnz=[    727458,     727475]:        17
+        34: rows=[     63264(   1394182),      65255(   1435173)] :       1991(     40991)   ,   nnz=[    727457,     727474]:        17
+        35: rows=[     65255(   1435173),      67305(   1476178)] :       2050(     41005)   ,   nnz=[    727456,     727473]:        17
+        36: rows=[     67305(   1476178),      69352(   1517188)] :       2047(     41010)   ,   nnz=[    727454,     727472]:        18
+        37: rows=[     69352(   1517188),      71382(   1558201)] :       2030(     41013)   ,   nnz=[    727453,     727471]:        18
+        38: rows=[     71382(   1558201),      73370(   1599202)] :       1988(     41001)   ,   nnz=[    727455,     727470]:        15
+        39: rows=[     73370(   1599202),      75410(   1640203)] :       2040(     41001)   ,   nnz=[    727450,     727469]:        19
+        40: rows=[     75410(   1640203),      77418(   1681205)] :       2008(     41002)   ,   nnz=[    727449,     727468]:        19
+        41: rows=[     77418(   1681205),      79450(   1722210)] :       2032(     41005)   ,   nnz=[    727448,     727467]:        19
+        42: rows=[     79450(   1722210),      81468(   1763230)] :       2018(     41020)   ,   nnz=[    727447,     727466]:        19
+        43: rows=[     81468(   1763230),      83483(   1804218)] :       2015(     40988)   ,   nnz=[    727446,     727465]:        19
+        44: rows=[     83483(   1804218),      85532(   1845228)] :       2049(     41010)   ,   nnz=[    727445,     727464]:        19
+        45: rows=[     85532(   1845228),      87552(   1886227)] :       2020(     40999)   ,   nnz=[    727444,     727463]:        19
+        46: rows=[     87552(   1886227),      89585(   1927251)] :       2033(     41024)   ,   nnz=[    727443,     727462]:        19
+        47: rows=[     89585(   1927251),      91620(   1968247)] :       2035(     40996)   ,   nnz=[    727442,     727501]:        59
+        48: rows=[     91620(   1968247),      93571(   2009243)] :       1951(     40996)   ,   nnz=[    727441,     727500]:        59
+        49: rows=[     93571(   2009243),      95478(   2050255)] :       1907(     41012)   ,   nnz=[    727440,     727499]:        59
+        50: rows=[     95478(   2050255),      97368(   2091263)] :       1890(     41008)   ,   nnz=[    727439,     727539]:       100
+        51: rows=[     97368(   2091263),      99255(   2132258)] :       1887(     40995)   ,   nnz=[    727438,     727544]:       106
+        52: rows=[     99255(   2132258),     101115(   2173278)] :       1860(     41020)   ,   nnz=[    727437,     727543]:       106
+        53: rows=[    101115(   2173278),     103005(   2214275)] :       1890(     40997)   ,   nnz=[    727436,     727542]:       106
+        54: rows=[    103005(   2214275),     104872(   2255288)] :       1867(     41013)   ,   nnz=[    727435,     727541]:       106
+        55: rows=[    104872(   2255288),     106718(   2296290)] :       1846(     41002)   ,   nnz=[    727434,     727540]:       106
+        56: rows=[    106718(   2296290),     108557(   2337287)] :       1839(     40997)   ,   nnz=[    727433,     727538]:       105
+        57: rows=[    108557(   2337287),     110365(   2378307)] :       1808(     41020)   ,   nnz=[    727432,     727537]:       105
+        58: rows=[    110365(   2378307),     112170(   2419309)] :       1805(     41002)   ,   nnz=[    727431,     727536]:       105
+        59: rows=[    112170(   2419309),     113976(   2460315)] :       1806(     41006)   ,   nnz=[    727430,     727535]:       105
+        60: rows=[    113976(   2460315),     115782(   2501322)] :       1806(     41007)   ,   nnz=[    727429,     727534]:       105
+        61: rows=[    115782(   2501322),     117585(   2542327)] :       1803(     41005)   ,   nnz=[    727428,     727533]:       105
+        62: rows=[    117585(   2542327),     119387(   2583314)] :       1802(     40987)   ,   nnz=[    727427,     727532]:       105
+        63: rows=[    119387(   2583314),     121192(   2624331)] :       1805(     41017)   ,   nnz=[    727426,     727531]:       105
+time convert to format: 0.000163
+time warm up 0.079412
+number of loops = 13405
+errors spmv: mae=2.02556e-15, max_ae=1.42109e-13, mse=4.14729e-29, mape=6.88025e-14, smape=3.44013e-14, lnQ_error=1.84996e-17, mlare=-16.3705, gmare=4.26091e-17
+/users/panastas/Data/graphs/tamu/matrices/cop20k_A/cop20k_A.mtx,64,121192,121192,2624331,1.000013,70.357413,30.495399,0.000000,0.000000,Custom_CSR_B,121192,121192,2624331,30.495399,1.000000,2.02556e-15,1.42109e-13,4.14729e-29,6.88025e-14,3.44013e-14,1.84996e-17,-16.3705,4.26091e-17
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40000 Tctl 46625 Tccd1 41250 Tccd2 41750 Tccd3 42750 Tccd4 39750 Tccd5 38500 Tccd6 37750 Tccd7 40500 Tccd8 39500 Tctl 41125 Tccd1 40500 Tccd2 39250 Tccd3 38750 Tccd4 39000 Tccd5 39500 Tccd6 37000 Tccd7 40500 
+File: /users/panastas/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx
+max threads 64
+
+	ERROR
+[tid 148474] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/thermomech_dK/thermomech_dK.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39250 Tctl 46625 Tccd1 40000 Tccd2 41500 Tccd3 42500 Tccd4 40250 Tccd5 38000 Tccd6 37750 Tccd7 41000 Tccd8 39250 Tctl 41125 Tccd1 40250 Tccd2 39000 Tccd3 38750 Tccd4 38750 Tccd5 39250 Tccd6 37000 Tccd7 40000 
+File: /users/panastas/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx
+max threads 64
+
+	ERROR
+[tid 148589] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/webbase-1M/webbase-1M.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39000 Tctl 46500 Tccd1 40000 Tccd2 41250 Tccd3 42250 Tccd4 38750 Tccd5 38500 Tccd6 37250 Tccd7 40750 Tccd8 39750 Tctl 41125 Tccd1 40500 Tccd2 39000 Tccd3 38500 Tccd4 38000 Tccd5 39750 Tccd6 37250 Tccd7 40500 
+File: /users/panastas/Data/graphs/tamu/matrices/cant/cant.mtx
+max threads 64
+
+	ERROR
+[tid 148704] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/cant/cant.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 39500 Tctl 46375 Tccd1 40000 Tccd2 41000 Tccd3 41750 Tccd4 39000 Tccd5 37000 Tccd6 35750 Tccd7 40000 Tccd8 40000 Tctl 41125 Tccd1 40250 Tccd2 38500 Tccd3 39000 Tccd4 38250 Tccd5 39500 Tccd6 37000 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx
+max threads 64
+time read: 0.052521
+time coo to csr: 0.128174
+balance time = 1.7001e-05
+         0: rows=[         0(         0),       4260(     60496)] :       4260(     60496)   ,   nnz=[1968089664, 1968089664]:         0
+         1: rows=[      4260(     60496),       8396(    121000)] :       4136(     60504)   ,   nnz=[      5373,       5373]:         0
+         2: rows=[      8396(    121000),      17122(    181488)] :       8726(     60488)   ,   nnz=[1968089664, 1968089664]:         0
+         3: rows=[     17122(    181488),      37288(    241986)] :      20166(     60498)   ,   nnz=[      5373,       5373]:         0
+         4: rows=[     37288(    241986),      57348(    302482)] :      20060(     60496)   ,   nnz=[         0,          0]:         0
+         5: rows=[     57348(    302482),      77513(    362977)] :      20165(     60495)   ,   nnz=[         0,          0]:         0
+         6: rows=[     77513(    362977),      89269(    423476)] :      11756(     60499)   ,   nnz=[         0,          0]:         0
+         7: rows=[     89269(    423476),     109434(    483971)] :      20165(     60495)   ,   nnz=[         0,          0]:         0
+         8: rows=[    109434(    483971),     127373(    544467)] :      17939(     60496)   ,   nnz=[     31838,     169456]:    137618
+         9: rows=[    127373(    544467),     132253(    604961)] :       4880(     60494)   ,   nnz=[      6041,      31861]:     25820
+        10: rows=[    132253(    604961),     136693(    665464)] :       4440(     60503)   ,   nnz=[    169456,       6047]:   -163409
+        11: rows=[    136693(    665464),     137440(    673952)] :        747(      8488)   ,   nnz=[     31839,     169456]:    137617
+        12: rows=[    137440(    673952),     137440(    673952)] :          0(         0)   ,   nnz=[      6041,      31862]:     25821
+        13: rows=[    137440(    673952),     137440(    673952)] :          0(         0)   ,   nnz=[    169456,       6045]:   -163411
+        14: rows=[    137440(    673952),     137441(   1069211)] :          1(    395259)   ,   nnz=[     31840,     169456]:    137616
+        15: rows=[    137441(   1069211),     137441(   1069211)] :          0(         0)   ,   nnz=[      6035,      31863]:     25828
+        16: rows=[    137441(   1069211),     137441(   1069211)] :          0(         0)   ,   nnz=[    169456,       6045]:   -163411
+        17: rows=[    137441(   1069211),     144001(   1088937)] :       6560(     19726)   ,   nnz=[     31841,     169456]:    137615
+        18: rows=[    144001(   1088937),     164166(   1149432)] :      20165(     60495)   ,   nnz=[      6035,      31864]:     25829
+        19: rows=[    164166(   1149432),     169456(   1165302)] :       5290(     15870)   ,   nnz=[    169456,       6049]:   -163407
+        20: rows=[    169456(   1165302),     169456(   1165302)] :          0(         0)   ,   nnz=[     31842,     169456]:    137614
+        21: rows=[    169456(   1165302),     169456(   1165302)] :          0(         0)   ,   nnz=[      6038,      31865]:     25827
+        22: rows=[    169456(   1165302),     169457(   1540862)] :          1(    375560)   ,   nnz=[    169456,       6049]:   -163407
+        23: rows=[    169457(   1540862),     169457(   1540862)] :          0(         0)   ,   nnz=[     31843,     169456]:    137613
+        24: rows=[    169457(   1540862),     169457(   1540862)] :          0(         0)   ,   nnz=[      6038,      31866]:     25828
+        25: rows=[    169457(   1540862),     171787(   1572912)] :       2330(     32050)   ,   nnz=[    169456,       6056]:   -163400
+        26: rows=[    171787(   1572912),     176132(   1633406)] :       4345(     60494)   ,   nnz=[     31844,     169456]:    137612
+        27: rows=[    176132(   1633406),     180458(   1693900)] :       4326(     60494)   ,   nnz=[      6042,      31867]:     25825
+        28: rows=[    180458(   1693900),     197120(   1754398)] :      16662(     60498)   ,   nnz=[    169456,       6056]:   -163400
+        29: rows=[    197120(   1754398),     217285(   1814893)] :      20165(     60495)   ,   nnz=[     31845,     169456]:    137611
+        30: rows=[    217285(   1814893),     237451(   1875391)] :      20166(     60498)   ,   nnz=[      6042,      31868]:     25826
+        31: rows=[    237451(   1875391),     257614(   1935887)] :      20163(     60496)   ,   nnz=[    169456,       6057]:   -163399
+        32: rows=[    257614(   1935887),     277779(   1996382)] :      20165(     60495)   ,   nnz=[     31846,     169456]:    137610
+        33: rows=[    277779(   1996382),     290524(   2056880)] :      12745(     60498)   ,   nnz=[      6042,      31869]:     25827
+        34: rows=[    290524(   2056880),     295833(   2117371)] :       5309(     60491)   ,   nnz=[    169456,       6057]:   -163399
+        35: rows=[    295833(   2117371),     300487(   2177876)] :       4654(     60505)   ,   nnz=[     31847,     169456]:    137609
+        36: rows=[    300487(   2177876),     314986(   2238368)] :      14499(     60492)   ,   nnz=[      6042,      31870]:     25828
+        37: rows=[    314986(   2238368),     335152(   2298866)] :      20166(     60498)   ,   nnz=[    169456,       6059]:   -163397
+        38: rows=[    335152(   2298866),     355317(   2359361)] :      20165(     60495)   ,   nnz=[     31848,     169456]:    137608
+        39: rows=[    355317(   2359361),     375483(   2419859)] :      20166(     60498)   ,   nnz=[      6041,      31871]:     25830
+        40: rows=[    375483(   2419859),     381840(   2480368)] :       6357(     60509)   ,   nnz=[    169456,       6059]:   -163397
+        41: rows=[    381840(   2480368),     386467(   2540855)] :       4627(     60487)   ,   nnz=[     31849,     169456]:    137607
+        42: rows=[    386467(   2540855),     390795(   2601348)] :       4328(     60493)   ,   nnz=[      6041,      31872]:     25831
+        43: rows=[    390795(   2601348),     410139(   2661843)] :      19344(     60495)   ,   nnz=[    169456,       6056]:   -163400
+        44: rows=[    410139(   2661843),     430302(   2722341)] :      20163(     60498)   ,   nnz=[     31850,     169456]:    137606
+        45: rows=[    430302(   2722341),     450467(   2782836)] :      20165(     60495)   ,   nnz=[      6040,      31873]:     25833
+        46: rows=[    450467(   2782836),     466042(   2843338)] :      15575(     60502)   ,   nnz=[    169456,       6056]:   -163400
+        47: rows=[    466042(   2843338),     470092(   2903831)] :       4050(     60493)   ,   nnz=[     31851,     169456]:    137605
+        48: rows=[    470092(   2903831),     474249(   2964331)] :       4157(     60500)   ,   nnz=[      6040,      31874]:     25834
+        49: rows=[    474249(   2964331),     487514(   3024821)] :      13265(     60490)   ,   nnz=[    169456,       6048]:   -163408
+        50: rows=[    487514(   3024821),     507680(   3085319)] :      20166(     60498)   ,   nnz=[     31852,     169456]:    137604
+        51: rows=[    507680(   3085319),     516009(   3145821)] :       8329(     60502)   ,   nnz=[      6047,      31875]:     25828
+        52: rows=[    516009(   3145821),     520119(   3206307)] :       4110(     60486)   ,   nnz=[    169456,       6048]:   -163408
+        53: rows=[    520119(   3206307),     524642(   3266808)] :       4523(     60501)   ,   nnz=[     31853,     169456]:    137603
+        54: rows=[    524642(   3266808),     544807(   3327303)] :      20165(     60495)   ,   nnz=[      6047,      31876]:     25829
+        55: rows=[    544807(   3327303),     564973(   3387801)] :      20166(     60498)   ,   nnz=[    169456,       6052]:   -163404
+        56: rows=[    564973(   3387801),     585138(   3448296)] :      20165(     60495)   ,   nnz=[     31854,     169456]:    137602
+        57: rows=[    585138(   3448296),     605284(   3508794)] :      20146(     60498)   ,   nnz=[      6046,      31877]:     25831
+        58: rows=[    605284(   3508794),     625449(   3569289)] :      20165(     60495)   ,   nnz=[    169456,       6052]:   -163404
+        59: rows=[    625449(   3569289),     637134(   3629788)] :      11685(     60499)   ,   nnz=[     31855,     169456]:    137601
+        60: rows=[    637134(   3629788),     641210(   3690285)] :       4076(     60497)   ,   nnz=[      6046,      31878]:     25832
+        61: rows=[    641210(   3690285),     645227(   3750780)] :       4017(     60495)   ,   nnz=[    169456,       6049]:   -163407
+        62: rows=[    645227(   3750780),     662696(   3811275)] :      17469(     60495)   ,   nnz=[     31856,     169456]:    137600
+        63: rows=[    662696(   3811275),     682862(   3871773)] :      20166(     60498)   ,   nnz=[      6593,      31879]:     25286
+time convert to format: 0.000190
+time warm up 0.081086
+number of loops = 2546
+errors spmv: mae=1.33551e-14, max_ae=9.11768e-09, mse=1.21741e-22, mape=4.37155e-15, smape=2.18577e-15, lnQ_error=1.20835e-17, mlare=-16.555, gmare=2.7864e-17
+/users/panastas/Data/graphs/tamu/matrices/ASIC_680k/ASIC_680k.mtx,64,682862,682862,3871773,1.000045,19.714181,46.913841,0.000000,0.000000,Custom_CSR_B,682862,682862,3871773,46.913841,1.000000,1.33551e-14,9.11768e-09,1.21741e-22,4.37155e-15,2.18577e-15,1.20835e-17,-16.555,2.7864e-17
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39250 Tctl 46250 Tccd1 40250 Tccd2 41750 Tccd3 42500 Tccd4 39500 Tccd5 38250 Tccd6 36750 Tccd7 41000 Tccd8 39250 Tctl 41125 Tccd1 40500 Tccd2 38500 Tccd3 39500 Tccd4 39000 Tccd5 39750 Tccd6 36750 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx
+max threads 64
+
+	ERROR
+[tid 148935] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/pdb1HYS/pdb1HYS.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39500 Tctl 46250 Tccd1 40500 Tccd2 41000 Tccd3 41250 Tccd4 39500 Tccd5 38000 Tccd6 36250 Tccd7 39750 Tccd8 39250 Tctl 41125 Tccd1 40500 Tccd2 38750 Tccd3 39000 Tccd4 39000 Tccd5 39000 Tccd6 36000 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx
+max threads 64
+
+	ERROR
+[tid 149051] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b300_c3/TSOPF_RS_b300_c3.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38750 Tctl 46125 Tccd1 39750 Tccd2 40750 Tccd3 41000 Tccd4 38750 Tccd5 37500 Tccd6 36000 Tccd7 40250 Tccd8 39750 Tctl 41125 Tccd1 40250 Tccd2 38750 Tccd3 38750 Tccd4 39250 Tccd5 39500 Tccd6 36250 Tccd7 39750 
+File: /users/panastas/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx
+max threads 64
+
+	ERROR
+[tid 149167] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Chebyshev4/Chebyshev4.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38500 Tctl 46000 Tccd1 39750 Tccd2 40000 Tccd3 40250 Tccd4 38500 Tccd5 37750 Tccd6 36250 Tccd7 40250 Tccd8 39500 Tctl 41125 Tccd1 40750 Tccd2 38750 Tccd3 39000 Tccd4 38750 Tccd5 39750 Tccd6 36750 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/consph/consph.mtx
+max threads 64
+
+	ERROR
+[tid 149282] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/consph/consph.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39000 Tctl 45875 Tccd1 39500 Tccd2 40250 Tccd3 40750 Tccd4 38000 Tccd5 36750 Tccd6 35500 Tccd7 39500 Tccd8 39250 Tctl 41125 Tccd1 40500 Tccd2 39500 Tccd3 38750 Tccd4 39000 Tccd5 39250 Tccd6 36750 Tccd7 40000 
+File: /users/panastas/Data/graphs/tamu/matrices/rajat30/rajat30.mtx
+max threads 64
+
+	ERROR
+[tid 149397] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/rajat30/rajat30.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 38750 Tctl 45750 Tccd1 39250 Tccd2 39250 Tccd3 40250 Tccd4 38250 Tccd5 37000 Tccd6 36250 Tccd7 40000 Tccd8 39750 Tctl 41125 Tccd1 40750 Tccd2 38750 Tccd3 39000 Tccd4 38750 Tccd5 39250 Tccd6 36250 Tccd7 39500 
+File: /users/panastas/Data/graphs/tamu/matrices/radiation/radiation.mtx
+max threads 64
+time read: 0.088572
+time coo to csr: 0.058529
+balance time = 1.5138e-05
+         0: rows=[         0(         0),       6952(    119337)] :       6952(    119337)   ,   nnz=[-1086821824, -1086821824]:         0
+         1: rows=[      6952(    119337),      13809(    238672)] :       6857(    119335)   ,   nnz=[      5314,       5314]:         0
+         2: rows=[     13809(    238672),      18050(    358026)] :       4241(    119354)   ,   nnz=[-1086821824, -1086821824]:         0
+         3: rows=[     18050(    358026),      20573(    477353)] :       2523(    119327)   ,   nnz=[      5314,       5314]:         0
+         4: rows=[     20573(    477353),      23142(    596698)] :       2569(    119345)   ,   nnz=[         0,          0]:         0
+         5: rows=[     23142(    596698),      25752(    716021)] :       2610(    119323)   ,   nnz=[         0,          0]:         0
+         6: rows=[     25752(    716021),      28350(    835382)] :       2598(    119361)   ,   nnz=[         0,          0]:         0
+         7: rows=[     28350(    835382),      30937(    954714)] :       2587(    119332)   ,   nnz=[         0,          0]:         0
+         8: rows=[     30937(    954714),      33525(   1074037)] :       2588(    119323)   ,   nnz=[   1338877,    1338939]:        62
+         9: rows=[     33525(   1074037),      36110(   1193385)] :       2585(    119348)   ,   nnz=[   1338871,    1338950]:        79
+        10: rows=[     36110(   1193385),      38702(   1312714)] :       2592(    119329)   ,   nnz=[   1338870,    1338949]:        79
+        11: rows=[     38702(   1312714),      41294(   1432041)] :       2592(    119327)   ,   nnz=[   1338896,    1338981]:        85
+        12: rows=[     41294(   1432041),      43879(   1551393)] :       2585(    119352)   ,   nnz=[   1338895,    1338980]:        85
+        13: rows=[     43879(   1551393),      46472(   1670762)] :       2593(    119369)   ,   nnz=[   1338894,    1338978]:        84
+        14: rows=[     46472(   1670762),      49036(   1790098)] :       2564(    119336)   ,   nnz=[   1338893,    1338976]:        83
+        15: rows=[     49036(   1790098),      51626(   1909429)] :       2590(    119331)   ,   nnz=[   1338892,    1338974]:        82
+        16: rows=[     51626(   1909429),      54182(   2028778)] :       2556(    119349)   ,   nnz=[   1338889,    1338971]:        82
+        17: rows=[     54182(   2028778),      56757(   2148082)] :       2575(    119304)   ,   nnz=[   1338888,    1338970]:        82
+        18: rows=[     56757(   2148082),      59326(   2267449)] :       2569(    119367)   ,   nnz=[   1338886,    1338965]:        79
+        19: rows=[     59326(   2267449),      61893(   2386801)] :       2567(    119352)   ,   nnz=[   1338885,    1338964]:        79
+        20: rows=[     61893(   2386801),      64471(   2506102)] :       2578(    119301)   ,   nnz=[   1338884,    1338963]:        79
+        21: rows=[     64471(   2506102),      67045(   2625454)] :       2574(    119352)   ,   nnz=[   1338882,    1338962]:        80
+        22: rows=[     67045(   2625454),      69625(   2744773)] :       2580(    119319)   ,   nnz=[   1338881,    1338959]:        78
+        23: rows=[     69625(   2744773),      72198(   2864137)] :       2573(    119364)   ,   nnz=[   1338876,    1338953]:        77
+        24: rows=[     72198(   2864137),      74770(   2983462)] :       2572(    119325)   ,   nnz=[   1338875,    1338952]:        77
+        25: rows=[     74770(   2983462),      77354(   3102829)] :       2584(    119367)   ,   nnz=[   1338874,    1338951]:        77
+        26: rows=[     77354(   3102829),      79914(   3222139)] :       2560(    119310)   ,   nnz=[   1338873,    1338996]:       123
+        27: rows=[     79914(   3222139),      82601(   3341491)] :       2687(    119352)   ,   nnz=[   1338872,    1338992]:       120
+        28: rows=[     82601(   3341491),      87022(   3460836)] :       4421(    119345)   ,   nnz=[   1338869,    1338991]:       122
+        29: rows=[     87022(   3460836),      90805(   3580160)] :       3783(    119324)   ,   nnz=[   1338868,    1338988]:       120
+        30: rows=[     90805(   3580160),      94682(   3699495)] :       3877(    119335)   ,   nnz=[   1338867,    1338987]:       120
+        31: rows=[     94682(   3699495),      98531(   3818846)] :       3849(    119351)   ,   nnz=[   1338866,    1338986]:       120
+        32: rows=[     98531(   3818846),     102380(   3938181)] :       3849(    119335)   ,   nnz=[   1338865,    1338985]:       120
+        33: rows=[    102380(   3938181),     106245(   4057518)] :       3865(    119337)   ,   nnz=[   1338891,    1338983]:        92
+        34: rows=[    106245(   4057518),     110108(   4176849)] :       3863(    119331)   ,   nnz=[   1338890,    1338979]:        89
+        35: rows=[    110108(   4176849),     113969(   4296204)] :       3861(    119355)   ,   nnz=[   1338909,    1338977]:        68
+        36: rows=[    113969(   4296204),     117815(   4415530)] :       3846(    119326)   ,   nnz=[   1338908,    1338975]:        67
+        37: rows=[    117815(   4415530),     121682(   4534879)] :       3867(    119349)   ,   nnz=[   1338907,    1338973]:        66
+        38: rows=[    121682(   4534879),     125423(   4654226)] :       3741(    119347)   ,   nnz=[   1338937,    1338972]:        35
+        39: rows=[    125423(   4654226),     129154(   4773563)] :       3731(    119337)   ,   nnz=[   1338935,    1338969]:        34
+        40: rows=[    129154(   4773563),     132900(   4892907)] :       3746(    119344)   ,   nnz=[   1338933,    1338967]:        34
+        41: rows=[    132900(   4892907),     136638(   5012241)] :       3738(    119334)   ,   nnz=[   1338932,    1338968]:        36
+        42: rows=[    136638(   5012241),     140382(   5131575)] :       3744(    119334)   ,   nnz=[   1338929,    1338966]:        37
+        43: rows=[    140382(   5131575),     144115(   5250910)] :       3733(    119335)   ,   nnz=[   1338928,    1338961]:        33
+        44: rows=[    144115(   5250910),     147851(   5370256)] :       3736(    119346)   ,   nnz=[   1338927,    1338960]:        33
+        45: rows=[    147851(   5370256),     152125(   5489595)] :       4274(    119339)   ,   nnz=[   1338924,    1338958]:        34
+        46: rows=[    152125(   5489595),     156467(   5608914)] :       4342(    119319)   ,   nnz=[   1338920,    1338957]:        37
+        47: rows=[    156467(   5608914),     160295(   5728268)] :       3828(    119354)   ,   nnz=[   1338919,    1338956]:        37
+        48: rows=[    160295(   5728268),     164161(   5847620)] :       3866(    119352)   ,   nnz=[   1338912,    1338955]:        43
+        49: rows=[    164161(   5847620),     168014(   5966943)] :       3853(    119323)   ,   nnz=[   1338910,    1338954]:        44
+        50: rows=[    168014(   5966943),     171869(   6086294)] :       3855(    119351)   ,   nnz=[   1338948,    1338995]:        47
+        51: rows=[    171869(   6086294),     175732(   6205625)] :       3863(    119331)   ,   nnz=[   1338947,    1338994]:        47
+        52: rows=[    175732(   6205625),     179588(   6324971)] :       3856(    119346)   ,   nnz=[   1338946,    1338993]:        47
+        53: rows=[    179588(   6324971),     183443(   6444296)] :       3855(    119325)   ,   nnz=[   1338943,    1338990]:        47
+        54: rows=[    183443(   6444296),     187394(   6563641)] :       3951(    119345)   ,   nnz=[   1338942,    1338989]:        47
+        55: rows=[    187394(   6563641),     191123(   6682966)] :       3729(    119325)   ,   nnz=[   1338941,    1338984]:        43
+        56: rows=[    191123(   6682966),     194853(   6802316)] :       3730(    119350)   ,   nnz=[   1338940,    1338982]:        42
+        57: rows=[    194853(   6802316),     198585(   6921668)] :       3732(    119352)   ,   nnz=[   1338938,    1339038]:       100
+        58: rows=[    198585(   6921668),     202329(   7040984)] :       3744(    119316)   ,   nnz=[   1338936,    1339037]:       101
+        59: rows=[    202329(   7040984),     206074(   7160319)] :       3745(    119335)   ,   nnz=[   1338934,    1339036]:       102
+        60: rows=[    206074(   7160319),     209814(   7279657)] :       3740(    119338)   ,   nnz=[   1338931,    1339035]:       104
+        61: rows=[    209814(   7279657),     213563(   7399006)] :       3749(    119349)   ,   nnz=[   1338930,    1339034]:       104
+        62: rows=[    213563(   7399006),     217277(   7518348)] :       3714(    119342)   ,   nnz=[   1338926,    1339033]:       107
+        63: rows=[    217277(   7518348),     223104(   7637688)] :       5827(    119340)   ,   nnz=[   1338925,    1339032]:       107
+time convert to format: 0.000167
+time warm up 0.082007
+number of loops = 6375
+Test failed! (1.06707e-06)
+errors spmv: mae=1.08146e-05, max_ae=0.1, mse=3.92147e-07, mape=7.20248e-09, smape=3.60124e-09, lnQ_error=-1.04484e-11, mlare=-10.6187, gmare=2.40582e-11
+/users/panastas/Data/graphs/tamu/matrices/radiation/radiation.mtx,64,223104,223104,7637688,1.000101,97.370693,88.257481,0.000000,0.000000,Custom_CSR_B,223104,223104,7637688,88.257481,1.000000,1.08146e-05,0.1,3.92147e-07,7.20248e-09,3.60124e-09,-1.04484e-11,-10.6187,2.40582e-11
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39750 Tctl 45500 Tccd1 40250 Tccd2 42250 Tccd3 42000 Tccd4 40000 Tccd5 38250 Tccd6 37250 Tccd7 40750 Tccd8 39000 Tctl 41125 Tccd1 40750 Tccd2 39000 Tccd3 39000 Tccd4 38750 Tccd5 39500 Tccd6 37000 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx
+max threads 64
+
+	ERROR
+[tid 149627] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/shipsec1/shipsec1.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39000 Tctl 45375 Tccd1 40250 Tccd2 41250 Tccd3 41250 Tccd4 39000 Tccd5 38750 Tccd6 36750 Tccd7 40500 Tccd8 39000 Tctl 41125 Tccd1 40500 Tccd2 39000 Tccd3 38750 Tccd4 38750 Tccd5 39500 Tccd6 37000 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/PR02R/PR02R.mtx
+max threads 64
+time read: 0.132883
+time coo to csr: 0.039967
+balance time = 1.6802e-05
+         0: rows=[         0(         0),       3036(    127876)] :       3036(    127876)   ,   nnz=[ 493206080,  493206080]:         0
+         1: rows=[      3036(    127876),       5516(    255802)] :       2480(    127926)   ,   nnz=[      5337,       5337]:         0
+         2: rows=[      5516(    255802),       7995(    383710)] :       2479(    127908)   ,   nnz=[ 493206080,  493206080]:         0
+         3: rows=[      7995(    383710),      10473(    511552)] :       2478(    127842)   ,   nnz=[      5337,       5337]:         0
+         4: rows=[     10473(    511552),      12952(    639460)] :       2479(    127908)   ,   nnz=[         0,          0]:         0
+         5: rows=[     12952(    639460),      15432(    767381)] :       2480(    127921)   ,   nnz=[         0,          0]:         0
+         6: rows=[     15432(    767381),      17910(    895223)] :       2478(    127842)   ,   nnz=[         0,          0]:         0
+         7: rows=[     17910(    895223),      20389(   1023131)] :       2479(    127908)   ,   nnz=[         0,          0]:         0
+         8: rows=[     20389(   1023131),      22868(   1151015)] :       2479(    127884)   ,   nnz=[    966711,     966775]:        64
+         9: rows=[     22868(   1151015),      25347(   1278899)] :       2479(    127884)   ,   nnz=[    966710,     966758]:        48
+        10: rows=[     25347(   1278899),      27826(   1406807)] :       2479(    127908)   ,   nnz=[    966709,     966757]:        48
+        11: rows=[     27826(   1406807),      30305(   1534715)] :       2479(    127908)   ,   nnz=[    966692,     966756]:        64
+        12: rows=[     30305(   1534715),      32785(   1662636)] :       2480(    127921)   ,   nnz=[    966691,     966755]:        64
+        13: rows=[     32785(   1662636),      35263(   1790478)] :       2478(    127842)   ,   nnz=[    966690,     966754]:        64
+        14: rows=[     35263(   1790478),      37742(   1918386)] :       2479(    127908)   ,   nnz=[    966689,     966753]:        64
+        15: rows=[     37742(   1918386),      40221(   2046270)] :       2479(    127884)   ,   nnz=[    966688,     966752]:        64
+        16: rows=[     40221(   2046270),      42700(   2174154)] :       2479(    127884)   ,   nnz=[    966687,     966751]:        64
+        17: rows=[     42700(   2174154),      45179(   2302062)] :       2479(    127908)   ,   nnz=[    966686,     966750]:        64
+        18: rows=[     45179(   2302062),      47658(   2429970)] :       2479(    127908)   ,   nnz=[    966685,     966749]:        64
+        19: rows=[     47658(   2429970),      50137(   2557825)] :       2479(    127855)   ,   nnz=[    966684,     966748]:        64
+        20: rows=[     50137(   2557825),      52616(   2685733)] :       2479(    127908)   ,   nnz=[    966683,     966747]:        64
+        21: rows=[     52616(   2685733),      55095(   2813641)] :       2479(    127908)   ,   nnz=[    966682,     966746]:        64
+        22: rows=[     55095(   2813641),      57574(   2941525)] :       2479(    127884)   ,   nnz=[    966681,     966745]:        64
+        23: rows=[     57574(   2941525),      60053(   3069409)] :       2479(    127884)   ,   nnz=[    966680,     966744]:        64
+        24: rows=[     60053(   3069409),      62532(   3197317)] :       2479(    127908)   ,   nnz=[    966679,     966743]:        64
+        25: rows=[     62532(   3197317),      65011(   3325225)] :       2479(    127908)   ,   nnz=[    966678,     966742]:        64
+        26: rows=[     65011(   3325225),      67490(   3453080)] :       2479(    127855)   ,   nnz=[    966677,     966741]:        64
+        27: rows=[     67490(   3453080),      69969(   3580988)] :       2479(    127908)   ,   nnz=[    966676,     966740]:        64
+        28: rows=[     69969(   3580988),      72448(   3708896)] :       2479(    127908)   ,   nnz=[    966675,     966739]:        64
+        29: rows=[     72448(   3708896),      74927(   3836780)] :       2479(    127884)   ,   nnz=[    966674,     966738]:        64
+        30: rows=[     74927(   3836780),      77406(   3964664)] :       2479(    127884)   ,   nnz=[    966673,     966737]:        64
+        31: rows=[     77406(   3964664),      80536(   4092568)] :       3130(    127904)   ,   nnz=[    966672,     966736]:        64
+        32: rows=[     80536(   4092568),      83575(   4220473)] :       3039(    127905)   ,   nnz=[    966671,     966735]:        64
+        33: rows=[     83575(   4220473),      86054(   4348328)] :       2479(    127855)   ,   nnz=[    966670,     966734]:        64
+        34: rows=[     86054(   4348328),      88533(   4476236)] :       2479(    127908)   ,   nnz=[    966669,     966733]:        64
+        35: rows=[     88533(   4476236),      91012(   4604144)] :       2479(    127908)   ,   nnz=[    966668,     966774]:       106
+        36: rows=[     91012(   4604144),      93491(   4732028)] :       2479(    127884)   ,   nnz=[    966667,     966773]:       106
+        37: rows=[     93491(   4732028),      95970(   4859912)] :       2479(    127884)   ,   nnz=[    966708,     966772]:        64
+        38: rows=[     95970(   4859912),      98449(   4987820)] :       2479(    127908)   ,   nnz=[    966707,     966771]:        64
+        39: rows=[     98449(   4987820),     100928(   5115728)] :       2479(    127908)   ,   nnz=[    966706,     966770]:        64
+        40: rows=[    100928(   5115728),     103407(   5243583)] :       2479(    127855)   ,   nnz=[    966705,     966769]:        64
+        41: rows=[    103407(   5243583),     105886(   5371491)] :       2479(    127908)   ,   nnz=[    966704,     966768]:        64
+        42: rows=[    105886(   5371491),     108365(   5499399)] :       2479(    127908)   ,   nnz=[    966703,     966767]:        64
+        43: rows=[    108365(   5499399),     110844(   5627283)] :       2479(    127884)   ,   nnz=[    966702,     966766]:        64
+        44: rows=[    110844(   5627283),     113323(   5755167)] :       2479(    127884)   ,   nnz=[    966701,     966765]:        64
+        45: rows=[    113323(   5755167),     115802(   5883075)] :       2479(    127908)   ,   nnz=[    966700,     966764]:        64
+        46: rows=[    115802(   5883075),     118281(   6010983)] :       2479(    127908)   ,   nnz=[    966699,     966763]:        64
+        47: rows=[    118281(   6010983),     120760(   6138838)] :       2479(    127855)   ,   nnz=[    966698,     966762]:        64
+        48: rows=[    120760(   6138838),     123239(   6266746)] :       2479(    127908)   ,   nnz=[    966697,     966761]:        64
+        49: rows=[    123239(   6266746),     125718(   6394654)] :       2479(    127908)   ,   nnz=[    966696,     966760]:        64
+        50: rows=[    125718(   6394654),     128197(   6522538)] :       2479(    127884)   ,   nnz=[    966695,     966759]:        64
+        51: rows=[    128197(   6522538),     130676(   6650422)] :       2479(    127884)   ,   nnz=[    966694,     966728]:        34
+        52: rows=[    130676(   6650422),     133155(   6778330)] :       2479(    127908)   ,   nnz=[    966693,     966727]:        34
+        53: rows=[    133155(   6778330),     135634(   6906238)] :       2479(    127908)   ,   nnz=[    966662,     966726]:        64
+        54: rows=[    135634(   6906238),     138113(   7034093)] :       2479(    127855)   ,   nnz=[    966661,     966725]:        64
+        55: rows=[    138113(   7034093),     140592(   7162001)] :       2479(    127908)   ,   nnz=[    966660,     966792]:       132
+        56: rows=[    140592(   7162001),     143071(   7289909)] :       2479(    127908)   ,   nnz=[    966659,     966832]:       173
+        57: rows=[    143071(   7289909),     145550(   7417793)] :       2479(    127884)   ,   nnz=[    966732,     966831]:        99
+        58: rows=[    145550(   7417793),     148029(   7545677)] :       2479(    127884)   ,   nnz=[    966731,     966830]:        99
+        59: rows=[    148029(   7545677),     150508(   7673585)] :       2479(    127908)   ,   nnz=[    966730,     966829]:        99
+        60: rows=[    150508(   7673585),     152986(   7801427)] :       2478(    127842)   ,   nnz=[    966729,     966828]:        99
+        61: rows=[    152986(   7801427),     155466(   7929348)] :       2480(    127921)   ,   nnz=[    966790,     966827]:        37
+        62: rows=[    155466(   7929348),     157945(   8057256)] :       2479(    127908)   ,   nnz=[    966789,     966826]:        37
+        63: rows=[    157945(   8057256),     161070(   8185136)] :       3125(    127880)   ,   nnz=[    966788,     966825]:        37
+time convert to format: 0.000184
+time warm up 0.081872
+number of loops = 8103
+Test failed! (8.07705e-06)
+errors spmv: mae=8.13595e-09, max_ae=3.05176e-05, mse=5.35253e-14, mape=7.31927e-09, smape=3.65965e-09, lnQ_error=-2.47854e-11, mlare=-10.2436, gmare=5.70706e-11
+/users/panastas/Data/graphs/tamu/matrices/PR02R/PR02R.mtx,64,161070,161070,8185136,1.000005,132.647693,94.285885,0.000000,0.000000,Custom_CSR_B,161070,161070,8185136,94.285885,1.000000,8.13595e-09,3.05176e-05,5.35253e-14,7.31927e-09,3.65965e-09,-2.47854e-11,-10.2436,5.70706e-11
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 41000 Tctl 45875 Tccd1 41000 Tccd2 42500 Tccd3 42750 Tccd4 40500 Tccd5 39250 Tccd6 38000 Tccd7 41000 Tccd8 39500 Tctl 41125 Tccd1 40750 Tccd2 39250 Tccd3 38750 Tccd4 38750 Tccd5 39250 Tccd6 37000 Tccd7 40500 
+File: /users/panastas/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx
+max threads 64
+
+	ERROR
+[tid 149857] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/CurlCurl_2/CurlCurl_2.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 41000 Tctl 45750 Tccd1 40750 Tccd2 42500 Tccd3 42250 Tccd4 39250 Tccd5 38500 Tccd6 38000 Tccd7 40750 Tccd8 39500 Tctl 41125 Tccd1 40000 Tccd2 38750 Tccd3 39000 Tccd4 38500 Tccd5 39500 Tccd6 36250 Tccd7 40000 
+File: /users/panastas/Data/graphs/tamu/matrices/pwtk/pwtk.mtx
+max threads 64
+
+	ERROR
+[tid 149972] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/pwtk/pwtk.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 39750 Tctl 45750 Tccd1 40500 Tccd2 41000 Tccd3 42000 Tccd4 39250 Tccd5 37250 Tccd6 36750 Tccd7 40000 Tccd8 39750 Tctl 41125 Tccd1 40250 Tccd2 38750 Tccd3 39500 Tccd4 38500 Tccd5 39000 Tccd6 36250 Tccd7 40500 
+File: /users/panastas/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx
+max threads 64
+time read: 0.087976
+time coo to csr: 0.053534
+balance time = 1.7864e-05
+         0: rows=[         0(         0),        639(    220869)] :        639(    220869)   ,   nnz=[         0,          0]:         0
+         1: rows=[       639(    220869),       1272(    442224)] :        633(    221355)   ,   nnz=[         0,          0]:         0
+         2: rows=[      1272(    442224),       1973(    663309)] :        701(    221085)   ,   nnz=[         0,          0]:         0
+         3: rows=[      1973(    663309),       2602(    884076)] :        629(    220767)   ,   nnz=[         0,          0]:         0
+         4: rows=[      2602(    884076),       3267(   1105542)] :        665(    221466)   ,   nnz=[         0,          0]:         0
+         5: rows=[      3267(   1105542),       3906(   1326375)] :        639(    220833)   ,   nnz=[         0,          0]:         0
+         6: rows=[      3906(   1326375),       4543(   1547550)] :        637(    221175)   ,   nnz=[         0,          0]:         0
+         7: rows=[      4543(   1547550),       5135(   1768683)] :        592(    221133)   ,   nnz=[         0,          0]:         0
+         8: rows=[      5135(   1768683),       5641(   1989468)] :        506(    220785)   ,   nnz=[         0,          0]:         0
+         9: rows=[      5641(   1989468),       6145(   2210629)] :        504(    221161)   ,   nnz=[         0,          0]:         0
+        10: rows=[      6145(   2210629),       6709(   2431740)] :        564(    221111)   ,   nnz=[         0,          0]:         0
+        11: rows=[      6709(   2431740),       7331(   2653016)] :        622(    221276)   ,   nnz=[         0,          0]:         0
+        12: rows=[      7331(   2653016),       9188(   2873897)] :       1857(    220881)   ,   nnz=[         0,          0]:         0
+        13: rows=[      9188(   2873897),      10109(   3095171)] :        921(    221274)   ,   nnz=[         0,          0]:         0
+        14: rows=[     10109(   3095171),      11045(   3316013)] :        936(    220842)   ,   nnz=[         0,          0]:         0
+        15: rows=[     11045(   3316013),      12107(   3537185)] :       1062(    221172)   ,   nnz=[         0,          0]:         0
+        16: rows=[     12107(   3537185),      12992(   3758180)] :        885(    220995)   ,   nnz=[         0,          0]:         0
+        17: rows=[     12992(   3758180),      14118(   3979325)] :       1126(    221145)   ,   nnz=[         0,          0]:         0
+        18: rows=[     14118(   3979325),      15026(   4200368)] :        908(    221043)   ,   nnz=[         0,          0]:         0
+        19: rows=[     15026(   4200368),      16052(   4421471)] :       1026(    221103)   ,   nnz=[         0,          0]:         0
+        20: rows=[     16052(   4421471),      17054(   4642475)] :       1002(    221004)   ,   nnz=[         0,          0]:         0
+        21: rows=[     17054(   4642475),      18068(   4863752)] :       1014(    221277)   ,   nnz=[         0,          0]:         0
+        22: rows=[     18068(   4863752),      18936(   5084708)] :        868(    220956)   ,   nnz=[         0,          0]:         0
+        23: rows=[     18936(   5084708),      19922(   5305901)] :        986(    221193)   ,   nnz=[         0,          0]:         0
+        24: rows=[     19922(   5305901),      20876(   5526863)] :        954(    220962)   ,   nnz=[         0,          0]:         0
+        25: rows=[     20876(   5526863),      21835(   5747912)] :        959(    221049)   ,   nnz=[         0,          0]:         0
+        26: rows=[     21835(   5747912),      22865(   5969039)] :       1030(    221127)   ,   nnz=[         0,          0]:         0
+        27: rows=[     22865(   5969039),      23862(   6190013)] :        997(    220974)   ,   nnz=[         0,          0]:         0
+        28: rows=[     23862(   6190013),      24694(   6411383)] :        832(    221370)   ,   nnz=[         0,          0]:         0
+        29: rows=[     24694(   6411383),      25721(   6632255)] :       1027(    220872)   ,   nnz=[         0,          0]:         0
+        30: rows=[     25721(   6632255),      26691(   6853457)] :        970(    221202)   ,   nnz=[         0,          0]:         0
+        31: rows=[     26691(   6853457),      27575(   7074500)] :        884(    221043)   ,   nnz=[         0,          0]:         0
+        32: rows=[     27575(   7074500),      28625(   7295495)] :       1050(    220995)   ,   nnz=[         0,          0]:         0
+        33: rows=[     28625(   7295495),      29609(   7516553)] :        984(    221058)   ,   nnz=[         0,          0]:         0
+        34: rows=[     29609(   7516553),      30703(   7737731)] :       1094(    221178)   ,   nnz=[         0,          0]:         0
+        35: rows=[     30703(   7737731),      31742(   7958795)] :       1039(    221064)   ,   nnz=[         0,          0]:         0
+        36: rows=[     31742(   7958795),      32755(   8179757)] :       1013(    220962)   ,   nnz=[         0,          0]:         0
+        37: rows=[     32755(   8179757),      33780(   8400953)] :       1025(    221196)   ,   nnz=[         0,          0]:         0
+        38: rows=[     33780(   8400953),      34667(   8621882)] :        887(    220929)   ,   nnz=[         0,          0]:         0
+        39: rows=[     34667(   8621882),      35498(   8843090)] :        831(    221208)   ,   nnz=[         0,          0]:         0
+        40: rows=[     35498(   8843090),      36320(   9064010)] :        822(    220920)   ,   nnz=[         0,          0]:         0
+        41: rows=[     36320(   9064010),      37133(   9285176)] :        813(    221166)   ,   nnz=[         0,          0]:         0
+        42: rows=[     37133(   9285176),      37972(   9506237)] :        839(    221061)   ,   nnz=[         0,          0]:         0
+        43: rows=[     37972(   9506237),      38875(   9727331)] :        903(    221094)   ,   nnz=[         0,          0]:         0
+        44: rows=[     38875(   9727331),      39751(   9948362)] :        876(    221031)   ,   nnz=[         0,          0]:         0
+        45: rows=[     39751(   9948362),      40559(  10169378)] :        808(    221016)   ,   nnz=[         0,          0]:         0
+        46: rows=[     40559(  10169378),      41384(  10390610)] :        825(    221232)   ,   nnz=[         0,          0]:         0
+        47: rows=[     41384(  10390610),      42269(  10611630)] :        885(    221020)   ,   nnz=[         0,          0]:         0
+        48: rows=[     42269(  10611630),      43150(  10832592)] :        881(    220962)   ,   nnz=[         0,          0]:         0
+        49: rows=[     43150(  10832592),      44013(  11053776)] :        863(    221184)   ,   nnz=[         0,          0]:         0
+        50: rows=[     44013(  11053776),      45150(  11274909)] :       1137(    221133)   ,   nnz=[         0,          0]:         0
+        51: rows=[     45150(  11274909),      46212(  11495982)] :       1062(    221073)   ,   nnz=[         0,          0]:         0
+        52: rows=[     46212(  11495982),      47995(  11716977)] :       1783(    220995)   ,   nnz=[         0,          0]:         0
+        53: rows=[     47995(  11716977),      49973(  11938062)] :       1978(    221085)   ,   nnz=[         0,          0]:         0
+        54: rows=[     49973(  11938062),      52021(  12159192)] :       2048(    221130)   ,   nnz=[         0,          0]:         0
+        55: rows=[     52021(  12159192),      53647(  12380241)] :       1626(    221049)   ,   nnz=[         0,          0]:         0
+        56: rows=[     53647(  12380241),      54939(  12601353)] :       1292(    221112)   ,   nnz=[         0,          0]:         0
+        57: rows=[     54939(  12601353),      56238(  12822363)] :       1299(    221010)   ,   nnz=[         0,          0]:         0
+        58: rows=[     56238(  12822363),      57510(  13043553)] :       1272(    221190)   ,   nnz=[         0,          0]:         0
+        59: rows=[     57510(  13043553),      58797(  13264545)] :       1287(    220992)   ,   nnz=[         0,          0]:         0
+        60: rows=[     58797(  13264545),      60079(  13485603)] :       1282(    221058)   ,   nnz=[         0,          0]:         0
+        61: rows=[     60079(  13485603),      61317(  13706667)] :       1238(    221064)   ,   nnz=[         0,          0]:         0
+        62: rows=[     61317(  13706667),      62542(  13927701)] :       1225(    221034)   ,   nnz=[         0,          0]:         0
+        63: rows=[     62542(  13927701),      63838(  14148858)] :       1296(    221157)   ,   nnz=[         0,          0]:         0
+time convert to format: 0.000195
+time warm up 0.081054
+number of loops = 4276
+errors spmv: mae=6.28797e-09, max_ae=3.8147e-05, mse=2.29616e-14, mape=8.18348e-13, smape=4.09174e-13, lnQ_error=8.23754e-17, mlare=-15.7221, gmare=1.89627e-16
+/users/panastas/Data/graphs/tamu/matrices/crankseg_2/crankseg_2.mtx,64,63838,63838,14148858,1.000008,121.000067,162.164356,0.000000,0.000000,Custom_CSR_B,63838,63838,14148858,162.164356,1.000000,6.28797e-09,3.8147e-05,2.29616e-14,8.18348e-13,4.09174e-13,8.23754e-17,-15.7221,1.89627e-16
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 41250 Tctl 46625 Tccd1 42000 Tccd2 43000 Tccd3 43500 Tccd4 41000 Tccd5 38750 Tccd6 38000 Tccd7 42000 Tccd8 39500 Tctl 41125 Tccd1 40750 Tccd2 38750 Tccd3 39250 Tccd4 38750 Tccd5 39500 Tccd6 37000 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx
+max threads 64
+
+	ERROR
+[tid 150203] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Si41Ge41H72/Si41Ge41H72.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 40000 Tctl 46500 Tccd1 41000 Tccd2 42250 Tccd3 42750 Tccd4 40000 Tccd5 38500 Tccd6 37500 Tccd7 41500 Tccd8 39000 Tctl 41125 Tccd1 39750 Tccd2 38500 Tccd3 38500 Tccd4 38750 Tccd5 39000 Tccd6 36750 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx
+max threads 64
+
+	ERROR
+[tid 150318] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/TSOPF_RS_b2383/TSOPF_RS_b2383.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 40000 Tctl 46500 Tccd1 41250 Tccd2 42000 Tccd3 42250 Tccd4 40000 Tccd5 38500 Tccd6 36750 Tccd7 40750 Tccd8 39250 Tctl 41125 Tccd1 40250 Tccd2 38500 Tccd3 39250 Tccd4 38500 Tccd5 39500 Tccd6 36000 Tccd7 40000 
+File: /users/panastas/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx
+max threads 64
+
+	ERROR
+[tid 150433] ../../../../lib/io.c
+ => safe_stat(): line [126]
+      >  stat(): path='/users/panastas/Data/graphs/tamu/matrices/Ga41As41H72/Ga41As41H72.mtx'
+      >  errno [2]: No such file or directory
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 45000  Tccd8 40250 Tctl 46375 Tccd1 40750 Tccd2 41000 Tccd3 41500 Tccd4 39500 Tccd5 38000 Tccd6 37000 Tccd7 41000 Tccd8 39750 Tctl 41125 Tccd1 40000 Tccd2 38750 Tccd3 38750 Tccd4 38500 Tccd5 39250 Tccd6 36750 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/rajat31/rajat31.mtx
+max threads 64
+time read: 0.295344
+time coo to csr: 0.400703
+balance time = 2.0688e-05
+         0: rows=[         0(         0),      73341(    317442)] :      73341(    317442)   ,   nnz=[         0,          0]:         0
+         1: rows=[     73341(    317442),     146593(    634882)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+         2: rows=[    146593(    634882),     219845(    952322)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+         3: rows=[    219845(    952322),     293129(   1269766)] :      73284(    317444)   ,   nnz=[         0,          0]:         0
+         4: rows=[    293129(   1269766),     366390(   1587207)] :      73261(    317441)   ,   nnz=[         0,          0]:         0
+         5: rows=[    366390(   1587207),     439642(   1904647)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+         6: rows=[    439642(   1904647),     512895(   2222092)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+         7: rows=[    512895(   2222092),     586147(   2539532)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+         8: rows=[    586147(   2539532),     659431(   2856972)] :      73284(    317440)   ,   nnz=[         0,          0]:         0
+         9: rows=[    659431(   2856972),     732691(   3174412)] :      73260(    317440)   ,   nnz=[         0,          0]:         0
+        10: rows=[    732691(   3174412),     805944(   3491857)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        11: rows=[    805944(   3491857),     879196(   3809297)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        12: rows=[    879196(   3809297),     952448(   4126737)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        13: rows=[    952448(   4126737),    1025734(   4444181)] :      73286(    317444)   ,   nnz=[         0,          0]:         0
+        14: rows=[   1025734(   4444181),    1098993(   4761622)] :      73259(    317441)   ,   nnz=[         0,          0]:         0
+        15: rows=[   1098993(   4761622),    1172245(   5079062)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        16: rows=[   1172245(   5079062),    1245497(   5396502)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        17: rows=[   1245497(   5396502),    1318750(   5713947)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        18: rows=[   1318750(   5713947),    1392036(   6031387)] :      73286(    317440)   ,   nnz=[         0,          0]:         0
+        19: rows=[   1392036(   6031387),    1465294(   6348827)] :      73258(    317440)   ,   nnz=[         0,          0]:         0
+        20: rows=[   1465294(   6348827),    1538546(   6666268)] :      73252(    317441)   ,   nnz=[         0,          0]:         0
+        21: rows=[   1538546(   6666268),    1611797(   6983712)] :      73251(    317444)   ,   nnz=[         0,          0]:         0
+        22: rows=[   1611797(   6983712),    1685049(   7301152)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        23: rows=[   1685049(   7301152),    1758335(   7618594)] :      73286(    317442)   ,   nnz=[         0,          0]:         0
+        24: rows=[   1758335(   7618594),    1831594(   7936037)] :      73259(    317443)   ,   nnz=[         0,          0]:         0
+        25: rows=[   1831594(   7936037),    1904846(   8253477)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        26: rows=[   1904846(   8253477),    1978098(   8570917)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        27: rows=[   1978098(   8570917),    2051351(   8888362)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        28: rows=[   2051351(   8888362),    2124638(   9205803)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        29: rows=[   2124638(   9205803),    2197895(   9523242)] :      73257(    317439)   ,   nnz=[         0,          0]:         0
+        30: rows=[   2197895(   9523242),    2271148(   9840687)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        31: rows=[   2271148(   9840687),    2344400(  10158127)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        32: rows=[   2344400(  10158127),    2417653(  10475568)] :      73253(    317441)   ,   nnz=[         0,          0]:         0
+        33: rows=[   2417653(  10475568),    2490940(  10793009)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        34: rows=[   2490940(  10793009),    2564197(  11110452)] :      73257(    317443)   ,   nnz=[         0,          0]:         0
+        35: rows=[   2564197(  11110452),    2637449(  11427892)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        36: rows=[   2637449(  11427892),    2710701(  11745332)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        37: rows=[   2710701(  11745332),    2783955(  12062774)] :      73254(    317442)   ,   nnz=[         0,          0]:         0
+        38: rows=[   2783955(  12062774),    2857242(  12380215)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        39: rows=[   2857242(  12380215),    2930498(  12697657)] :      73256(    317442)   ,   nnz=[         0,          0]:         0
+        40: rows=[   2930498(  12697657),    3003750(  13015097)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        41: rows=[   3003750(  13015097),    3077003(  13332542)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        42: rows=[   3077003(  13332542),    3150254(  13649981)] :      73251(    317439)   ,   nnz=[         0,          0]:         0
+        43: rows=[   3150254(  13649981),    3223541(  13967422)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        44: rows=[   3223541(  13967422),    3296798(  14284867)] :      73257(    317445)   ,   nnz=[         0,          0]:         0
+        45: rows=[   3296798(  14284867),    3370050(  14602307)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        46: rows=[   3370050(  14602307),    3443302(  14919747)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        47: rows=[   3443302(  14919747),    3516557(  15237190)] :      73255(    317443)   ,   nnz=[         0,          0]:         0
+        48: rows=[   3516557(  15237190),    3589844(  15554631)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        49: rows=[   3589844(  15554631),    3663099(  15872072)] :      73255(    317441)   ,   nnz=[         0,          0]:         0
+        50: rows=[   3663099(  15872072),    3736351(  16189512)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        51: rows=[   3736351(  16189512),    3809604(  16506957)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        52: rows=[   3809604(  16506957),    3882859(  16824396)] :      73255(    317439)   ,   nnz=[         0,          0]:         0
+        53: rows=[   3882859(  16824396),    3956146(  17141837)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        54: rows=[   3956146(  17141837),    4029400(  17459277)] :      73254(    317440)   ,   nnz=[         0,          0]:         0
+        55: rows=[   4029400(  17459277),    4102653(  17776722)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        56: rows=[   4102653(  17776722),    4175905(  18094162)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        57: rows=[   4175905(  18094162),    4249162(  18411605)] :      73257(    317443)   ,   nnz=[         0,          0]:         0
+        58: rows=[   4249162(  18411605),    4322449(  18729046)] :      73287(    317441)   ,   nnz=[         0,          0]:         0
+        59: rows=[   4322449(  18729046),    4395702(  19046487)] :      73253(    317441)   ,   nnz=[         0,          0]:         0
+        60: rows=[   4395702(  19046487),    4468954(  19363927)] :      73252(    317440)   ,   nnz=[         0,          0]:         0
+        61: rows=[   4468954(  19363927),    4542207(  19681372)] :      73253(    317445)   ,   nnz=[         0,          0]:         0
+        62: rows=[   4542207(  19681372),    4615464(  19998811)] :      73257(    317439)   ,   nnz=[         0,          0]:         0
+        63: rows=[   4615464(  19998811),    4690002(  20316253)] :      74538(    317442)   ,   nnz=[         0,          0]:         0
+time convert to format: 0.000201
+time warm up 0.079771
+number of loops = 1358
+errors spmv: mae=3.20284e-16, max_ae=1.5838e-15, mse=2.92888e-31, mape=6.32934e-12, smape=3.16467e-12, lnQ_error=-2.74793e-14, mlare=-13.1988, gmare=6.32734e-14
+/users/panastas/Data/graphs/tamu/matrices/rajat31/rajat31.mtx,64,4690002,4690002,20316253,1.000219,55.166859,250.392006,0.000000,0.000000,Custom_CSR_B,4690002,4690002,20316253,250.392006,1.000000,3.20284e-16,1.5838e-15,2.92888e-31,6.32934e-12,3.16467e-12,-2.74793e-14,-13.1988,6.32734e-14
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 40000 Tctl 46500 Tccd1 40500 Tccd2 42500 Tccd3 42500 Tccd4 39750 Tccd5 39000 Tccd6 36750 Tccd7 41250 Tccd8 39750 Tctl 41125 Tccd1 40500 Tccd2 39000 Tccd3 38750 Tccd4 38500 Tccd5 39500 Tccd6 36500 Tccd7 40250 
+File: /users/panastas/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx
+max threads 64
+time read: 0.180294
+time coo to csr: 0.091259
+balance time = 1.8154e-05
+         0: rows=[         0(         0),        430(    385565)] :        430(    385565)   ,   nnz=[ 179407424,  179407424]:         0
+         1: rows=[       430(    385565),        824(    771106)] :        394(    385541)   ,   nnz=[      5320,       5320]:         0
+         2: rows=[       824(    771106),       1310(   1156451)] :        486(    385345)   ,   nnz=[ 179407424,  179407424]:         0
+         3: rows=[      1310(   1156451),       1781(   1540821)] :        471(    384370)   ,   nnz=[      5320,       5320]:         0
+         4: rows=[      1781(   1540821),       2299(   1926637)] :        518(    385816)   ,   nnz=[         0,          0]:         0
+         5: rows=[      2299(   1926637),       2809(   2312587)] :        510(    385950)   ,   nnz=[         0,          0]:         0
+         6: rows=[      2809(   2312587),       3427(   2698586)] :        618(    385999)   ,   nnz=[         0,          0]:         0
+         7: rows=[      3427(   2698586),       4042(   3083575)] :        615(    384989)   ,   nnz=[         0,          0]:         0
+         8: rows=[      4042(   3083575),       4740(   3469257)] :        698(    385682)   ,   nnz=[     21572,      21298]:      -274
+         9: rows=[      4740(   3469257),       5317(   3854687)] :        577(    385430)   ,   nnz=[     21570,      21297]:      -273
+        10: rows=[      5317(   3854687),       5759(   4239327)] :        442(    384640)   ,   nnz=[     21560,      21296]:      -264
+        11: rows=[      5759(   4239327),       6106(   4624657)] :        347(    385330)   ,   nnz=[     21559,      21295]:      -264
+        12: rows=[      6106(   4624657),       6370(   5011871)] :        264(    387214)   ,   nnz=[     21544,      21294]:      -250
+        13: rows=[      6370(   5011871),       6672(   5395482)] :        302(    383611)   ,   nnz=[     21542,      21293]:      -249
+        14: rows=[      6672(   5395482),       6933(   5782267)] :        261(    386785)   ,   nnz=[     21534,      21292]:      -242
+        15: rows=[      6933(   5782267),       7182(   6167636)] :        249(    385369)   ,   nnz=[     21533,      21291]:      -242
+        16: rows=[      7182(   6167636),       7421(   6552576)] :        239(    384940)   ,   nnz=[     21532,      21290]:      -242
+        17: rows=[      7421(   6552576),       7629(   6940422)] :        208(    387846)   ,   nnz=[     21530,      21288]:      -242
+        18: rows=[      7629(   6940422),       7840(   7321927)] :        211(    381505)   ,   nnz=[     21528,      21287]:      -241
+        19: rows=[      7840(   7321927),       8052(   7709496)] :        212(    387569)   ,   nnz=[     21525,      21286]:      -239
+        20: rows=[      8052(   7709496),       8280(   8095868)] :        228(    386372)   ,   nnz=[     21516,      21285]:      -231
+        21: rows=[      8280(   8095868),       8467(   8479537)] :        187(    383669)   ,   nnz=[     21513,      21284]:      -229
+        22: rows=[      8467(   8479537),       8697(   8865876)] :        230(    386339)   ,   nnz=[     21506,      21282]:      -224
+        23: rows=[      8697(   8865876),       9176(   9251123)] :        479(    385247)   ,   nnz=[     21504,      21281]:      -223
+        24: rows=[      9176(   9251123),       9843(   9636803)] :        667(    385680)   ,   nnz=[     21495,      21280]:      -215
+        25: rows=[      9843(   9636803),      10255(  10022557)] :        412(    385754)   ,   nnz=[     21491,      21279]:      -212
+        26: rows=[     10255(  10022557),      10547(  10407650)] :        292(    385093)   ,   nnz=[     21476,      21277]:      -199
+        27: rows=[     10547(  10407650),      10873(  10793075)] :        326(    385425)   ,   nnz=[     21457,      21276]:      -181
+        28: rows=[     10873(  10793075),      11178(  11178113)] :        305(    385038)   ,   nnz=[     21453,      21273]:      -180
+        29: rows=[     11178(  11178113),      11433(  11566025)] :        255(    387912)   ,   nnz=[     21448,      21272]:      -176
+        30: rows=[     11433(  11566025),      11738(  11950754)] :        305(    384729)   ,   nnz=[     21439,      21269]:      -170
+        31: rows=[     11738(  11950754),      12130(  12334726)] :        392(    383972)   ,   nnz=[     21435,      21268]:      -167
+        32: rows=[     12130(  12334726),      12691(  12720616)] :        561(    385890)   ,   nnz=[     21391,      21266]:      -125
+        33: rows=[     12691(  12720616),      13253(  13107371)] :        562(    386755)   ,   nnz=[     21371,      21263]:      -108
+        34: rows=[     13253(  13107371),      13743(  13491085)] :        490(    383714)   ,   nnz=[     21369,      21262]:      -107
+        35: rows=[     13743(  13491085),      14126(  13875452)] :        383(    384367)   ,   nnz=[     21368,      21260]:      -108
+        36: rows=[     14126(  13875452),      14419(  14262267)] :        293(    386815)   ,   nnz=[     21367,      21258]:      -109
+        37: rows=[     14419(  14262267),      14769(  14647366)] :        350(    385099)   ,   nnz=[     21366,      21256]:      -110
+        38: rows=[     14769(  14647366),      15087(  15033261)] :        318(    385895)   ,   nnz=[     21363,      21255]:      -108
+        39: rows=[     15087(  15033261),      15347(  15418560)] :        260(    385299)   ,   nnz=[     21362,      21254]:      -108
+        40: rows=[     15347(  15418560),      15593(  15803910)] :        246(    385350)   ,   nnz=[     21361,      21253]:      -108
+        41: rows=[     15593(  15803910),      15790(  16188797)] :        197(    384887)   ,   nnz=[     21360,      21249]:      -111
+        42: rows=[     15790(  16188797),      16021(  16574346)] :        231(    385549)   ,   nnz=[     21359,      21248]:      -111
+        43: rows=[     16021(  16574346),      16254(  16961405)] :        233(    387059)   ,   nnz=[     21358,      21246]:      -112
+        44: rows=[     16254(  16961405),      16448(  17343962)] :        194(    382557)   ,   nnz=[     21356,      21245]:      -111
+        45: rows=[     16448(  17343962),      16631(  17731310)] :        183(    387348)   ,   nnz=[     21355,      21242]:      -113
+        46: rows=[     16631(  17731310),      16799(  18114612)] :        168(    383302)   ,   nnz=[     21353,      21241]:      -112
+        47: rows=[     16799(  18114612),      16996(  18501052)] :        197(    386440)   ,   nnz=[     21350,      21239]:      -111
+        48: rows=[     16996(  18501052),      17223(  18888003)] :        227(    386951)   ,   nnz=[     21349,      21237]:      -112
+        49: rows=[     17223(  18888003),      17472(  19273134)] :        249(    385131)   ,   nnz=[     21348,      21236]:      -112
+        50: rows=[     17472(  19273134),      17864(  19658696)] :        392(    385562)   ,   nnz=[     21346,      21234]:      -112
+        51: rows=[     17864(  19658696),      18395(  20044589)] :        531(    385893)   ,   nnz=[     21345,      21233]:      -112
+        52: rows=[     18395(  20044589),      19080(  20429534)] :        685(    384945)   ,   nnz=[     21344,      21232]:      -112
+        53: rows=[     19080(  20429534),      19676(  20815055)] :        596(    385521)   ,   nnz=[     21337,      21231]:      -106
+        54: rows=[     19676(  20815055),      20015(  21200718)] :        339(    385663)   ,   nnz=[     21333,      21230]:      -103
+        55: rows=[     20015(  21200718),      20288(  21584261)] :        273(    383543)   ,   nnz=[     21331,      21229]:      -102
+        56: rows=[     20288(  21584261),      20477(  21969543)] :        189(    385282)   ,   nnz=[     21328,      21226]:      -102
+        57: rows=[     20477(  21969543),      20686(  22354987)] :        209(    385444)   ,   nnz=[     21326,      21225]:      -101
+        58: rows=[     20686(  22354987),      20880(  22743445)] :        194(    388458)   ,   nnz=[     21324,      21223]:      -101
+        59: rows=[     20880(  22743445),      21102(  23130718)] :        222(    387273)   ,   nnz=[     21323,      21220]:      -103
+        60: rows=[     21102(  23130718),      21295(  23515495)] :        193(    384777)   ,   nnz=[     21319,      21219]:      -100
+        61: rows=[     21295(  23515495),      21542(  23898167)] :        247(    382672)   ,   nnz=[     21318,      21218]:      -100
+        62: rows=[     21542(  23898167),      21950(  24282240)] :        408(    384073)   ,   nnz=[     21317,      21216]:      -101
+        63: rows=[     21950(  24282240),      22283(  24669643)] :        333(    387403)   ,   nnz=[     21316,      21215]:      -101
+time convert to format: 0.000196
+time warm up 0.081329
+number of loops = 2114
+errors spmv: mae=5.33946e-14, max_ae=2.16005e-12, mse=2.04337e-26, mape=6.08502e-14, smape=3.04251e-14, lnQ_error=1.85656e-18, mlare=-17.3738, gmare=4.22839e-18
+/users/panastas/Data/graphs/tamu/matrices/human_gene1/human_gene1.mtx,64,22283,22283,24669643,1.000269,104.275199,282.406666,0.000000,0.000000,Custom_CSR_B,22283,22283,24669643,282.406666,1.000000,5.33946e-14,2.16005e-12,2.04337e-26,6.08502e-14,3.04251e-14,1.85656e-18,-17.3738,4.22839e-18
+Temps: uC Temperature 37000  PCB Temperature 42000  Cassini 0 Temperature 51000 Cassini 1 Temperature 51000 0.85V S0 VR Temperature 45000  0.9V S0 VR Temperature 46000  Tccd8 41750 Tctl 46625 Tccd1 41750 Tccd2 43250 Tccd3 43500 Tccd4 41000 Tccd5 39500 Tccd6 38500 Tccd7 42000 Tccd8 39250 Tctl 41125 Tccd1 41000 Tccd2 38750 Tccd3 39250 Tccd4 38750 Tccd5 39750 Tccd6 36750 Tccd7 40500 
+File: /users/panastas/Data/graphs/tamu/matrices/dgreen/dgreen.mtx
+max threads 64
+time read: 0.347427
+time coo to csr: 0.264614
+balance time = 1.9086e-05
+         0: rows=[         0(         0),      32988(    597819)] :      32988(    597819)   ,   nnz=[         0,          0]:         0
+         1: rows=[     32988(    597819),      66121(   1195626)] :      33133(    597807)   ,   nnz=[         0,          0]:         0
+         2: rows=[     66121(   1195626),      99242(   1793438)] :      33121(    597812)   ,   nnz=[         0,          0]:         0
+         3: rows=[     99242(   1793438),     132323(   2391249)] :      33081(    597811)   ,   nnz=[         0,          0]:         0
+         4: rows=[    132323(   2391249),     166218(   2989054)] :      33895(    597805)   ,   nnz=[         0,          0]:         0
+         5: rows=[    166218(   2989054),     181390(   3586864)] :      15172(    597810)   ,   nnz=[         0,          0]:         0
+         6: rows=[    181390(   3586864),     194790(   4184688)] :      13400(    597824)   ,   nnz=[         0,          0]:         0
+         7: rows=[    194790(   4184688),     208180(   4782471)] :      13390(    597783)   ,   nnz=[         0,          0]:         0
+         8: rows=[    208180(   4782471),     221577(   5380299)] :      13397(    597828)   ,   nnz=[         0,          0]:         0
+         9: rows=[    221577(   5380299),     234940(   5978127)] :      13363(    597828)   ,   nnz=[         0,          0]:         0
+        10: rows=[    234940(   5978127),     248154(   6575917)] :      13214(    597790)   ,   nnz=[         0,          0]:         0
+        11: rows=[    248154(   6575917),     261314(   7173702)] :      13160(    597785)   ,   nnz=[         0,          0]:         0
+        12: rows=[    261314(   7173702),     274646(   7771538)] :      13332(    597836)   ,   nnz=[         0,          0]:         0
+        13: rows=[    274646(   7771538),     288057(   8369351)] :      13411(    597813)   ,   nnz=[         0,          0]:         0
+        14: rows=[    288057(   8369351),     301280(   8967153)] :      13223(    597802)   ,   nnz=[         0,          0]:         0
+        15: rows=[    301280(   8967153),     314639(   9564981)] :      13359(    597828)   ,   nnz=[         0,          0]:         0
+        16: rows=[    314639(   9564981),     328032(  10162762)] :      13393(    597781)   ,   nnz=[         0,          0]:         0
+        17: rows=[    328032(  10162762),     341444(  10760604)] :      13412(    597842)   ,   nnz=[         0,          0]:         0
+        18: rows=[    341444(  10760604),     354845(  11358418)] :      13401(    597814)   ,   nnz=[         0,          0]:         0
+        19: rows=[    354845(  11358418),     368254(  11956198)] :      13409(    597780)   ,   nnz=[         0,          0]:         0
+        20: rows=[    368254(  11956198),     381649(  12554023)] :      13395(    597825)   ,   nnz=[         0,          0]:         0
+        21: rows=[    381649(  12554023),     394978(  13151854)] :      13329(    597831)   ,   nnz=[         0,          0]:         0
+        22: rows=[    394978(  13151854),     408444(  13749618)] :      13466(    597764)   ,   nnz=[         0,          0]:         0
+        23: rows=[    408444(  13749618),     422030(  14347430)] :      13586(    597812)   ,   nnz=[         0,          0]:         0
+        24: rows=[    422030(  14347430),     435833(  14945243)] :      13803(    597813)   ,   nnz=[         0,          0]:         0
+        25: rows=[    435833(  14945243),     448883(  15543057)] :      13050(    597814)   ,   nnz=[         0,          0]:         0
+        26: rows=[    448883(  15543057),     461517(  16140891)] :      12634(    597834)   ,   nnz=[         0,          0]:         0
+        27: rows=[    461517(  16140891),     473849(  16738707)] :      12332(    597816)   ,   nnz=[         0,          0]:         0
+        28: rows=[    473849(  16738707),     487392(  17336505)] :      13543(    597798)   ,   nnz=[         0,          0]:         0
+        29: rows=[    487392(  17336505),     500856(  17934345)] :      13464(    597840)   ,   nnz=[         0,          0]:         0
+        30: rows=[    500856(  17934345),     514297(  18532129)] :      13441(    597784)   ,   nnz=[         0,          0]:         0
+        31: rows=[    514297(  18532129),     536153(  19129951)] :      21856(    597822)   ,   nnz=[         0,          0]:         0
+        32: rows=[    536153(  19129951),     557637(  19727751)] :      21484(    597800)   ,   nnz=[         0,          0]:         0
+        33: rows=[    557637(  19727751),     579243(  20325559)] :      21606(    597808)   ,   nnz=[         0,          0]:         0
+        34: rows=[    579243(  20325559),     600250(  20923382)] :      21007(    597823)   ,   nnz=[         0,          0]:         0
+        35: rows=[    600250(  20923382),     620775(  21521183)] :      20525(    597801)   ,   nnz=[         0,          0]:         0
+        36: rows=[    620775(  21521183),     641612(  22119002)] :      20837(    597819)   ,   nnz=[         0,          0]:         0
+        37: rows=[    641612(  22119002),     663151(  22716795)] :      21539(    597793)   ,   nnz=[         0,          0]:         0
+        38: rows=[    663151(  22716795),     684870(  23314608)] :      21719(    597813)   ,   nnz=[         0,          0]:         0
+        39: rows=[    684870(  23314608),     706561(  23912423)] :      21691(    597815)   ,   nnz=[         0,          0]:         0
+        40: rows=[    706561(  23912423),     728293(  24510215)] :      21732(    597792)   ,   nnz=[         0,          0]:         0
+        41: rows=[    728293(  24510215),     749870(  25108060)] :      21577(    597845)   ,   nnz=[         0,          0]:         0
+        42: rows=[    749870(  25108060),     772286(  25705848)] :      22416(    597788)   ,   nnz=[         0,          0]:         0
+        43: rows=[    772286(  25705848),     793655(  26303647)] :      21369(    597799)   ,   nnz=[         0,          0]:         0
+        44: rows=[    793655(  26303647),     811822(  26901462)] :      18167(    597815)   ,   nnz=[         0,          0]:         0
+        45: rows=[    811822(  26901462),     829925(  27499292)] :      18103(    597830)   ,   nnz=[         0,          0]:         0
+        46: rows=[    829925(  27499292),     848163(  28097105)] :      18238(    597813)   ,   nnz=[         0,          0]:         0
+        47: rows=[    848163(  28097105),     868872(  28694906)] :      20709(    597801)   ,   nnz=[         0,          0]:         0
+        48: rows=[    868872(  28694906),     890242(  29292722)] :      21370(    597816)   ,   nnz=[         0,          0]:         0
+        49: rows=[    890242(  29292722),     911825(  29890515)] :      21583(    597793)   ,   nnz=[         0,          0]:         0
+        50: rows=[    911825(  29890515),     933262(  30488334)] :      21437(    597819)   ,   nnz=[         0,          0]:         0
+        51: rows=[    933262(  30488334),     953889(  31086139)] :      20627(    597805)   ,   nnz=[         0,          0]:         0
+        52: rows=[    953889(  31086139),     974540(  31683968)] :      20651(    597829)   ,   nnz=[         0,          0]:         0
+        53: rows=[    974540(  31683968),     995701(  32281775)] :      21161(    597807)   ,   nnz=[         0,          0]:         0
+        54: rows=[    995701(  32281775),    1017361(  32879585)] :      21660(    597810)   ,   nnz=[         0,          0]:         0
+        55: rows=[   1017361(  32879585),    1039065(  33477405)] :      21704(    597820)   ,   nnz=[         0,          0]:         0
+        56: rows=[   1039065(  33477405),    1060771(  34075199)] :      21706(    597794)   ,   nnz=[         0,          0]:         0
+        57: rows=[   1060771(  34075199),    1082512(  34673028)] :      21741(    597829)   ,   nnz=[         0,          0]:         0
+        58: rows=[   1082512(  34673028),    1104401(  35270815)] :      21889(    597787)   ,   nnz=[         0,          0]:         0
+        59: rows=[   1104401(  35270815),    1127683(  35868641)] :      23282(    597826)   ,   nnz=[         0,          0]:         0
+        60: rows=[   1127683(  35868641),    1145996(  36466436)] :      18313(    597795)   ,   nnz=[         0,          0]:         0
+        61: rows=[   1145996(  36466436),    1164495(  37064263)] :      18499(    597827)   ,   nnz=[         0,          0]:         0
+        62: rows=[   1164495(  37064263),    1182533(  37662052)] :      18038(    597789)   ,   nnz=[         0,          0]:         0
+        63: rows=[   1182533(  37662052),    1200611(  38259877)] :      18078(    597825)   ,   nnz=[         0,          0]:         0
+time convert to format: 0.003853
+time warm up 0.080232
+number of loops = 521
+Test failed! (0.00141724)
+errors spmv: mae=0.000209317, max_ae=15.9999, mse=0.000322926, mape=8.35034e-05, smape=8.3066e-05, lnQ_error=-2.14357e-06, mlare=-5.30665, gmare=4.93575e-06
+/users/panastas/Data/graphs/tamu/matrices/dgreen/dgreen.mtx,64,1200611,1200611,38259877,1.001116,39.822334,442.429516,0.000000,0.000000,Custom_CSR_B,1200611,1200611,38259877,442.429516,1.000000,0.000209317,15.9999,0.000322926,8.35034e-05,8.3066e-05,-2.14357e-06,-5.30665,4.93575e-06

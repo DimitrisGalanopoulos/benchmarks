@@ -16,6 +16,7 @@ figsize_base_width = 3.487
 figsize_base_height = figsize_base_width / 1.618
 
 
+plt.rcParams['text.usetex'] = True
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.size'] = 16
 

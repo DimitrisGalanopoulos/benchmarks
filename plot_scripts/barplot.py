@@ -25,6 +25,7 @@ class Barplot:
         fig, ax = plt.subplots()   # Without passing the ax to seaborn, it doesn't inherit the pyplot rcParams.
         self.ax = sns.barplot(
                 ax=ax, **args,
+                linewidth=0.8, edgecolor='w',
                 # order = ['male', 'female'],
                 # capsize = 0.05,
                 # saturation = 8,
@@ -41,7 +42,7 @@ class Barplot:
 
 
     def plot(self, file_out):
-        plt.savefig(file_out, bbox_inches = 'tight')
+        plt.savefig(file_out, bbox_inches='tight', pad_inches=0)
 
 
     def get_bar_coords(self):
@@ -60,4 +61,26 @@ class Barplot:
                 [x1, y1] = transform.transform((x1, y1))
                 boxes.append((x0, y0, x1, y1))
         return sorted(boxes)
+
+
+    def change_xticks_labels(self, lut):
+        xticks = self.ax.get_xticks()
+        xlabels = self.ax.get_xticklabels()
+        for i in range(len(xlabels)):
+            l = xlabels[i]
+            t = l.get_text()
+            if (t in lut):
+                l = matplotlib.text.Text(text=lut[t])
+            xlabels[i] = l
+        self.ax.set_xticks(xticks, labels=xlabels)
+
+
+    def change_legend_labels(self, lut):
+        labels = self.ax.get_legend().get_texts()
+        for i in range(len(labels)):
+            t = labels[i].get_text()
+            if (t in lut):
+                t = lut[t]
+            labels[i] = t
+        self.ax.legend(labels=labels)
 
